@@ -35,10 +35,11 @@ export default async function Home() {
       {/* --- 상단 타이틀 영역 (헤더) --- */}
       <header className="bg-orange-400 text-white p-6 shadow-md rounded-b-3xl mx-auto mb-10 max-w-5xl">
         <div className="flex items-center justify-between">
-          <h1 className="text-2xl font-bold tracking-tight">🏘️ 성남시 생활 정보</h1>
-          <span className="text-orange-100 font-medium text-sm hidden sm:inline">
-            우리 동네 혜택, 한눈에 확인하세요!
-          </span>
+          <h1 className="text-2xl font-bold tracking-tight">🏘️ 애들레이드(Adelaide) 생활 정보</h1>
+          <div className="flex bg-orange-500/30 rounded-lg p-1 font-bold">
+             <a href="/" className="px-4 py-1.5 rounded-md text-white bg-orange-500/80 shadow-sm transition-colors">홈</a>
+             <a href="/blog" className="px-4 py-1.5 rounded-md text-orange-100 hover:text-white transition-colors">블로그</a>
+          </div>
         </div>
       </header>
 
@@ -68,7 +69,7 @@ export default async function Home() {
                    <p className="flex"><span className="w-5">👥</span>{item.target}</p>
                  </div>
                  
-                 <a href={`/details/${item.id}`} className="mt-auto block w-full text-center bg-orange-100 text-orange-700 py-2.5 rounded-xl font-bold hover:bg-orange-200 transition-colors">
+                 <a href="/blog" className="mt-auto block w-full text-center bg-orange-100 text-orange-700 py-2.5 rounded-xl font-bold hover:bg-orange-200 transition-colors">
                    자세히 보기
                  </a>
                </div>
@@ -101,7 +102,7 @@ export default async function Home() {
                 </div>
                 
                 <div className="mt-5 sm:mt-0 flex items-end">
-                  <a href={`/details/${item.id}`} className="block w-full sm:w-auto text-center bg-emerald-500 text-white px-5 py-3 rounded-xl font-bold hover:bg-emerald-600 transition-colors shadow-sm whitespace-nowrap">
+                  <a href="/blog" className="block w-full sm:w-auto text-center bg-emerald-500 text-white px-5 py-3 rounded-xl font-bold hover:bg-emerald-600 transition-colors shadow-sm whitespace-nowrap">
                     신청 바로가기
                   </a>
                 </div>
@@ -114,7 +115,7 @@ export default async function Home() {
 
       {/* --- 하단 안내(푸터) 영역 --- */}
       <footer className="bg-slate-100 py-8 text-center text-slate-500 text-sm border-t border-slate-200">
-        <p className="mb-2">💡 본 웹사이트의 데이터는 정부 <strong>공공데이터포털(data.go.kr)</strong>을 바탕으로 제공됩니다.</p>
+        <p className="mb-2">💡 본 웹사이트의 데이터는 남호주 정부(SA.GOV.AU) 등을 바탕으로 제공됩니다.</p>
         <p>마지막 업데이트: {today}</p>
       </footer>
     </div>
