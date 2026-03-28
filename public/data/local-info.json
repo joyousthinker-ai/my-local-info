@@ -53,5 +53,17 @@
     "target": "남호주 생애 첫 주택 구매자",
     "summary": "내 집 마련의 꿈을 응원합니다! 신축 주택을 구매하거나 새로 지을 때 최대 $15,000의 보조금을 지원합니다.",
     "link": "#"
+  },
+  {
+    "id": 6,
+    "name": "Reservoir Volumes",
+    "category": "행사/축제",
+    "startDate": "2026-03-28",
+    "endDate": "상시",
+    "location": "SA Water",
+    "target": "모두",
+    "summary": "성공적인 테스트입니다! (원본 데이터 설명 임시요약: Contains the volume ...)",
+    "link": "https://data.sa.gov.au/",
+    "title": "Reservoir Volumes"
   }
 ]
