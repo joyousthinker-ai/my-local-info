@@ -5,7 +5,8 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 22 * * *'
+    # 호주 애들레이드(UTC+10:30) 기준 아침 7시 -> UTC 전날 20:30
+    - cron: '30 20 * * *'
   workflow_dispatch:
 
 permissions:
@@ -29,7 +30,6 @@ jobs:
       - name: Run fetch public data script
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         env:
-          PUBLIC_DATA_API_KEY: ${{ secrets.PUBLIC_DATA_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: node scripts/fetch-public-data.js
 
