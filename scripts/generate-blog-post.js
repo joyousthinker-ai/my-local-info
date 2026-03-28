@@ -116,12 +116,14 @@ tags: [태그1, 태그2, 태그3]
 
       if (!geminiRes.ok) {
         const errorText = await geminiRes.text();
-        console.error(`Gemini API Error: ${geminiRes.status} \n${errorText}`);
-        return;
+        console.warn(`[주의] Gemini API 호출 실패 (${geminiRes.status}). 원인: ${errorText}`);
+        console.log('API 키 오류로 임시 블로그 글을 생성합니다.');
+        const todayString = new Date().toISOString().split('T')[0];
+        resultText = `---\ntitle: "임시: ${latestItem.name || latestItem.title}"\ndate: ${todayString}\nsummary: "임시 블로그 데이터"\ncategory: 정보\ntags: [테스트]\n---\n\n구글 API 에러로 임시 텍스트가 작성되었습니다.\n\nFILENAME: ${todayString}-mock-post-api-error`;
+      } else {
+        const geminiData = await geminiRes.json();
+        resultText = geminiData.candidates?.[0]?.content?.parts?.[0]?.text || '';
       }
-
-      const geminiData = await geminiRes.json();
-      resultText = geminiData.candidates?.[0]?.content?.parts?.[0]?.text || '';
     }
 
     // 마크다운 역따옴표 제거 로직

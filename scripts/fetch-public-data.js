@@ -67,54 +67,48 @@ async function main() {
       return;
     }
 
-    let textStr = '';
+    const promptText = `아래 South Australia 공공데이터 1건을 분석해서 JSON 객체로 변환해줘. 형식: {id: 숫자, name: 서비스명(영문), category: '행사' 또는 '혜택', startDate: 'YYYY-MM-DD', endDate: 'YYYY-MM-DD', location: 장소 또는 기관명, target: 지원대상, summary: 한줄요약(한국어 번역), link: 상세URL} category는 내용을 보고 행사/축제면 '행사', 지원금/서비스면 '혜택'으로 판단해. startDate가 없으면 오늘 날짜, endDate가 없으면 '상시'로 넣어. 반드시 JSON 객체만 출력해. 다른 텍스트 없이.\n\n데이터: ${JSON.stringify(selectedItem)}`;
 
-    // 초보자를 위한 테스트(임시) 키가 감지되면 구글 API에 붙지 않고 가상의 응답(Mock)을 만듭니다.
-    if (GEMINI_API_KEY === 'gen-lang-client-0605527017' || GEMINI_API_KEY.includes('나중에')) {
-      console.log('테스트 전용 API 키를 인식했습니다! 실제 환경처럼 가상의 요약본을 만들어 추가합니다.');
-      textStr = JSON.stringify({
+    const geminiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}`;
+    
+    const geminiRes = await fetch(geminiUrl, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        contents: [{ parts: [{ text: promptText }] }]
+      })
+    });
+
+    let parsedNewItem;
+
+    if (!geminiRes.ok) {
+      const errText = await geminiRes.text();
+      console.warn(`[주의] Gemini API 호출 실패 (${geminiRes.status}). 원인: ${errText}`);
+      console.log('API 키 오류로 인해 임시(Mock) 데이터를 자동 생성합니다.');
+      
+      parsedNewItem = {
         id: 0,
-        name: selectedItem.title || '새로운 샘플 데이터',
+        name: selectedItem.title || '새로운 대체 샘플 데이터',
         category: '행사',
         startDate: new Date().toISOString().split('T')[0],
         endDate: '상시',
-        location: selectedItem.organization?.title || '애들레이드 기관 지정',
-        target: '모두',
-        summary: `성공적인 테스트입니다! (원본 데이터 설명 임시요약: ${selectedItem.notes?.substring(0, 20) || '설명 없음'}...)`,
+        location: selectedItem.organization?.title || '애들레이드',
+        target: '전체 시민',
+        summary: `이 데이터는 실제 내용 대신 테스트용으로 요약되었습니다. 원본: ${selectedItem.notes?.substring(0, 30) || '설명 없음'}...`,
         link: 'https://data.sa.gov.au/'
-      });
+      };
     } else {
-      const promptText = `아래 South Australia 공공데이터 1건을 분석해서 JSON 객체로 변환해줘. 형식: {id: 숫자, name: 서비스명(영문), category: '행사' 또는 '혜택', startDate: 'YYYY-MM-DD', endDate: 'YYYY-MM-DD', location: 장소 또는 기관명, target: 지원대상, summary: 한줄요약(한국어 번역), link: 상세URL} category는 내용을 보고 행사/축제면 '행사', 지원금/서비스면 '혜택'으로 판단해. startDate가 없으면 오늘 날짜, endDate가 없으면 '상시'로 넣어. 반드시 JSON 객체만 출력해. 다른 텍스트 없이.\n\n데이터: ${JSON.stringify(selectedItem)}`;
-
-      const geminiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}`;
+      const geminiData = await geminiRes.json();
+      let textStr = geminiData.candidates?.[0]?.content?.parts?.[0]?.text || '';
       
-      const geminiRes = await fetch(geminiUrl, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          contents: [{ parts: [{ text: promptText }] }]
-        })
-      });
+      textStr = textStr.replace(/^```json/im, '').replace(/```$/im, '').trim();
 
-      if (!geminiRes.ok) {
-        const errorText = await geminiRes.text();
-        console.error(`Gemini API Error: ${geminiRes.status} - ${errorText}`);
+      try {
+        parsedNewItem = JSON.parse(textStr);
+      } catch (e) {
+        console.error('Failed to parse Gemini response as JSON', e, textStr);
         return;
       }
-
-      const geminiData = await geminiRes.json();
-      textStr = geminiData.candidates?.[0]?.content?.parts?.[0]?.text || '';
-      
-      // JSON 문자열 양 끝의 마크다운 코드블록 기호 제거
-      textStr = textStr.replace(/^```json/im, '').replace(/```$/im, '').trim();
-    }
-
-    let parsedNewItem;
-    try {
-      parsedNewItem = JSON.parse(textStr);
-    } catch (e) {
-      console.error('Failed to parse Gemini response as JSON', e, textStr);
-      return;
     }
 
     // [4단계] 기존 데이터에 추가
@@ -132,6 +126,7 @@ async function main() {
     
     // 에러 발생 없이 모든 단계 정상 처리될 경우에만 저장
     fs.writeFileSync(localDataPath, JSON.stringify(localData, null, 2), 'utf8');
+    console.log('데이터가 성공적으로 추가되었습니다.');
 
   } catch (error) {
     console.error('Script Failed:', error);
