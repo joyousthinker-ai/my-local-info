@@ -4,13 +4,6 @@ on:
   push:
     branches:
       - main
-  schedule:
-    # 매일 호주 애들레이드 아침 7시 (UTC 20:30)
-    - cron: '30 20 * * *'
-  workflow_dispatch:
-
-permissions:
-  contents: write
 
 jobs:
   deploy:
@@ -18,9 +11,6 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-        with:
-          ref: main # 충돌 방지를 위해 명시적으로 main 브랜치 체크아웃
-          fetch-depth: 0 # Git 리베이스 처리를 위해 전체 히스토리 가져오기
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -29,28 +19,6 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
-
-      - name: Run fetch public data script
-        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
-        env:
-          PUBLIC_DATA_API_KEY: ${{ secrets.PUBLIC_DATA_API_KEY }}
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: node scripts/fetch-public-data.js
-
-      - name: Run generate blog post script
-        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: node scripts/generate-blog-post.js
-
-      - name: Commit and push changes
-        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add .
-          # 변경사항이 있으면 커밋 후, 로컬과 원격 브랜치 충돌 방지를 위해 pull rebase 를 수행합니다.
-          git diff --staged --quiet || (git commit -m "자동 업데이트: 공공데이터 수집 및 블로그 글 생성" && git pull --rebase origin main && git push origin main)
 
       - name: Build project
         run: npm run build
