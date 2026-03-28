@@ -1,5 +1,6 @@
 import { promises as fs } from 'fs';
 import path from 'path';
+import AdBanner from '@/components/AdBanner';
 
 // 1. 데이터 모양(타입)을 정의합니다. (초보자분들이 헷갈리지 않게 꼭 필요한 내용만 적었어요)
 type InfoItem = {
@@ -31,6 +32,36 @@ export default async function Home() {
   return (
     // 배경색은 따뜻한 느낌(bg-amber-50)으로 지정했습니다.
     <div className="min-h-screen bg-amber-50 text-slate-800 font-sans">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify([
+            ...events.map(item => ({
+              "@context": "https://schema.org",
+              "@type": "Event",
+              "name": item.title,
+              "startDate": item.startDate,
+              "endDate": item.endDate === '상시' ? undefined : item.endDate,
+              "location": {
+                "@type": "Place",
+                "name": item.location,
+                "address": item.location
+              },
+              "description": item.summary
+            })),
+            ...benefits.map(item => ({
+              "@context": "https://schema.org",
+              "@type": "GovernmentService",
+              "name": item.title,
+              "description": item.summary,
+              "provider": {
+                "@type": "GovernmentOrganization",
+                "name": item.location || "South Australia Government"
+              }
+            }))
+          ])
+        }}
+      />
       
       {/* --- 상단 타이틀 영역 (헤더) --- */}
       <header className="bg-orange-400 text-white p-6 shadow-md rounded-b-3xl mx-auto mb-10 max-w-5xl">
@@ -39,6 +70,7 @@ export default async function Home() {
           <div className="flex bg-orange-500/30 rounded-lg p-1 font-bold">
              <a href="/" className="px-4 py-1.5 rounded-md text-white bg-orange-500/80 shadow-sm transition-colors">홈</a>
              <a href="/blog" className="px-4 py-1.5 rounded-md text-orange-100 hover:text-white transition-colors">블로그</a>
+             <a href="/about" className="px-4 py-1.5 rounded-md text-orange-100 hover:text-white transition-colors">소개</a>
           </div>
         </div>
       </header>
@@ -76,6 +108,9 @@ export default async function Home() {
             ))}
           </div>
         </section>
+
+        {/* 광고 영역 */}
+        <AdBanner />
 
         {/* 2. 지원금 및 혜택 목록 */}
         <section>

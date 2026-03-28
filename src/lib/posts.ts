@@ -11,6 +11,7 @@ export type PostData = {
   summary: string;
   category: string;
   tags: string[];
+  link?: string;
   content: string;
 };
 
@@ -43,6 +44,7 @@ export function getSortedPostsData(): PostData[] {
         summary: matterResult.data.summary || '',
         category: matterResult.data.category || '',
         tags: matterResult.data.tags || [],
+        link: matterResult.data.link || '',
         content: matterResult.content,
       };
     });
