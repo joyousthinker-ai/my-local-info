@@ -149,5 +149,17 @@
     "summary": "사우스 오스트레일리아 환경 보호국(EPA)에서 노스 웨스턴 애들레이드 지역의 대기 질을 평가하고 관련 관리 결정을 지원하기 위해 Le Fevre 2 모니터링 스테이션에서 수집한 유해 가스 오염 데이터입니다.",
     "link": "https://data.sa.gov.au/data/dataset/999c056f-e04a-444b-95dc-329d7d10dc46",
     "title": "Le Fevre 2 - North Haven Air Quality monitoring station gaseous data"
+  },
+  {
+    "id": 14,
+    "name": "Le Fevre 1 - Birkenhead Air Quality monitoring station particle data",
+    "category": "행사/축제",
+    "startDate": "2026-03-29",
+    "endDate": "상시",
+    "location": "Environment Protection Authority (EPA)",
+    "target": "전체 시민",
+    "summary": "이 데이터는 실제 내용 대신 테스트용으로 요약되었습니다. 원본: The Environment Protection Aut...",
+    "link": "https://data.sa.gov.au/",
+    "title": "Le Fevre 1 - Birkenhead Air Quality monitoring station particle data"
   }
 ]
