@@ -161,5 +161,17 @@
     "summary": "이 데이터는 실제 내용 대신 테스트용으로 요약되었습니다. 원본: The Environment Protection Aut...",
     "link": "https://data.sa.gov.au/",
     "title": "Le Fevre 1 - Birkenhead Air Quality monitoring station particle data"
+  },
+  {
+    "id": 15,
+    "name": "Legislative Database Update Package (PDFs)",
+    "category": "지원금/혜택",
+    "startDate": "2003-01-01",
+    "endDate": "상시",
+    "location": "South Australia",
+    "target": "사우스 오스트레일리아 법률 정보에 관심 있는 모든 사람",
+    "summary": "이 데이터셋은 사우스 오스트레일리아 주의 최신 법률 업데이트 내용을 PDF 파일로 제공하며, 격주로 발행되어 법규집 유지에 도움을 줍니다.",
+    "link": "https://data.sa.gov.au/data/dataset/f6d85cea-2e15-4dc3-b5cd-c13f879e4361",
+    "title": "Legislative Database Update Package (PDFs)"
   }
 ]
