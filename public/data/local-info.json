@@ -173,5 +173,17 @@
     "summary": "이 데이터셋은 사우스 오스트레일리아 주의 최신 법률 업데이트 내용을 PDF 파일로 제공하며, 격주로 발행되어 법규집 유지에 도움을 줍니다.",
     "link": "https://data.sa.gov.au/data/dataset/f6d85cea-2e15-4dc3-b5cd-c13f879e4361",
     "title": "Legislative Database Update Package (PDFs)"
+  },
+  {
+    "id": 16,
+    "name": "Elizabeth Air Quality monitoring station particle data",
+    "category": "행사/축제",
+    "startDate": "2026-03-30",
+    "endDate": "상시",
+    "location": "Environment Protection Authority (EPA)",
+    "target": "전체 시민",
+    "summary": "이 데이터는 실제 내용 대신 테스트용으로 요약되었습니다. 원본: The Environment Protection Aut...",
+    "link": "https://data.sa.gov.au/",
+    "title": "Elizabeth Air Quality monitoring station particle data"
   }
 ]
