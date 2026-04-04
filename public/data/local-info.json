@@ -245,5 +245,17 @@
     "summary": "이 데이터는 실제 내용 대신 테스트용으로 요약되었습니다. 원본: The Environment Protection Aut...",
     "link": "https://data.sa.gov.au/",
     "title": "Cowandilla Air Quality Monitoring Station gaseous data"
+  },
+  {
+    "id": 22,
+    "name": "Traineeships and Apprenticeships",
+    "category": "행사/축제",
+    "startDate": "2026-04-04",
+    "endDate": "상시",
+    "location": "South Australian Skills Commission",
+    "target": "전체 시민",
+    "summary": "이 데이터는 실제 내용 대신 테스트용으로 요약되었습니다. 원본: The datasets contain South Aus...",
+    "link": "https://data.sa.gov.au/",
+    "title": "Traineeships and Apprenticeships"
   }
 ]
