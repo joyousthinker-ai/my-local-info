@@ -1,6 +1,17 @@
 const fs = require('fs');
 const path = require('path');
 
+// .env.local 파일 자동 로드
+const envPath = path.join(process.cwd(), '.env.local');
+if (fs.existsSync(envPath)) {
+  const envContent = fs.readFileSync(envPath, 'utf8');
+  for (const line of envContent.split('\n')) {
+    const match = line.match(/^([^=]+)=(.*)$/);
+    if (match) process.env[match[1].trim()] = match[2].trim();
+  }
+}
+
+
 async function main() {
   try {
     const PUBLIC_DATA_API_KEY = process.env.PUBLIC_DATA_API_KEY;

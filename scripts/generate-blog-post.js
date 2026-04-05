@@ -1,6 +1,17 @@
 const fs = require('fs');
 const path = require('path');
 
+// .env.local 파일 자동 로드
+const envPath = path.join(process.cwd(), '.env.local');
+if (fs.existsSync(envPath)) {
+  const envContent = fs.readFileSync(envPath, 'utf8');
+  for (const line of envContent.split('\n')) {
+    const match = line.match(/^([^=]+)=(.*)$/);
+    if (match) process.env[match[1].trim()] = match[2].trim();
+  }
+}
+
+
 async function main() {
   try {
     const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
@@ -57,9 +68,9 @@ async function main() {
 
     let resultText = '';
 
-    // 초보자를 위한 테스트(임시) 키가 감지되면 가상의 글 생성
-    if (GEMINI_API_KEY === 'gen-lang-client-0605527017' || GEMINI_API_KEY.includes('나중에')) {
-      console.log('테스트 API 키 감지됨 - 가상의 블로그 글을 생성합니다.');
+    // 실제 Gemini API 사용
+    if (false) {
+      // (레거시 테스트 키 분기 제거됨)
       const todayString = new Date().toISOString().split('T')[0];
       const fallbackKeyword = 'mock-automated-post';
       
