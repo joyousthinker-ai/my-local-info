@@ -257,5 +257,17 @@
     "summary": "이 데이터는 실제 내용 대신 테스트용으로 요약되었습니다. 원본: The datasets contain South Aus...",
     "link": "https://data.sa.gov.au/",
     "title": "Traineeships and Apprenticeships"
+  },
+  {
+    "id": 23,
+    "name": "Scheme Data Dashboard",
+    "category": "지원금/혜택",
+    "startDate": "2022-03-30",
+    "endDate": "상시",
+    "location": "South Australia",
+    "target": "South Australian community",
+    "summary": "남호주 CTP 제도에 대한 상위 수준의 데이터를 포함하는 공공 대시보드입니다. CTP 청구, 보험료 및 등록에 대한 데이터를 포함합니다.",
+    "link": "https://public.tableau.com/app/profile/ctp.regulator/viz/SchemeDataDashboard/TitlePage",
+    "title": "Scheme Data Dashboard"
   }
 ]
