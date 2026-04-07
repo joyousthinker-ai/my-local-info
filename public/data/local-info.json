@@ -281,5 +281,17 @@
     "summary": "남호주 환경보호청(EPA)이 스펜서만 포트 피리 올리버 스트리트 관측소에서 수집한 대기 질 평가 및 관리 결정을 위한 기상 데이터입니다.",
     "link": "https://data.sa.gov.au/data/dataset/dc14fe98-01be-4dbc-bcec-5eb7e5ecbea9",
     "title": "Port Pirie Oliver St Air Quality monitoring station meteorology data"
+  },
+  {
+    "id": 25,
+    "name": "Whyalla Walls St Air Quality monitoring station meteorology data",
+    "category": "지원금/혜택",
+    "startDate": "2018-01-01",
+    "endDate": "2026-02-28",
+    "location": "Whyalla Walls St Air Quality monitoring station, Spencer Gulf, South Australia",
+    "target": "환경 연구자, 정책 입안자 및 일반 대중",
+    "summary": "사우스오스트레일리아 환경보호청(EPA)이 와이알라 월스 스트리트 공기질 모니터링 스테이션에서 수집한 스펜서 걸프 지역의 기상 데이터로, 공기질 평가 및 관리 의사결정에 활용됩니다.",
+    "link": "https://data.sa.gov.au/data/dataset/3ec3b81f-5d9e-46c8-a698-4387ac939ea3",
+    "title": "Whyalla Walls St Air Quality monitoring station meteorology data"
   }
 ]
