@@ -6,6 +6,6 @@ export default function robots() {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://adelaide-info.pages.dev/sitemap.xml',
+    sitemap: 'https://my-local-info-6ul.pages.dev/sitemap.xml',
   };
 }

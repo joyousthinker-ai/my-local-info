@@ -67,19 +67,19 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
                   "@type": "ListItem",
                   "position": 1,
                   "name": "홈",
-                  "item": "https://adelaide-info.pages.dev"
+                  "item": "https://my-local-info-6ul.pages.dev"
                 },
                 {
                   "@type": "ListItem",
                   "position": 2,
                   "name": "블로그",
-                  "item": "https://adelaide-info.pages.dev/blog"
+                  "item": "https://my-local-info-6ul.pages.dev/blog"
                 },
                 {
                   "@type": "ListItem",
                   "position": 3,
                   "name": postData.title,
-                  "item": `https://adelaide-info.pages.dev/blog/${postData.slug}`
+                  "item": `https://my-local-info-6ul.pages.dev/blog/${postData.slug}`
                 }
               ]
             }
@@ -124,12 +124,10 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
           </div>
         )}
 
-        {/* 최종 업데이트 */}
         <div className="mt-6 text-xs text-slate-400 font-medium">
           🕐 최종 업데이트: {postData.date}
         </div>
 
-        {/* 원문 출처 */}
         {postData.link && (
           <div className="mt-4 p-4 bg-slate-50 rounded-xl border border-slate-100">
             <p className="text-sm text-slate-600 font-medium mb-1">📎 원문 출처</p>
@@ -144,7 +142,6 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
           </div>
         )}
 
-        {/* AI 생성 정보 공개 */}
         <div className="mt-4 p-4 bg-amber-50 rounded-xl border border-amber-100">
           <p className="text-xs text-amber-700 leading-relaxed">
             ⚠️ 이 글은{' '}
@@ -160,10 +157,8 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
           </p>
         </div>
 
-        {/* 광고 영역 */}
         <AdBanner />
         
-        {/* 쿠팡 배너 영역 */}
         <CoupangBanner />
       </main>
     </div>

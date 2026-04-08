@@ -3,7 +3,7 @@ import { getAllPostSlugs } from '@/lib/posts';
 export const dynamic = 'force-static';
 
 export default function sitemap() {
-  const baseUrl = 'https://adelaide-info.pages.dev';
+  const baseUrl = 'https://my-local-info-6ul.pages.dev';
   const slugs = getAllPostSlugs();
 
   const blogPosts = slugs.map(({ slug }) => ({
