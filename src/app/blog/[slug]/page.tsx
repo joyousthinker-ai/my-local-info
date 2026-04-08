@@ -67,19 +67,19 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
                   "@type": "ListItem",
                   "position": 1,
                   "name": "홈",
-                  "item": "https://my-local-info-6ul.pages.dev"
+                  "item": "https://adelaide-info.pages.dev"
                 },
                 {
                   "@type": "ListItem",
                   "position": 2,
                   "name": "블로그",
-                  "item": "https://my-local-info-6ul.pages.dev/blog"
+                  "item": "https://adelaide-info.pages.dev/blog"
                 },
                 {
                   "@type": "ListItem",
                   "position": 3,
                   "name": postData.title,
-                  "item": `https://my-local-info-6ul.pages.dev/blog/${postData.slug}`
+                  "item": `https://adelaide-info.pages.dev/blog/${postData.slug}`
                 }
               ]
             }
