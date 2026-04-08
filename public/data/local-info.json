@@ -293,5 +293,17 @@
     "summary": "사우스오스트레일리아 환경보호청(EPA)이 와이알라 월스 스트리트 공기질 모니터링 스테이션에서 수집한 스펜서 걸프 지역의 기상 데이터로, 공기질 평가 및 관리 의사결정에 활용됩니다.",
     "link": "https://data.sa.gov.au/data/dataset/3ec3b81f-5d9e-46c8-a698-4387ac939ea3",
     "title": "Whyalla Walls St Air Quality monitoring station meteorology data"
+  },
+  {
+    "id": 26,
+    "name": "Water Quality",
+    "category": "지원금/혜택",
+    "startDate": "2018-05-01",
+    "endDate": "상시",
+    "location": "남호주 전역",
+    "target": "남호주 주민 전체",
+    "summary": "SA Water는 남호주 전역의 식수 공급 시스템에 대한 광범위한 수질 검사 결과를 제공합니다. 이 프로그램은 연간 350,000개 이상의 분석 결과를 생산하며, 호주 음용수 가이드라인을 지속적으로 충족하여 안전하고 고품질의 수돗물을 보장합니다.",
+    "link": "https://data.sa.gov.au/data/dataset/996ec2ae-d52c-4d7e-be9c-d4dab1c1aa45",
+    "title": "Water Quality"
   }
 ]
