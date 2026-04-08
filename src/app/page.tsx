@@ -1,5 +1,6 @@
 import { promises as fs } from 'fs';
 import path from 'path';
+import Link from 'next/link';
 import AdBanner from '@/components/AdBanner';
 
 // 1. 데이터 모양(타입)을 정의합니다. (초보자분들이 헷갈리지 않게 꼭 필요한 내용만 적었어요)
@@ -68,9 +69,9 @@ export default async function Home() {
         <div className="flex items-center justify-between">
           <h1 className="text-2xl font-bold tracking-tight">🏘️ 애들레이드(Adelaide) 생활 정보</h1>
           <div className="flex bg-orange-500/30 rounded-lg p-1 font-bold">
-             <a href="/" className="px-4 py-1.5 rounded-md text-white bg-orange-500/80 shadow-sm transition-colors">홈</a>
-             <a href="/blog" className="px-4 py-1.5 rounded-md text-orange-100 hover:text-white transition-colors">블로그</a>
-             <a href="/about" className="px-4 py-1.5 rounded-md text-orange-100 hover:text-white transition-colors">소개</a>
+             <Link href="/" className="px-4 py-1.5 rounded-md text-white bg-orange-500/80 shadow-sm transition-colors">홈</Link>
+             <Link href="/blog" className="px-4 py-1.5 rounded-md text-orange-100 hover:text-white transition-colors">블로그</Link>
+             <Link href="/about" className="px-4 py-1.5 rounded-md text-orange-100 hover:text-white transition-colors">소개</Link>
           </div>
         </div>
       </header>
@@ -101,9 +102,9 @@ export default async function Home() {
                    <p className="flex"><span className="w-5">👥</span>{item.target}</p>
                  </div>
                  
-                 <a href="/blog" className="mt-auto block w-full text-center bg-orange-100 text-orange-700 py-2.5 rounded-xl font-bold hover:bg-orange-200 transition-colors">
+                 <Link href="/blog" className="mt-auto block w-full text-center bg-orange-100 text-orange-700 py-2.5 rounded-xl font-bold hover:bg-orange-200 transition-colors">
                    자세히 보기
-                 </a>
+                 </Link>
                </div>
             ))}
           </div>
@@ -137,9 +138,9 @@ export default async function Home() {
                 </div>
                 
                 <div className="mt-5 sm:mt-0 flex items-end">
-                  <a href="/blog" className="block w-full sm:w-auto text-center bg-emerald-500 text-white px-5 py-3 rounded-xl font-bold hover:bg-emerald-600 transition-colors shadow-sm whitespace-nowrap">
+                  <Link href="/blog" className="block w-full sm:w-auto text-center bg-emerald-500 text-white px-5 py-3 rounded-xl font-bold hover:bg-emerald-600 transition-colors shadow-sm whitespace-nowrap">
                     신청 바로가기
-                  </a>
+                  </Link>
                 </div>
               </div>
             ))}
