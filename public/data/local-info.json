@@ -353,5 +353,17 @@
     "summary": "DataSA에 게시된 이후 업데이트된 사우스 오스트레일리아 주 법률 조항을 XML 파일 형태로 제공하며, 법률집 전자 사본 유지를 돕기 위한 지침을 포함하는 서비스입니다.",
     "link": "https://data.sa.gov.au/data/dataset/9620c056-68ba-471d-baf8-1935d9ce5abe",
     "title": "Legislative Database Update Package (XML)"
+  },
+  {
+    "id": 31,
+    "name": "Mt Barker air quality monitoring station meteorology data",
+    "category": "지원금/혜택",
+    "startDate": "2022-04-26",
+    "endDate": "2023-08-31",
+    "location": "Mount Barker",
+    "target": "환경 보호 관련 기관 및 연구자, 일반 시민",
+    "summary": "사우스 오스트레일리아 환경 보호국(EPA)이 Mt Barker 지역의 대기 질 평가 및 관리 결정을 지원하기 위해 수집한 유효성 검사된 기상 데이터를 제공합니다.",
+    "link": "https://data.sa.gov.au/data/dataset/5101abf0-346e-4bc9-ada2-af0ebe656fe6/resource/e05d695b-1284-49f9-9c14-12eb8c65cf09/download/mtb01m.zip",
+    "title": "Mt Barker air quality monitoring station meteorology data"
   }
 ]
