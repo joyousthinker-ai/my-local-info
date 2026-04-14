@@ -377,5 +377,17 @@
     "summary": "남호주 환경 보호국(EPA)이 대기 질 평가 및 관리 결정을 지원하기 위해 남부 애들레이드 지역의 검증된 미립자 오염 데이터를 제공합니다.",
     "link": "https://data.sa.gov.au/data/dataset/8676857e-b031-4b67-9b86-bc2c92e7f4aa",
     "title": "Christie Downs Air Quality monitoring station particle data"
+  },
+  {
+    "id": 33,
+    "name": "Sellicks Beach Air Quality monitoring station meteorology data",
+    "category": "지원금/혜택",
+    "startDate": "2016-01-21",
+    "endDate": "2017-02-28",
+    "location": "Sellicks Beach",
+    "target": "환경 연구자 및 일반 대중",
+    "summary": "사우스 오스트레일리아 환경보호청(EPA)에서 셀릭스 해변 지역의 대기 질을 평가하기 위해 2016년 1월부터 2017년 2월까지 임시로 운영한 관측소의 검증된 기상 데이터를 제공합니다.",
+    "link": "https://data.sa.gov.au/data/dataset/2f7baf99-1f9f-44f9-b571-406a748c03ed",
+    "title": "Sellicks Beach Air Quality monitoring station meteorology data"
   }
 ]
