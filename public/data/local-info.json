@@ -401,5 +401,17 @@
     "summary": "애들레이드 광역권 지역별 분기별 주택 중간 가격 데이터",
     "link": "https://data.sa.gov.au/data/dataset/0d447195-1158-4a3c-8cc7-0e333b87eb72",
     "title": "Metro median house sales"
+  },
+  {
+    "id": 35,
+    "name": "Sellicks Beach - Lurline Blvd air quality monitoring station meteorology data",
+    "category": "행사/축제",
+    "startDate": "2026-04-16",
+    "endDate": "상시",
+    "location": "Environment Protection Authority (EPA)",
+    "target": "전체 시민",
+    "summary": "이 데이터는 실제 내용 대신 테스트용으로 요약되었습니다. 원본: The Environment Protection Aut...",
+    "link": "https://data.sa.gov.au/",
+    "title": "Sellicks Beach - Lurline Blvd air quality monitoring station meteorology data"
   }
 ]
