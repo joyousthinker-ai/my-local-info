@@ -413,5 +413,17 @@
     "summary": "이 데이터는 실제 내용 대신 테스트용으로 요약되었습니다. 원본: The Environment Protection Aut...",
     "link": "https://data.sa.gov.au/",
     "title": "Sellicks Beach - Lurline Blvd air quality monitoring station meteorology data"
+  },
+  {
+    "id": 36,
+    "name": "Mount Lofty Ranges Priority Areas",
+    "category": "지원금/혜택",
+    "startDate": "2015-07-22",
+    "endDate": "상시",
+    "location": "Mount Lofty Ranges, South Australia",
+    "target": "South Australia 시민 및 환경 관리 기관",
+    "summary": "현재 애들레이드 주요 상수도 시스템 내 수질 위험을 기반으로 Mount Lofty Ranges 유역 내 세 가지 우선순위 영역/구역을 정의합니다.",
+    "link": "https://location.sa.gov.au/lms/Reports/ReportMetadata.aspx?p_no=1520",
+    "title": "Mount Lofty Ranges Priority Areas"
   }
 ]
