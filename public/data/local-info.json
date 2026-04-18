@@ -55,66 +55,6 @@
     "link": "#"
   },
   {
-    "id": 6,
-    "name": "Reservoir Volumes",
-    "category": "행사/축제",
-    "startDate": "2026-03-28",
-    "endDate": "상시",
-    "location": "SA Water",
-    "target": "모두",
-    "summary": "성공적인 테스트입니다! (원본 데이터 설명 임시요약: Contains the volume ...)",
-    "link": "https://data.sa.gov.au/",
-    "title": "Reservoir Volumes"
-  },
-  {
-    "id": 7,
-    "name": "Northfield Air Quality monitoring station meteorology data",
-    "category": "행사/축제",
-    "startDate": "2026-03-28",
-    "endDate": "상시",
-    "location": "Environment Protection Authority (EPA)",
-    "target": "모두",
-    "summary": "성공적인 테스트입니다! (원본 데이터 설명 임시요약: The Environment Prot...)",
-    "link": "https://data.sa.gov.au/",
-    "title": "Northfield Air Quality monitoring station meteorology data"
-  },
-  {
-    "id": 8,
-    "name": "Le Fevre 1 - Birkenhead Air Quality monitoring station meteorology data",
-    "category": "행사/축제",
-    "startDate": "2026-03-28",
-    "endDate": "상시",
-    "location": "Environment Protection Authority (EPA)",
-    "target": "모두",
-    "summary": "성공적인 테스트입니다! (원본 데이터 설명 임시요약: The Environment Prot...)",
-    "link": "https://data.sa.gov.au/",
-    "title": "Le Fevre 1 - Birkenhead Air Quality monitoring station meteorology data"
-  },
-  {
-    "id": 9,
-    "name": "Elizabeth Air Quality monitoring station meteorology data",
-    "category": "행사/축제",
-    "startDate": "2026-03-28",
-    "endDate": "상시",
-    "location": "Environment Protection Authority (EPA)",
-    "target": "전체 시민",
-    "summary": "이 데이터는 실제 내용 대신 테스트용으로 요약되었습니다. 원본: The Environment Protection Aut...",
-    "link": "https://data.sa.gov.au/",
-    "title": "Elizabeth Air Quality monitoring station meteorology data"
-  },
-  {
-    "id": 10,
-    "name": "Christie Downs Air Quality monitoring station meteorology data",
-    "category": "행사/축제",
-    "startDate": "2026-03-28",
-    "endDate": "상시",
-    "location": "Environment Protection Authority (EPA)",
-    "target": "전체 시민",
-    "summary": "이 데이터는 실제 내용 대신 테스트용으로 요약되었습니다. 원본: The Environment Protection Aut...",
-    "link": "https://data.sa.gov.au/",
-    "title": "Christie Downs Air Quality monitoring station meteorology data"
-  },
-  {
     "id": 11,
     "name": "Northfield Air Quality monitoring station gaseous data",
     "category": "지원금/혜택",
@@ -151,18 +91,6 @@
     "title": "Le Fevre 2 - North Haven Air Quality monitoring station gaseous data"
   },
   {
-    "id": 14,
-    "name": "Le Fevre 1 - Birkenhead Air Quality monitoring station particle data",
-    "category": "행사/축제",
-    "startDate": "2026-03-29",
-    "endDate": "상시",
-    "location": "Environment Protection Authority (EPA)",
-    "target": "전체 시민",
-    "summary": "이 데이터는 실제 내용 대신 테스트용으로 요약되었습니다. 원본: The Environment Protection Aut...",
-    "link": "https://data.sa.gov.au/",
-    "title": "Le Fevre 1 - Birkenhead Air Quality monitoring station particle data"
-  },
-  {
     "id": 15,
     "name": "Legislative Database Update Package (PDFs)",
     "category": "지원금/혜택",
@@ -173,90 +101,6 @@
     "summary": "이 데이터셋은 사우스 오스트레일리아 주의 최신 법률 업데이트 내용을 PDF 파일로 제공하며, 격주로 발행되어 법규집 유지에 도움을 줍니다.",
     "link": "https://data.sa.gov.au/data/dataset/f6d85cea-2e15-4dc3-b5cd-c13f879e4361",
     "title": "Legislative Database Update Package (PDFs)"
-  },
-  {
-    "id": 16,
-    "name": "Elizabeth Air Quality monitoring station particle data",
-    "category": "행사/축제",
-    "startDate": "2026-03-30",
-    "endDate": "상시",
-    "location": "Environment Protection Authority (EPA)",
-    "target": "전체 시민",
-    "summary": "이 데이터는 실제 내용 대신 테스트용으로 요약되었습니다. 원본: The Environment Protection Aut...",
-    "link": "https://data.sa.gov.au/",
-    "title": "Elizabeth Air Quality monitoring station particle data"
-  },
-  {
-    "id": 17,
-    "name": "Elizabeth Air Quality monitoring station gaseous data",
-    "category": "행사/축제",
-    "startDate": "2026-03-30",
-    "endDate": "상시",
-    "location": "Environment Protection Authority (EPA)",
-    "target": "전체 시민",
-    "summary": "이 데이터는 실제 내용 대신 테스트용으로 요약되었습니다. 원본: The Environment Protection Aut...",
-    "link": "https://data.sa.gov.au/",
-    "title": "Elizabeth Air Quality monitoring station gaseous data"
-  },
-  {
-    "id": 18,
-    "name": "Netley Air Quality monitoring station meteorology data",
-    "category": "행사/축제",
-    "startDate": "2026-03-31",
-    "endDate": "상시",
-    "location": "Environment Protection Authority (EPA)",
-    "target": "전체 시민",
-    "summary": "이 데이터는 실제 내용 대신 테스트용으로 요약되었습니다. 원본: The Environment Protection Aut...",
-    "link": "https://data.sa.gov.au/",
-    "title": "Netley Air Quality monitoring station meteorology data"
-  },
-  {
-    "id": 19,
-    "name": "Kensington Air Quality monitoring station meteorology data",
-    "category": "행사/축제",
-    "startDate": "2026-04-01",
-    "endDate": "상시",
-    "location": "Environment Protection Authority (EPA)",
-    "target": "전체 시민",
-    "summary": "이 데이터는 실제 내용 대신 테스트용으로 요약되었습니다. 원본: The Environment Protection Aut...",
-    "link": "https://data.sa.gov.au/",
-    "title": "Kensington Air Quality monitoring station meteorology data"
-  },
-  {
-    "id": 20,
-    "name": "Cowandilla Air Quality Monitoring Station particle data",
-    "category": "행사/축제",
-    "startDate": "2026-04-02",
-    "endDate": "상시",
-    "location": "Environment Protection Authority (EPA)",
-    "target": "전체 시민",
-    "summary": "이 데이터는 실제 내용 대신 테스트용으로 요약되었습니다. 원본: The Environment Protection Aut...",
-    "link": "https://data.sa.gov.au/",
-    "title": "Cowandilla Air Quality Monitoring Station particle data"
-  },
-  {
-    "id": 21,
-    "name": "Cowandilla Air Quality Monitoring Station gaseous data",
-    "category": "행사/축제",
-    "startDate": "2026-04-03",
-    "endDate": "상시",
-    "location": "Environment Protection Authority (EPA)",
-    "target": "전체 시민",
-    "summary": "이 데이터는 실제 내용 대신 테스트용으로 요약되었습니다. 원본: The Environment Protection Aut...",
-    "link": "https://data.sa.gov.au/",
-    "title": "Cowandilla Air Quality Monitoring Station gaseous data"
-  },
-  {
-    "id": 22,
-    "name": "Traineeships and Apprenticeships",
-    "category": "행사/축제",
-    "startDate": "2026-04-04",
-    "endDate": "상시",
-    "location": "South Australian Skills Commission",
-    "target": "전체 시민",
-    "summary": "이 데이터는 실제 내용 대신 테스트용으로 요약되었습니다. 원본: The datasets contain South Aus...",
-    "link": "https://data.sa.gov.au/",
-    "title": "Traineeships and Apprenticeships"
   },
   {
     "id": 23,
@@ -307,18 +151,6 @@
     "title": "Water Quality"
   },
   {
-    "id": 27,
-    "name": "Golden Grove Air Quality monitoring station meteorology data",
-    "category": "행사/축제",
-    "startDate": "2026-04-09",
-    "endDate": "상시",
-    "location": "Environment Protection Authority (EPA)",
-    "target": "전체 시민",
-    "summary": "이 데이터는 실제 내용 대신 테스트용으로 요약되었습니다. 원본: The Environment Protection Aut...",
-    "link": "https://data.sa.gov.au/",
-    "title": "Golden Grove Air Quality monitoring station meteorology data"
-  },
-  {
     "id": 28,
     "name": "Port Augusta Air Quality monitoring station meteorology data",
     "category": "지원금/혜택",
@@ -329,18 +161,6 @@
     "summary": "남호주 환경 보호국(EPA)이 스펜서 걸프 지역의 포트 오거스타 대기 질 모니터링을 위해 수집한 기상 데이터 세트입니다.",
     "link": "https://data.sa.gov.au/data/dataset/46d170cb-110d-4e72-b509-9fb7fe20a3c0",
     "title": "Port Augusta Air Quality monitoring station meteorology data"
-  },
-  {
-    "id": 29,
-    "name": "Cowandilla air quality monitoring station meteorology data",
-    "category": "행사/축제",
-    "startDate": "2026-04-10",
-    "endDate": "상시",
-    "location": "Environment Protection Authority (EPA)",
-    "target": "전체 시민",
-    "summary": "이 데이터는 실제 내용 대신 테스트용으로 요약되었습니다. 원본: The Environment Protection Aut...",
-    "link": "https://data.sa.gov.au/",
-    "title": "Cowandilla air quality monitoring station meteorology data"
   },
   {
     "id": 30,
@@ -401,18 +221,6 @@
     "summary": "애들레이드 광역권 지역별 분기별 주택 중간 가격 데이터",
     "link": "https://data.sa.gov.au/data/dataset/0d447195-1158-4a3c-8cc7-0e333b87eb72",
     "title": "Metro median house sales"
-  },
-  {
-    "id": 35,
-    "name": "Sellicks Beach - Lurline Blvd air quality monitoring station meteorology data",
-    "category": "행사/축제",
-    "startDate": "2026-04-16",
-    "endDate": "상시",
-    "location": "Environment Protection Authority (EPA)",
-    "target": "전체 시민",
-    "summary": "이 데이터는 실제 내용 대신 테스트용으로 요약되었습니다. 원본: The Environment Protection Aut...",
-    "link": "https://data.sa.gov.au/",
-    "title": "Sellicks Beach - Lurline Blvd air quality monitoring station meteorology data"
   },
   {
     "id": 36,
