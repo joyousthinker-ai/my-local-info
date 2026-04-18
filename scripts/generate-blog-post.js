@@ -92,23 +92,45 @@ tags: [태그1, 태그2, 태그3]
 
     const geminiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}`;
     
-    const geminiRes = await fetch(geminiUrl, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        contents: [{ parts: [{ text: promptText }] }]
-      })
-    });
+    const MAX_RETRIES = 3;
+    let geminiRes = null;
+    let success = false;
 
-    if (!geminiRes.ok) {
-      const errorText = await geminiRes.text();
-      console.warn(`[주의] Gemini API 호출 실패 (${geminiRes.status}). 원인: ${errorText}`);
-      console.log('API 통신 오류(또는 트래픽 초과)로 임시 블로그 글을 생성합니다.');
-      resultText = `---\ntitle: "임시: ${latestItem.name || latestItem.title}"\ndate: ${todayString}\nsummary: "임시 블로그 데이터"\ncategory: 정보\ntags: [테스트]\n---\n\n구글 API 에러로 임시 텍스트가 작성되었습니다.\n\nFILENAME: ${todayString}-mock-post-api-error`;
-    } else {
-      const geminiData = await geminiRes.json();
-      resultText = geminiData.candidates?.[0]?.content?.parts?.[0]?.text || '';
+    for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+      try {
+        console.log(`Gemini API 호출 시도 (${attempt}/${MAX_RETRIES})...`);
+        geminiRes = await fetch(geminiUrl, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            contents: [{ parts: [{ text: promptText }] }]
+          })
+        });
+
+        if (geminiRes.ok) {
+          success = true;
+          break;
+        } else {
+          const errorText = await geminiRes.text();
+          console.warn(`[주의] API 호출 실패 (${geminiRes.status}): ${errorText}`);
+        }
+      } catch (e) {
+        console.warn(`[주의] 네트워크 에러 발생: ${e.message}`);
+      }
+
+      if (attempt < MAX_RETRIES) {
+        console.log(`10초 대기 후 재시도합니다...`);
+        await new Promise(resolve => setTimeout(resolve, 10000));
+      }
     }
+
+    if (!success) {
+      console.error('❌ 최대 재시도 횟수를 초과했습니다. 임시(쓰레기) 글을 만들지 않고 스크립트를 즉시 종료합니다.');
+      return;
+    }
+
+    const geminiData = await geminiRes.json();
+    resultText = geminiData.candidates?.[0]?.content?.parts?.[0]?.text || '';
 
     // 마크다운 역따옴표 제거 로직
     resultText = resultText.replace(/^```markdown/im, '').replace(/^```/im, '').replace(/```$/im, '').trim();

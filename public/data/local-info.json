@@ -425,5 +425,29 @@
     "summary": "현재 애들레이드 주요 상수도 시스템 내 수질 위험을 기반으로 Mount Lofty Ranges 유역 내 세 가지 우선순위 영역/구역을 정의합니다.",
     "link": "https://location.sa.gov.au/lms/Reports/ReportMetadata.aspx?p_no=1520",
     "title": "Mount Lofty Ranges Priority Areas"
+  },
+  {
+    "id": 37,
+    "name": "Air Quality Monitoring Sites",
+    "category": "지원금/혜택",
+    "startDate": "2015-01-15",
+    "endDate": "상시",
+    "location": "South Australia",
+    "target": "일반 시민",
+    "summary": "사우스 오스트레일리아 환경보호청(EPA)에서 애들레이드 광역권, 포트 피리, 와이알라 지역의 대기질 모니터링 사이트 위치, 오염물질 유형 및 최신 대기질 데이터를 제공합니다.",
+    "link": "https://www.epa.sa.gov.au/environmental_info/air_quality/new-air-quality-monitoring?view=map",
+    "title": "Air Quality Monitoring Sites"
+  },
+  {
+    "id": 38,
+    "name": "Container Collection Depots",
+    "category": "지원금/혜택",
+    "startDate": "2024-01-01",
+    "endDate": "2022-08-20",
+    "location": "South Australia",
+    "target": "South Australia 주민",
+    "summary": "남호주 전역에서 음료수 용기를 반납하고 보증금을 환불받을 수 있는 수거소 네트워크 제공 서비스",
+    "link": "http://www.epa.sa.gov.au/environmental_info/container_deposit",
+    "title": "Container Collection Depots"
   }
 ]
