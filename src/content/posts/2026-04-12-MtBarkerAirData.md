@@ -1,5 +1,5 @@
 ---
-title: Mt Barker의 숨결을 읽다: EPA 기상 데이터로 우리 동네 환경 파헤치기!
+title: "Mt Barker의 숨결을 읽다: EPA 기상 데이터로 우리 동네 환경 파헤치기!"
 date: 2026-04-12
 summary: 사우스 오스트레일리아 Mt Barker 지역의 대기 질 평가를 위한 EPA의 검증된 기상 데이터를 다운로드하여 환경 연구 및 분석에 활용해 보세요!
 category: 정보
