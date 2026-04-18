@@ -22,6 +22,8 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "애들레이드 생활 정보 | 행사·혜택·지원금 안내",
   description: "애들레이드(Adelaide) 주민을 위한 지역 행사, 축제, 지원금, 혜택 정보를 매일 업데이트합니다.",
+  keywords: ["애들레이드", "Adelaide", "사우스오스트레일리아", "남호주", "South Australia", "애들레이드 생활", "애들레이드 정보", "애들레이드 행사", "애들레이드 여행", "호주 워홀", "호주 이민", "호주 정부 지원금"],
+  robots: "index, follow",
   openGraph: {
     title: "애들레이드 생활 정보 | 행사·혜택·지원금 안내",
     description: "애들레이드(Adelaide) 주민을 위한 지역 행사, 축제, 지원금, 혜택 정보를 매일 업데이트합니다.",
@@ -95,6 +97,7 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "WebSite",
               "name": "애들레이드 생활 정보",
+              "alternateName": ["Adelaide Local Info", "남호주 생활 정보", "사우스오스트레일리아 정보", "애들레이드 축제 정보"],
               "url": "https://my-local-info-6ul.pages.dev",
               "description": "애들레이드(Adelaide) 주민을 위한 지역 행사, 축제, 지원금, 혜택 정보"
             })
