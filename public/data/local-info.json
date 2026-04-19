@@ -65,5 +65,17 @@
     "summary": "애들레이드 상수도 시스템 내 수질 위험을 기반으로 마운트 로프티 산맥 유역의 세 가지 우선 관리 구역을 정의하는 데이터입니다.",
     "link": "https://data.sa.gov.au/data/dataset/f6357913-51aa-48ab-8747-bc82a3f229ed",
     "title": "Mount Lofty Ranges Priority Areas"
+  },
+  {
+    "id": 7,
+    "name": "Air Quality Monitoring Sites",
+    "category": "지원금/혜택",
+    "startDate": "2015-01-15",
+    "endDate": "상시",
+    "location": "South Australia (Adelaide, Port Pirie, Whyalla)",
+    "target": "해당 지역 주민",
+    "summary": "남호주 환경보호청(EPA)이 애들레이드, 포트피리, 와이알라 지역의 대기질을 모니터링하고 관련 데이터를 제공하는 서비스.",
+    "link": "https://www.epa.sa.gov.au/environmental_info/air_quality/new-air-quality-monitoring?view=map",
+    "title": "Air Quality Monitoring Sites"
   }
 ]
