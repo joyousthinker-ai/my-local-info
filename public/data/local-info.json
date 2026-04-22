@@ -101,5 +101,17 @@
     "summary": "남호주 환경보호청(EPA)이 엘리자베스 대기 질 모니터링 스테이션에서 수집한 북부 애들레이드 지역의 검증된 기상 데이터를 제공하여 대기 질 평가 및 관리 결정에 활용될 수 있도록 합니다. 2020년 중단되었다가 2022년에 재개되었습니다.",
     "link": "https://data.sa.gov.au/data/dataset/120a176d-f60e-4bba-8810-20452e8176fd",
     "title": "Elizabeth Air Quality monitoring station meteorology data"
+  },
+  {
+    "id": 10,
+    "name": "SA Private Hospitals",
+    "category": "건강/의료",
+    "startDate": "2022-10-25",
+    "endDate": "상시",
+    "location": "South Australia",
+    "target": "남호주 거주민 및 사립 병원 의료 서비스 이용자",
+    "summary": "남호주 내 사립 병원의 위치 정보를 제공하며, 자체 선택한 의사에게 치료받고 숙박 및 기타 서비스에 비용을 지불하는 환자를 위한 시설입니다.",
+    "link": "https://location.sa.gov.au/viewer/?map=hybrid&x=138.72279&y=-33.45131&z=5&uids=61&pinx=&piny=&pinTitle=&pinText=",
+    "title": "SA Private Hospitals"
   }
 ]
