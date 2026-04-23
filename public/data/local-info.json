@@ -113,5 +113,17 @@
     "summary": "남호주 내 사립 병원의 위치 정보를 제공하며, 자체 선택한 의사에게 치료받고 숙박 및 기타 서비스에 비용을 지불하는 환자를 위한 시설입니다.",
     "link": "https://location.sa.gov.au/viewer/?map=hybrid&x=138.72279&y=-33.45131&z=5&uids=61&pinx=&piny=&pinTitle=&pinText=",
     "title": "SA Private Hospitals"
+  },
+  {
+    "id": 11,
+    "name": "Development Applications",
+    "category": "주거/부동산",
+    "startDate": "2026-04-23",
+    "endDate": "상시",
+    "location": "City of Adelaide",
+    "target": "전체 시민",
+    "summary": "이 데이터는 실제 내용 대신 테스트용으로 요약되었습니다. 원본: *The data in this dataset will...",
+    "link": "https://data.sa.gov.au/",
+    "title": "Development Applications"
   }
 ]
