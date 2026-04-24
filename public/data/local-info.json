@@ -125,5 +125,17 @@
     "summary": "이 데이터는 실제 내용 대신 테스트용으로 요약되었습니다. 원본: *The data in this dataset will...",
     "link": "https://data.sa.gov.au/",
     "title": "Development Applications"
+  },
+  {
+    "id": 12,
+    "name": "South Australian State Budget 2017-18",
+    "category": "경제/취업",
+    "startDate": "2017-07-01",
+    "endDate": "2018-06-30",
+    "location": "South Australia",
+    "target": "South Australian citizens, businesses, and industries",
+    "summary": "2017-18년 남호주 주 예산으로, 기존 일자리를 보호하고 전통 제조업을 지원하며, 미래 일자리 창출을 통해 경제를 활성화하는 데 중점을 둡니다.",
+    "link": "https://servicesa.cdn.on.net/budget201718/pdfs/budget/2017-18_budget_overview.pdf",
+    "title": "South Australian State Budget 2017-18"
   }
 ]
