@@ -137,5 +137,17 @@
     "summary": "2017-18년 남호주 주 예산으로, 기존 일자리를 보호하고 전통 제조업을 지원하며, 미래 일자리 창출을 통해 경제를 활성화하는 데 중점을 둡니다.",
     "link": "https://servicesa.cdn.on.net/budget201718/pdfs/budget/2017-18_budget_overview.pdf",
     "title": "South Australian State Budget 2017-18"
+  },
+  {
+    "id": 13,
+    "name": "waste-management",
+    "category": "생활/환경",
+    "startDate": "2012-01-01",
+    "endDate": "2015-12-31",
+    "location": "Adelaide & North Adelaide",
+    "target": "애들레이드 및 노스 애들레이드 주민/사업체",
+    "summary": "톤 단위 및 쓰레기통 개수 기준으로 수거된 폐기물의 양에 대한 데이터입니다. 쓰레기, 재활용품, 유기물, 대형 폐기물, 전자 폐기물 등으로 분류됩니다.",
+    "link": "https://data.sa.gov.au/data/dataset/b35fa9df-b442-4d11-981e-863235387d4b",
+    "title": "waste-management"
   }
 ]
