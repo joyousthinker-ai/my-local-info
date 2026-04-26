@@ -79,13 +79,12 @@ export default function RootLayout({
         <div className="flex-1">
           {children}
         </div>
-        <footer className="w-full py-8 text-center text-slate-500 text-sm bg-slate-50 border-t border-slate-100">
-          <div className="flex justify-center items-center gap-3 mb-3">
-            <span className="font-semibold text-slate-600">방문자 수:</span>
-            {/* 무료 방문자 뱃지 (hits.seeyoufarm API) */}
-            <img 
-              src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fmy-local-info-6ul.pages.dev&count_bg=%23F97316&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false" 
-              alt="Hits Counter" 
+        <footer className="w-full py-6 text-center text-slate-500 text-sm bg-slate-50 border-t border-slate-100">
+          <div className="flex justify-center items-center gap-3 mb-2">
+            <img
+              src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fmy-local-info-6ul.pages.dev&count_bg=%23F97316&title_bg=%23334155&icon=&icon_color=%23E7E7E7&title=Visitors&edge_flat=true"
+              alt="방문자 수"
+              className="h-5"
             />
           </div>
           <p>© {new Date().getFullYear()} 애들레이드 생활 정보. All rights reserved.</p>
