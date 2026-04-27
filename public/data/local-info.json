@@ -161,5 +161,17 @@
     "summary": "애들레이드 시를 둘러싼 애들레이드 공원 부지의 순환 경로 완료 상태를 보여주는 데이터입니다. 경로 및 완료(완료됨, 제안됨) 정보와 토렌스 강 선형 공원 트레일 정보가 포함됩니다.",
     "link": "https://data.sa.gov.au/data/dataset/a3a87b53-3971-4876-95a0-aac2add781af",
     "title": "Park Land Path Ring Route"
+  },
+  {
+    "id": 15,
+    "name": "South Australian Government Education and Child Development Sites and Services, as at June 2017",
+    "category": "교육/도서관",
+    "startDate": "2017-06-01",
+    "endDate": "2018-06-01",
+    "location": "South Australia",
+    "target": "남호주 가족, 아동 및 청소년",
+    "summary": "2017년 6월 기준 남호주 교육 및 보육 시설 목록",
+    "link": "https://data.sa.gov.au/data/dataset/b572bd77-ce60-4693-9469-23ff8bb2dfc6/resource/0af8428e-e5a6-4859-9c6b-560428b3a318/download/datasalistofsitesandservicesjune2017.xlsx",
+    "title": "South Australian Government Education and Child Development Sites and Services, as at June 2017"
   }
 ]
