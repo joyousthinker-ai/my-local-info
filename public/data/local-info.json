@@ -173,5 +173,17 @@
     "summary": "2017년 6월 기준 남호주 교육 및 보육 시설 목록",
     "link": "https://data.sa.gov.au/data/dataset/b572bd77-ce60-4693-9469-23ff8bb2dfc6/resource/0af8428e-e5a6-4859-9c6b-560428b3a318/download/datasalistofsitesandservicesjune2017.xlsx",
     "title": "South Australian Government Education and Child Development Sites and Services, as at June 2017"
+  },
+  {
+    "id": 16,
+    "name": "Functional Hierarchy for South Australia's Land Transport Network",
+    "category": "교통/인프라",
+    "startDate": "2013-07-01",
+    "endDate": "상시",
+    "location": "South Australia",
+    "target": "남호주 교통망 이용자",
+    "summary": "남호주 육상 교통망에서 다양한 교통수단에 중요한 통로를 식별하고, 도로 및 철도 공간 사용을 안내하여 교통망 이용자의 안전과 효율성을 향상시키는 기능적 계층 구조 데이터입니다.",
+    "link": "https://data.sa.gov.au/data/dataset/functional-hierarchy-for-south-australia-s-land-transport-network",
+    "title": "Functional Hierarchy for South Australia's Land Transport Network"
   }
 ]
