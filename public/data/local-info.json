@@ -197,5 +197,17 @@
     "summary": "사우스 오스트레일리아의 Eyre 및 Far North 지역 주민들에게 병원, 지역사회, 재택 및 요양원 돌봄, 영유아 및 장애 지원, 정신 건강 서비스를 제공하는 지역 보건 네트워크에 대한 정보입니다.",
     "link": "https://data.sa.gov.au/data/dataset/b9a0195c-cef4-4e25-88f0-2ec399a21e42",
     "title": "Eyre and Far North Local Health Network (EFNLHN)"
+  },
+  {
+    "id": 18,
+    "name": "Property Boundaries",
+    "category": "주거/부동산",
+    "startDate": "2026-04-30",
+    "endDate": "상시",
+    "location": "City of Adelaide",
+    "target": "전체 시민",
+    "summary": "이 데이터는 실제 내용 대신 테스트용으로 요약되었습니다. 원본: Provides locations and land bo...",
+    "link": "https://data.sa.gov.au/",
+    "title": "Property Boundaries"
   }
 ]
