@@ -221,5 +221,17 @@
     "summary": "이 데이터는 실제 내용 대신 테스트용으로 요약되었습니다. 원본: The 2015-16 Budget is now avai...",
     "link": "https://data.sa.gov.au/",
     "title": "Budget 2015-16 Tables and Data"
+  },
+  {
+    "id": 20,
+    "name": "Waste Management",
+    "category": "생활/환경",
+    "startDate": "2012-01-01",
+    "endDate": "2015-12-31",
+    "location": "Adelaide & North Adelaide",
+    "target": "해당 없음",
+    "summary": "쓰레기, 재활용품, 유기물, 대형 폐기물, 전자 폐기물 등 분류별 수거된 폐기물(톤 및 쓰레기통 수) 데이터를 제공합니다.",
+    "link": "https://s3.ap-southeast-2.amazonaws.com/dmzweb.adelaidecitycouncil.com/OpenData/Waste_Management/Waste_Management.csv",
+    "title": "Waste Management"
   }
 ]
