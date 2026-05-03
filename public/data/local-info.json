@@ -233,5 +233,17 @@
     "summary": "쓰레기, 재활용품, 유기물, 대형 폐기물, 전자 폐기물 등 분류별 수거된 폐기물(톤 및 쓰레기통 수) 데이터를 제공합니다.",
     "link": "https://s3.ap-southeast-2.amazonaws.com/dmzweb.adelaidecitycouncil.com/OpenData/Waste_Management/Waste_Management.csv",
     "title": "Waste Management"
+  },
+  {
+    "id": 21,
+    "name": "NSW Department of Tourism, Sport and Recreation Annual Report 2003-04",
+    "category": "관광/여가",
+    "startDate": "2021-09-08",
+    "endDate": "상시",
+    "location": "NSW Department of Tourism, Sport and Recreation",
+    "target": "모든 시민",
+    "summary": "뉴사우스웨일스 관광, 스포츠 및 레크리에이션 부서의 2003-04 회계연도 연례 보고서",
+    "link": "https://data.nsw.gov.au/data/dataset/c85825d2-5f04-435a-8303-3afd2786c24a/resource/5ea707e4-9284-46e2-93b4-be3ff5ae02e6/download/document_11499.pdf",
+    "title": "NSW Department of Tourism, Sport and Recreation Annual Report 2003-04"
   }
 ]
