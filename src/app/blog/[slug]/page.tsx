@@ -13,14 +13,32 @@ export async function generateMetadata(
   const resolvedParams = await params;
   const postData = getPostData(resolvedParams.slug);
   if (!postData) return {};
+
+  const fullUrl = `https://my-local-info-6ul.pages.dev/blog/${postData.slug}`;
+  const keywords = [
+    ...(postData.tags || []),
+    '애들레이드', '남호주', 'Adelaide', 'South Australia',
+    postData.category || '',
+  ].filter(Boolean);
+
   return {
     title: `${postData.title} | 애들레이드 생활 정보`,
     description: postData.summary,
+    keywords,
+    alternates: { canonical: fullUrl },
     openGraph: {
       title: postData.title,
       description: postData.summary,
       type: 'article',
       publishedTime: postData.date,
+      url: fullUrl,
+      siteName: '애들레이드 생활 정보',
+      locale: 'ko_KR',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: postData.title,
+      description: postData.summary,
     },
   };
 }
@@ -49,14 +67,24 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
               "@type": "BlogPosting",
               "headline": postData.title,
               "datePublished": postData.date,
+              "dateModified": postData.date,
               "description": postData.summary,
+              "inLanguage": "ko",
+              "keywords": (postData.tags || []).join(", "),
+              "url": `https://my-local-info-6ul.pages.dev/blog/${postData.slug}`,
+              "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": `https://my-local-info-6ul.pages.dev/blog/${postData.slug}`
+              },
               "author": {
                 "@type": "Organization",
-                "name": "애들레이드 생활 정보"
+                "name": "애들레이드 생활 정보",
+                "url": "https://my-local-info-6ul.pages.dev"
               },
               "publisher": {
                 "@type": "Organization",
-                "name": "애들레이드 생활 정보"
+                "name": "애들레이드 생활 정보",
+                "url": "https://my-local-info-6ul.pages.dev"
               }
             },
             {
@@ -82,6 +110,11 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
                   "item": `https://my-local-info-6ul.pages.dev/blog/${postData.slug}`
                 }
               ]
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "name": postData.title
             }
           ])
         }}

@@ -20,17 +20,31 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "애들레이드 생활 정보 | 행사·혜택·지원금 안내",
-  description: "애들레이드(Adelaide) 주민을 위한 지역 행사, 축제, 지원금, 혜택 정보를 매일 업데이트합니다.",
-  keywords: ["애들레이드", "Adelaide", "사우스오스트레일리아", "남호주", "South Australia", "애들레이드 생활", "애들레이드 정보", "애들레이드 행사", "애들레이드 여행", "호주 워홀", "호주 이민", "호주 정부 지원금"],
+  title: "애들레이드 생활 정보 | 호주 남호주 교민·유학생·워홀 필수 가이드",
+  description: "애들레이드(Adelaide) 교민, 유학생, 워홀러를 위한 이민 정착, 운전면허, 의료, 학교, 렌트, 여행 생활 정보. 남호주(South Australia) 최신 행사·혜택·지원금을 매일 업데이트합니다.",
+  keywords: [
+    "애들레이드", "Adelaide", "남호주", "South Australia", "애들레이드 생활",
+    "애들레이드 정보", "애들레이드 이민", "애들레이드 유학", "호주 워홀", "호주 이민",
+    "호주 정착", "애들레이드 렌트", "애들레이드 학교", "호주 Medicare", "남호주 운전면허",
+    "바로사밸리", "캥거루아일랜드", "애들레이드 행사", "호주 생활비", "호주 필수앱",
+    "Adelaide living", "South Australia guide", "Adelaide expat", "Korean Adelaide"
+  ],
   robots: "index, follow",
+  alternates: {
+    canonical: "https://my-local-info-6ul.pages.dev",
+  },
   openGraph: {
-    title: "애들레이드 생활 정보 | 행사·혜택·지원금 안내",
-    description: "애들레이드(Adelaide) 주민을 위한 지역 행사, 축제, 지원금, 혜택 정보를 매일 업데이트합니다.",
+    title: "애들레이드 생활 정보 | 호주 남호주 교민·유학생·워홀 필수 가이드",
+    description: "애들레이드(Adelaide) 교민, 유학생, 워홀러를 위한 이민 정착, 운전면허, 의료, 학교, 렌트, 여행 생활 정보. 남호주 최신 행사·혜택을 매일 업데이트.",
     url: "https://my-local-info-6ul.pages.dev",
     siteName: "애들레이드 생활 정보",
     locale: "ko_KR",
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "애들레이드 생활 정보 | 남호주 교민·유학생 필수 가이드",
+    description: "애들레이드 이민·정착·여행 실전 가이드. 남호주 생활 정보를 매일 업데이트합니다.",
   },
 };
 

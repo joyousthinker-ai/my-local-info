@@ -1,11 +1,50 @@
 import Link from 'next/link';
 import { getSortedPostsData } from '@/lib/posts';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "남호주 애들레이드 생활 블로그 | 이민·정착·여행 실전 가이드",
+  description: "남호주 애들레이드 유학, 워홀, 이민에 필요한 모든 정보. 운전면허 교환, Medicare, 렌트, 학교, 바로사밸리, 콗거루아일랜드 여행까지 함쳐 담았습니다.",
+  keywords: [
+    "애들레이드 블로그", "남호주 생활", "호주 이민 가이드", "호주 워홀 정보",
+    "Adelaide blog", "South Australia life", "애들레이드 유학", "남호주 여행"
+  ],
+  alternates: {
+    canonical: "https://my-local-info-6ul.pages.dev/blog",
+  },
+  openGraph: {
+    title: "남호주 애들레이드 생활 블로그",
+    description: "남호주 애들레이드 유학, 워홀, 이민 필수 실전 정보 모음.",
+    url: "https://my-local-info-6ul.pages.dev/blog",
+    type: "website",
+  },
+};
 
 export default function BlogList() {
   const posts = getSortedPostsData();
 
   return (
     <div className="min-h-screen bg-amber-50 text-slate-800 font-sans py-12 px-4 selection:bg-orange-200">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Blog",
+            "name": "애들레이드 생활 정보 블로그",
+            "description": "남호주 애들레이드 교민, 유학생, 워홀러를 위한 생활 가이드 블로그",
+            "url": "https://my-local-info-6ul.pages.dev/blog",
+            "inLanguage": "ko",
+            "blogPost": posts.slice(0, 10).map(post => ({
+              "@type": "BlogPosting",
+              "headline": post.title,
+              "description": post.summary,
+              "datePublished": post.date,
+              "url": `https://my-local-info-6ul.pages.dev/blog/${post.slug}`,
+            }))
+          })
+        }}
+      />
       <main className="max-w-4xl mx-auto space-y-8">
         <header className="flex items-center justify-between mb-10">
           <h1 className="text-4xl font-extrabold text-orange-950">📝 블로그</h1>
