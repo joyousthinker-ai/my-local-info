@@ -257,5 +257,17 @@
     "summary": "2019년 4월 기준 남호주 교육 및 보육 시설 목록",
     "link": "https://data.sa.gov.au/data/dataset/8ad2e5bd-b69e-4162-8265-ce609090cd90",
     "title": "South Australian Government Education and Child Development Sites and Services, as at April 2019"
+  },
+  {
+    "id": 23,
+    "name": "National Cycling Participation Survey - Lake Macquarie City Council",
+    "category": "교통",
+    "startDate": "2026-05-05",
+    "endDate": "상시",
+    "location": "Lake Macquarie City Council",
+    "target": "전체 시민",
+    "summary": "이 데이터는 실제 내용 대신 테스트용으로 요약되었습니다. 원본: The objective of the National ...",
+    "link": "https://data.sa.gov.au/",
+    "title": "National Cycling Participation Survey - Lake Macquarie City Council"
   }
 ]
