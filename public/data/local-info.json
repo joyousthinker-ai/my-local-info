@@ -281,5 +281,17 @@
     "summary": "이 데이터는 실제 내용 대신 테스트용으로 요약되었습니다. 원본: The Limestone Coast Local Heal...",
     "link": "https://data.sa.gov.au/",
     "title": "Limestone Coast Local Health Network (LCLHN)"
+  },
+  {
+    "id": 25,
+    "name": "Planning Zones and Policy Areas",
+    "category": "주거/부동산",
+    "startDate": "2026-05-07",
+    "endDate": "상시",
+    "location": "City of Adelaide",
+    "target": "전체 시민",
+    "summary": "이 데이터는 실제 내용 대신 테스트용으로 요약되었습니다. 원본: Provides locations and details...",
+    "link": "https://data.sa.gov.au/",
+    "title": "Planning Zones and Policy Areas"
   }
 ]
