@@ -293,5 +293,17 @@
     "summary": "이 데이터는 실제 내용 대신 테스트용으로 요약되었습니다. 원본: Provides locations and details...",
     "link": "https://data.sa.gov.au/",
     "title": "Planning Zones and Policy Areas"
+  },
+  {
+    "id": 26,
+    "name": "Food and Beverage Scorecard",
+    "category": "경제/취업",
+    "startDate": "1999-01-01",
+    "endDate": "2012-12-31",
+    "location": "South Australia",
+    "target": "남호주 식음료 산업",
+    "summary": "남호주 식음료 점수표는 1999년부터 2012년까지 생산에서 소비에 이르는 식음료 산업이 남호주 경제에 기여한 바를 평가하는 중요한 데이터입니다.",
+    "link": "https://data.sa.gov.au/data/dataset/09c3bfd1-e1e9-4148-907d-b7abfee137c7",
+    "title": "Food and Beverage Scorecard"
   }
 ]
