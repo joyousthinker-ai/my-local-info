@@ -305,5 +305,17 @@
     "summary": "남호주 식음료 점수표는 1999년부터 2012년까지 생산에서 소비에 이르는 식음료 산업이 남호주 경제에 기여한 바를 평가하는 중요한 데이터입니다.",
     "link": "https://data.sa.gov.au/data/dataset/09c3bfd1-e1e9-4148-907d-b7abfee137c7",
     "title": "Food and Beverage Scorecard"
+  },
+  {
+    "id": 27,
+    "name": "Recycling Collection Areas",
+    "category": "생활/환경",
+    "startDate": "2019-09-02",
+    "endDate": "상시",
+    "location": "City of Port Adelaide Enfield",
+    "target": "해당 지역 주민",
+    "summary": "포트 애들레이드 엔필드 시의 재활용품 수거 구역에 대한 정보를 제공합니다. 각 수거 구역은 요일 및 격주 수거 일정에 따라 구분되며, 공간 데이터와 CSV 파일을 통해 상세 수거 날짜를 확인할 수 있습니다.",
+    "link": "https://gisdata-portenf.opendata.arcgis.com/datasets/recycling-collection-areas",
+    "title": "Recycling Collection Areas"
   }
 ]
