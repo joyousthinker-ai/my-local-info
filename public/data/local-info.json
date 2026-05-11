@@ -329,5 +329,17 @@
     "summary": "NSW 관광, 스포츠 및 레크리에이션 부서의 2004-2005년 연간 보고서입니다. 데이터는 2021년 9월 8일부터 제공됩니다.",
     "link": "https://data.nsw.gov.au/data/dataset/1367ee1b-ef25-4ea6-94be-3065579bf5a3/resource/1f5f9fd3-48aa-4507-9d2b-30a3e3927c4d/download/document_12076.pdf",
     "title": "NSW Department of Tourism, Sport and Recreation Annual Report 2004-2005"
+  },
+  {
+    "id": 29,
+    "name": "Department of Education Annual Report 2017",
+    "category": "교육/도서관",
+    "startDate": "2024-05-15",
+    "endDate": "상시",
+    "location": "Department of Education and Communities",
+    "target": "교육 기관 및 관련 이해관계자",
+    "summary": "이 연례 보고서에는 공립학교, 유아 교육 및 원주민 관련 정보가 담겨 있습니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/57993795-b57d-4aa4-b0a9-b46310b9fb58/resource/2190a20c-7872-4edf-bd33-449762ee2be7/download/doeannualreport2017.access_17326.pdf",
+    "title": "Department of Education Annual Report 2017"
   }
 ]
