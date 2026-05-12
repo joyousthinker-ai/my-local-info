@@ -341,5 +341,17 @@
     "summary": "이 연례 보고서에는 공립학교, 유아 교육 및 원주민 관련 정보가 담겨 있습니다.",
     "link": "https://data.nsw.gov.au/data/dataset/57993795-b57d-4aa4-b0a9-b46310b9fb58/resource/2190a20c-7872-4edf-bd33-449762ee2be7/download/doeannualreport2017.access_17326.pdf",
     "title": "Department of Education Annual Report 2017"
+  },
+  {
+    "id": 30,
+    "name": "Road Transport and Tramway Annual Report 1946-47",
+    "category": "교통/인프라",
+    "startDate": "2021-09-08",
+    "endDate": "상시",
+    "location": "Department of Road Transport and Tramways",
+    "target": "일반 대중, 연구자",
+    "summary": "NSW 도로 교통 및 트램 부서의 1946-47년 연례 보고서로, 해당 연도의 운영 정보를 담고 있습니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/7fdb266c-d76e-43f2-9db7-1842b6d52701/resource/e601e5d7-5cad-4e00-808e-d7a6692a097d/download/rtt_1946_47_16046.pdf",
+    "title": "Road Transport and Tramway Annual Report 1946-47"
   }
 ]
