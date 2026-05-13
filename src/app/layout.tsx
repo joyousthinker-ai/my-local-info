@@ -96,7 +96,7 @@ export default function RootLayout({
         <footer className="w-full py-6 text-center text-slate-500 text-sm bg-slate-50 border-t border-slate-100">
           <div className="flex justify-center items-center gap-3 mb-2">
             <img
-              src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fmy-local-info-6ul.pages.dev&count_bg=%23F97316&title_bg=%23334155&icon=&icon_color=%23E7E7E7&title=Visitors&edge_flat=true"
+              src="https://visitor-badge.laobi.icu/badge?page_id=my-local-info-6ul.pages.dev"
               alt="방문자 수"
               className="h-5"
             />

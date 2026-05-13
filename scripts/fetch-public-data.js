@@ -53,7 +53,7 @@ async function main() {
 
     // [2단계] South Australia 공공데이터 API에서 주제별 데이터 가져오기
     const encodedKeyword = encodeURIComponent(todayTopic.keyword);
-    const apiUrl = `https://data.sa.gov.au/data/api/3/action/package_search?q=${encodedKeyword}&rows=30`;
+    const apiUrl = `https://data.sa.gov.au/data/api/3/action/package_search?q=${encodedKeyword}&rows=100`;
     const fetchOptions = { headers: {} };
     
     if (PUBLIC_DATA_API_KEY && PUBLIC_DATA_API_KEY !== '필요시 나중에_입력') {
@@ -67,8 +67,9 @@ async function main() {
     }
 
     const apiData = await apiRes.json();
-    const results = apiData.result?.results || [];
-    console.log(`📥 API에서 ${results.length}개 데이터 수신`);
+    let results = apiData.result?.results || [];
+    results = results.sort(() => Math.random() - 0.5);
+    console.log(`📥 API에서 ${results.length}개 데이터 수신 (무작위 섞음)`);
 
     // [3단계] 기존 데이터와 비교
     const localDataPath = path.join(process.cwd(), 'public', 'data', 'local-info.json');
