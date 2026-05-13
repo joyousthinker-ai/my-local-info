@@ -353,5 +353,17 @@
     "summary": "NSW 도로 교통 및 트램 부서의 1946-47년 연례 보고서로, 해당 연도의 운영 정보를 담고 있습니다.",
     "link": "https://data.nsw.gov.au/data/dataset/7fdb266c-d76e-43f2-9db7-1842b6d52701/resource/e601e5d7-5cad-4e00-808e-d7a6692a097d/download/rtt_1946_47_16046.pdf",
     "title": "Road Transport and Tramway Annual Report 1946-47"
+  },
+  {
+    "id": 31,
+    "name": "Women’s and Children’s Health Network (WCHN)",
+    "category": "건강/의료",
+    "startDate": "2012-07-01",
+    "endDate": "상시",
+    "location": "South Australia",
+    "target": "사우스오스트레일리아의 영유아, 청소년 및 여성",
+    "summary": "WCHN(여성 및 아동 건강 네트워크)은 사우스오스트레일리아의 영유아, 청소년, 여성을 위한 전문 의료 및 건강 서비스 제공 기관입니다. WCHN은 소비자와 가족, 지역사회 및 다른 서비스 제공자와 협력하여 건강 증진, 유지 및 회복을 위해 노력합니다. 이 서비스는 여성 및 아동 병원과 아동청소년 정신 건강 서비스, 아동 및 가족 건강 서비스, 아동 보호 서비스, 아동 장애 서비스, 청소년 건강 서비스, 여성 건강 서비스, 헬렌 마요 하우스, 야로우 플레이스 강간 및 성폭행 서비스 등을 포함한 지역사회 기반 서비스로 구성됩니다.",
+    "link": "https://data.sa.gov.au/data/dataset/f4581d98-12be-4686-b984-beefafd589a1",
+    "title": "Women’s and Children’s Health Network (WCHN)"
   }
 ]
