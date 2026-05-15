@@ -377,5 +377,17 @@
     "summary": "애들레이드 시 중심부 인구 증가를 위한 거주 시장 연구. 주요 시장 세그먼트, 거주 인식, 제품 선호도, 경쟁 환경 등을 분석했으며, 조사 보고서와 원본 데이터를 제공하여 개발 커뮤니티 등이 활용할 수 있도록 함.",
     "link": "https://data.sa.gov.au/data/dataset/de8a85fc-53b3-45f8-9282-99ef9c5b5056",
     "title": "Adelaide City Living Market Research"
+  },
+  {
+    "id": 33,
+    "name": "Regional profile Southern Adelaide",
+    "category": "경제/취업",
+    "startDate": "2011-07-01",
+    "endDate": "2016-06-30",
+    "location": "Southern Adelaide",
+    "target": "지역 경제에 관심 있는 일반인, 연구자, 정책 입안자",
+    "summary": "남부 애들레이드 지역의 국내총생산(GRP), 고용, 가계 소득 및 지출, 무역에 대한 추정치를 담은 지역 프로필 테이블입니다.",
+    "link": "https://data.sa.gov.au/data/dataset/regional-profile-southern-adelaide-2011-12",
+    "title": "Regional profile Southern Adelaide"
   }
 ]
