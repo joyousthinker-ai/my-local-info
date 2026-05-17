@@ -212,7 +212,7 @@ async function main() {
 
 아래 형식으로 출력해줘. 반드시 이 형식만 출력하고 다른 텍스트는 없이:
 ---
-title: (구체적이고 검색에 유리한 제목)
+title: "(구체적이고 검색에 유리한 제목)"
 date: ${todayString}
 summary: (한 줄 요약)
 category: ${itemCategory || '생활정보'}

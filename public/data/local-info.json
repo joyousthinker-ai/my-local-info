@@ -380,14 +380,14 @@
   },
   {
     "id": 33,
-    "name": "Regional profile Southern Adelaide",
+    "name": "Government Gazette of the State of New South Wales Week No. 43/2013",
     "category": "경제/취업",
-    "startDate": "2011-07-01",
-    "endDate": "2016-06-30",
-    "location": "Southern Adelaide",
-    "target": "지역 경제에 관심 있는 일반인, 연구자, 정책 입안자",
-    "summary": "남부 애들레이드 지역의 국내총생산(GRP), 고용, 가계 소득 및 지출, 무역에 대한 추정치를 담은 지역 프로필 테이블입니다.",
-    "link": "https://data.sa.gov.au/data/dataset/regional-profile-southern-adelaide-2011-12",
-    "title": "Regional profile Southern Adelaide"
+    "startDate": "2021-09-08",
+    "endDate": "상시",
+    "location": "New South Wales",
+    "target": "뉴사우스웨일스 주 주민 전체",
+    "summary": "2013년 제43주 뉴사우스웨일스 주정부 관보로, 정부의 공식 발표 및 법적 고지사항을 포함합니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/nsw-3-12880-government-gazette-of-the-state-of-new-south-wales-week-no-43-2013",
+    "title": "Government Gazette of the State of New South Wales Week No. 43/2013"
   }
 ]
