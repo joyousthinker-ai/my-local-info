@@ -389,5 +389,17 @@
     "summary": "2013년 제43주 뉴사우스웨일스 주정부 관보로, 정부의 공식 발표 및 법적 고지사항을 포함합니다.",
     "link": "https://data.nsw.gov.au/data/dataset/nsw-3-12880-government-gazette-of-the-state-of-new-south-wales-week-no-43-2013",
     "title": "Government Gazette of the State of New South Wales Week No. 43/2013"
+  },
+  {
+    "id": 34,
+    "name": "NSW Commission for Children & Young People Annual Report 2008-2009",
+    "category": "건강/의료",
+    "startDate": "2008-07-01",
+    "endDate": "2009-06-30",
+    "location": "NSW Government",
+    "target": "어린이 및 청소년",
+    "summary": "NSW 어린이 및 청소년 위원회의 2008-2009년 연간 활동 보고서",
+    "link": "https://data.nsw.gov.au/data/dataset/nsw-3-10091-nsw-commission-for-children-young-people-annual-report-2008-2009",
+    "title": "NSW Commission for Children & Young People Annual Report 2008-2009"
   }
 ]
