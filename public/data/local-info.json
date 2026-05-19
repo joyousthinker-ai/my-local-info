@@ -401,5 +401,17 @@
     "summary": "NSW 어린이 및 청소년 위원회의 2008-2009년 연간 활동 보고서",
     "link": "https://data.nsw.gov.au/data/dataset/nsw-3-10091-nsw-commission-for-children-young-people-annual-report-2008-2009",
     "title": "NSW Commission for Children & Young People Annual Report 2008-2009"
+  },
+  {
+    "id": 35,
+    "name": "Sydney Park Junction walking, cycling and public domain improvements : submissions report",
+    "category": "교통/인프라",
+    "startDate": "2022-05-10",
+    "endDate": "상시",
+    "location": "Sydney Park Junction",
+    "target": "일반 시민",
+    "summary": "시드니 파크 교차로의 보행자, 자전거 이용자 및 공공 구역 개선 프로젝트에 대한 의견 제출 보고서입니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/f126db19-c150-40ae-9054-c35f15964652/resource/f1a7ae8b-3f97-4935-839d-6ff89184b447/download/173676_20067.pdf",
+    "title": "Sydney Park Junction walking, cycling and public domain improvements : submissions report"
   }
 ]
