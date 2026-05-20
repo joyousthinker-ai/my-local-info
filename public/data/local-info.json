@@ -413,5 +413,17 @@
     "summary": "시드니 파크 교차로의 보행자, 자전거 이용자 및 공공 구역 개선 프로젝트에 대한 의견 제출 보고서입니다.",
     "link": "https://data.nsw.gov.au/data/dataset/f126db19-c150-40ae-9054-c35f15964652/resource/f1a7ae8b-3f97-4935-839d-6ff89184b447/download/173676_20067.pdf",
     "title": "Sydney Park Junction walking, cycling and public domain improvements : submissions report"
+  },
+  {
+    "id": 36,
+    "name": "The NSW NDIS and Mental Health Analysis Partnership Project",
+    "category": "건강/의료",
+    "startDate": "2013-07-01",
+    "endDate": "상시",
+    "location": "Mental Health Commission of NSW, Hunter NDIS site",
+    "target": "중증 및 지속적인 정신 질환으로 인한 정신사회적 장애를 가진 사람",
+    "summary": "NSW 정신 건강 위원회와 정신 건강 조정 위원회(MHCC)의 파트너십 프로젝트로, 헌터 NDIS 현장에 담당자를 배치하여 중증 정신 질환으로 인한 정신사회적 장애를 가진 사람들을 위한 NDIS 운영에 대한 초기 통찰력을 제공합니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/nsw-3-15850-the-nsw-ndis-and-mental-health-analysis-partnership-project",
+    "title": "The NSW NDIS and Mental Health Analysis Partnership Project"
   }
 ]
