@@ -425,5 +425,17 @@
     "summary": "NSW 정신 건강 위원회와 정신 건강 조정 위원회(MHCC)의 파트너십 프로젝트로, 헌터 NDIS 현장에 담당자를 배치하여 중증 정신 질환으로 인한 정신사회적 장애를 가진 사람들을 위한 NDIS 운영에 대한 초기 통찰력을 제공합니다.",
     "link": "https://data.nsw.gov.au/data/dataset/nsw-3-15850-the-nsw-ndis-and-mental-health-analysis-partnership-project",
     "title": "The NSW NDIS and Mental Health Analysis Partnership Project"
+  },
+  {
+    "id": 37,
+    "name": "New South Wales Medical Board Annual Report 2010",
+    "category": "건강/의료",
+    "startDate": "2021-09-08",
+    "endDate": "상시",
+    "location": "New South Wales Medical Board",
+    "target": "일반 대중",
+    "summary": "뉴사우스웨일스 의료 위원회의 2010년 연례 보고서입니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/42940f59-4a78-4168-a700-14f01968a0c6/resource/fd643dc4-feff-4589-aac9-55e47efd2ded/download/document_12071.pdf",
+    "title": "New South Wales Medical Board Annual Report 2010"
   }
 ]
