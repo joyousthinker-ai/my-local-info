@@ -437,5 +437,17 @@
     "summary": "뉴사우스웨일스 의료 위원회의 2010년 연례 보고서입니다.",
     "link": "https://data.nsw.gov.au/data/dataset/42940f59-4a78-4168-a700-14f01968a0c6/resource/fd643dc4-feff-4589-aac9-55e47efd2ded/download/document_12071.pdf",
     "title": "New South Wales Medical Board Annual Report 2010"
+  },
+  {
+    "id": 38,
+    "name": "Residential Broadhectare Land",
+    "category": "주거/부동산",
+    "startDate": "2015-06-30",
+    "endDate": "2015-06-30",
+    "location": "Greater Adelaide Region 및 일부 농촌 지역 (South Australia)",
+    "target": "도시 개발 계획 및 관련 기관",
+    "summary": "애들레이드 광역권 및 일부 농촌 지역에서 장기적인 도시 개발 가능성이 있는 4,000제곱미터 이상의 주거용 광활지 토지 공급 현황을 모니터링하는 데이터셋입니다. 이 데이터셋은 연간 주거용 광활지 토지 공급 보고서의 기초 자료로 활용됩니다.",
+    "link": "http://www.sa.gov.au/topics/property-and-land/planning-and-land-management/planning-data-for-research-and-mapping/land-supply-monitoring#title1",
+    "title": "Residential Broadhectare Land"
   }
 ]
