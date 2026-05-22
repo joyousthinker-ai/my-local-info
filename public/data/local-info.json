@@ -449,5 +449,17 @@
     "summary": "애들레이드 광역권 및 일부 농촌 지역에서 장기적인 도시 개발 가능성이 있는 4,000제곱미터 이상의 주거용 광활지 토지 공급 현황을 모니터링하는 데이터셋입니다. 이 데이터셋은 연간 주거용 광활지 토지 공급 보고서의 기초 자료로 활용됩니다.",
     "link": "http://www.sa.gov.au/topics/property-and-land/planning-and-land-management/planning-data-for-research-and-mapping/land-supply-monitoring#title1",
     "title": "Residential Broadhectare Land"
+  },
+  {
+    "id": 39,
+    "name": "Regional profile Southern Adelaide",
+    "category": "경제/취업",
+    "startDate": "2011-07-01",
+    "endDate": "2016-06-30",
+    "location": "남부 애들레이드 (South Australia)",
+    "target": "지역 경제 및 통계에 관심 있는 일반인/연구자",
+    "summary": "남부 애들레이드 지역의 총 지역 생산, 고용, 가계 소득 및 지출, 무역에 대한 추정치를 담은 지역 프로필 테이블입니다.",
+    "link": "https://data.sa.gov.au/data/dataset/regional-profile-southern-adelaide-2011-12",
+    "title": "Regional profile Southern Adelaide"
   }
 ]
