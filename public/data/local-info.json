@@ -461,5 +461,17 @@
     "summary": "남부 애들레이드 지역의 총 지역 생산, 고용, 가계 소득 및 지출, 무역에 대한 추정치를 담은 지역 프로필 테이블입니다.",
     "link": "https://data.sa.gov.au/data/dataset/regional-profile-southern-adelaide-2011-12",
     "title": "Regional profile Southern Adelaide"
+  },
+  {
+    "id": 40,
+    "name": "Zero Waste SA Recycle Right search engine",
+    "category": "생활/환경",
+    "startDate": "2023-10-27",
+    "endDate": "상시",
+    "location": "South Australia",
+    "target": "사우스 오스트레일리아 주민 및 사업체",
+    "summary": "사우스 오스트레일리아에서 원치 않는 품목을 재활용하는 방법과 장소(수거함, 재활용 센터 및 폐기물 처리장 등)에 대한 상세 정보를 제공합니다.",
+    "link": "https://www.zerowaste.sa.gov.au/at-home/recycle-right",
+    "title": "Zero Waste SA Recycle Right search engine"
   }
 ]
