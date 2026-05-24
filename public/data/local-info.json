@@ -473,5 +473,17 @@
     "summary": "사우스 오스트레일리아에서 원치 않는 품목을 재활용하는 방법과 장소(수거함, 재활용 센터 및 폐기물 처리장 등)에 대한 상세 정보를 제공합니다.",
     "link": "https://www.zerowaste.sa.gov.au/at-home/recycle-right",
     "title": "Zero Waste SA Recycle Right search engine"
+  },
+  {
+    "id": 41,
+    "name": "NSW Office of Environment and Heritage Annual Report 2018-19",
+    "category": "생활/환경",
+    "startDate": "2018-07-01",
+    "endDate": "2019-06-30",
+    "location": "Office of Environment and Heritage (NSW Government)",
+    "target": "모든 시민",
+    "summary": "뉴사우스웨일스 환경유산청의 2018-19 회계연도 연례 보고서입니다. 환경유산청의 활동 및 성과를 담고 있으며, NSW 정부 데이터 포털을 통해 PDF 형식으로 제공됩니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/410a33ca-22f8-4f86-87e0-726e7f6f6c6e/resource/e5e01380-ca6e-4859-801d-9544c98941e9/download/tab_6_oeh_annual_report_2018_19_18569.pdf",
+    "title": "NSW Office of Environment and Heritage Annual Report 2018-19"
   }
 ]
