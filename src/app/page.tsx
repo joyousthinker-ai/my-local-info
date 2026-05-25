@@ -79,6 +79,7 @@ export default async function Home() {
           <nav className="flex space-x-1 sm:space-x-4 bg-slate-100 p-1 rounded-xl">
              <Link href="/" className="px-5 py-2 rounded-lg text-sm font-bold bg-white text-orange-600 shadow-sm transition-all">홈</Link>
              <Link href="/blog" className="px-5 py-2 rounded-lg text-sm font-bold text-slate-600 hover:text-orange-500 transition-all">블로그</Link>
+             <Link href="/board" className="px-5 py-2 rounded-lg text-sm font-bold text-slate-600 hover:text-orange-500 transition-all">게시판</Link>
              <Link href="/about" className="px-5 py-2 rounded-lg text-sm font-bold text-slate-600 hover:text-orange-500 transition-all">소개</Link>
           </nav>
         </div>
@@ -230,6 +231,47 @@ export default async function Home() {
           </div>
         </div>
 
+        {/* 자유게시판 홍보 섹션 */}
+        <section className="mt-20">
+          <div className="relative group">
+            <div className="absolute -inset-1 bg-gradient-to-r from-violet-500 to-purple-400 rounded-3xl blur opacity-20 group-hover:opacity-30 transition duration-1000"></div>
+            <div className="relative bg-gradient-to-r from-violet-600 to-purple-500 rounded-3xl p-10 flex flex-col md:flex-row items-center justify-between gap-8 overflow-hidden">
+              {/* 배경 장식 */}
+              <div className="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full -translate-y-1/2 translate-x-1/2"></div>
+              <div className="absolute bottom-0 left-20 w-32 h-32 bg-white/5 rounded-full translate-y-1/2"></div>
+              
+              <div className="relative text-white">
+                <div className="flex items-center gap-3 mb-4">
+                  <span className="w-10 h-10 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center text-2xl">💬</span>
+                  <span className="text-sm font-black bg-white/20 px-3 py-1 rounded-full uppercase tracking-wider">Community</span>
+                </div>
+                <h3 className="text-3xl font-black mb-3 leading-tight">자유게시판에서<br />함께 이야기해요!</h3>
+                <p className="text-white/80 text-sm leading-relaxed max-w-sm">
+                  애들레이드 생활 꿀팁, 맛집 리뷰, 질문과 답변까지<br />
+                  모든 이야기를 자유롭게 나눌 수 있어요. 😊
+                </p>
+                <div className="flex flex-wrap gap-2 mt-4">
+                  {['🙋 질문·답변', '⭐ 장소 리뷰', '📢 정보 공유', '🤝 같이해요'].map(tag => (
+                    <span key={tag} className="text-xs font-bold bg-white/15 px-3 py-1.5 rounded-full">{tag}</span>
+                  ))}
+                </div>
+              </div>
+              
+              <div className="relative flex-shrink-0">
+                <Link
+                  href="/board"
+                  className="inline-flex items-center gap-2 px-8 py-4 bg-white text-violet-600 font-black rounded-2xl shadow-lg hover:bg-violet-50 transition-all hover:-translate-y-0.5 hover:shadow-xl text-sm"
+                >
+                  게시판 바로가기
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                  </svg>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </section>
+
       </main>
 
       <footer className="bg-slate-900 py-16 text-slate-400 px-6 mt-20">
@@ -243,6 +285,7 @@ export default async function Home() {
             <p className="text-sm text-slate-500 mb-6 italic text-left md:text-right">💡 본 사이트는 공공데이터를 기반으로<br />AI와 협력하여 제작되었습니다.</p>
             <div className="flex space-x-4">
               <Link href="/blog" className="text-xs font-black hover:text-white transition-colors">BLOG</Link>
+              <Link href="/board" className="text-xs font-black hover:text-white transition-colors">게시판</Link>
               <Link href="/about" className="text-xs font-black hover:text-white transition-colors">ABOUT</Link>
               <Link href="/" className="text-xs font-black hover:text-white transition-colors">HOME</Link>
             </div>
