@@ -485,5 +485,17 @@
     "summary": "뉴사우스웨일스 환경유산청의 2018-19 회계연도 연례 보고서입니다. 환경유산청의 활동 및 성과를 담고 있으며, NSW 정부 데이터 포털을 통해 PDF 형식으로 제공됩니다.",
     "link": "https://data.nsw.gov.au/data/dataset/410a33ca-22f8-4f86-87e0-726e7f6f6c6e/resource/e5e01380-ca6e-4859-801d-9544c98941e9/download/tab_6_oeh_annual_report_2018_19_18569.pdf",
     "title": "NSW Office of Environment and Heritage Annual Report 2018-19"
+  },
+  {
+    "id": 42,
+    "name": "Wollongong City Council Annual Report 2000-2001",
+    "category": "생활/환경",
+    "startDate": "2000-07-01",
+    "endDate": "2001-06-30",
+    "location": "Wollongong City Council",
+    "target": "일반 대중 및 이해관계자",
+    "summary": "울릉공 시의회의 2000-2001 회계연도 연간 보고서입니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/64ca8091-fd75-4fe4-916b-de76126d44bd/resource/754cf117-5319-4fba-9a31-4d56126d44bd/download/wollongong_city_council___annual_report_2000_2001_18679.pdf",
+    "title": "Wollongong City Council Annual Report 2000-2001"
   }
 ]
