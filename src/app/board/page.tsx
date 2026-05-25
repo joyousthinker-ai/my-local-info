@@ -4,8 +4,18 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '자유게시판 | 애들레이드 생활 정보',
-  description: '애들레이드에 사는 교민, 유학생, 워홀러들이 자유롭게 의견을 나누고 정보를 공유하는 공간입니다.',
+  description: '애들레이드에 사는 교민, 유학생, 워홀러들이 자유롭게 의견을 나누고 맛집, 중고장터, 팁 등 생활 정보를 공유하는 커뮤니티 공간입니다.',
+  keywords: ['애들레이드 자유게시판', '애들레이드 교민 커뮤니티', '남호주 한인 커뮤니티', '애들레이드 생활 질문', '애들레이드 중고장터'],
   robots: 'index, follow',
+  alternates: {
+    canonical: 'https://my-local-info-6ul.pages.dev/board',
+  },
+  openGraph: {
+    title: '자유게시판 | 애들레이드 생활 정보',
+    description: '애들레이드 교민과 워홀러가 자유롭게 의견과 리뷰를 나누는 공간입니다.',
+    url: 'https://my-local-info-6ul.pages.dev/board',
+    type: 'website',
+  },
 };
 
 export default function BoardPage() {

@@ -37,6 +37,12 @@ export default function sitemap() {
       changeFrequency: 'monthly' as const,
       priority: 0.5,
     },
+    {
+      url: `${baseUrl}/board`,
+      lastModified: new Date(),
+      changeFrequency: 'always' as const,
+      priority: 0.8,
+    },
     ...blogPosts,
   ];
 }
