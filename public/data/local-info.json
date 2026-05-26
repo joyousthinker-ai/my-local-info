@@ -497,5 +497,17 @@
     "summary": "울릉공 시의회의 2000-2001 회계연도 연간 보고서입니다.",
     "link": "https://data.nsw.gov.au/data/dataset/64ca8091-fd75-4fe4-916b-de76126d44bd/resource/754cf117-5319-4fba-9a31-4d56126d44bd/download/wollongong_city_council___annual_report_2000_2001_18679.pdf",
     "title": "Wollongong City Council Annual Report 2000-2001"
+  },
+  {
+    "id": 43,
+    "name": "Trip generation surveys, schools : analysis report",
+    "category": "교통/인프라",
+    "startDate": "2021-09-08",
+    "endDate": "상시",
+    "location": "NSW 지역 학교",
+    "target": "NSW 지역 학교 및 이용자",
+    "summary": "NSW RMS가 의뢰한 학교 통행 발생량 및 주차율 분석 보고서로, 학교 이용자들의 통행 패턴과 대중교통 접근성 및 주차 시설 이용 현황을 평가합니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/dc1546d1-dcdd-4d1b-bb3d-f6d67d62bc6e/resource/baeb1e56-1164-4e25-922c-d1bb35c4e147/download/153916_17479.pdf",
+    "title": "Trip generation surveys, schools : analysis report"
   }
 ]
