@@ -521,5 +521,17 @@
     "summary": "NSW 보건부의 방문 의료 책임자 및 전문 직원 성과 감사 보고서",
     "link": "https://data.nsw.gov.au/data/dataset/68aba952-d36d-4e04-b351-263bb6f66a56/resource/bd889a65-1899-4eb0-84eb-5d630f48ee6d/download/report_no_219_visiting_medical_alists_tabled_14_december_2011_18397.pdf",
     "title": "Visiting Medical Officers and Staff Specialists, NSW Ministry of Health"
+  },
+  {
+    "id": 45,
+    "name": "metropolitan-adelaide-boundary-development-act-1993",
+    "category": "주거/부동산",
+    "startDate": "1994-01-15",
+    "endDate": "상시",
+    "location": "메트로폴리탄 애들레이드 (남호주)",
+    "target": "도시 계획 및 개발 관련자, 일반 시민",
+    "summary": "1993년 개발법의 목적에 따라 메트로폴리탄 애들레이드 지역의 경계를 정의하는 공공 데이터셋입니다.",
+    "link": "https://www.location.sa.gov.au/viewer/? map=hybrid&x=138.61448&y=-34.96052 &z=10&uids=195&pinx= &piny=&pinTitle= &pinText=",
+    "title": "metropolitan-adelaide-boundary-development-act-1993"
   }
 ]
