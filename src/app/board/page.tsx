@@ -79,7 +79,6 @@ export default function BoardPage() {
           </div>
         </div>
 
-        {/* Giscus 게시판 */}
         <div className="bg-white rounded-3xl p-8 shadow-sm border border-slate-100">
           <h2 className="text-lg font-bold text-slate-700 mb-6 flex items-center gap-2">
             <span className="w-8 h-8 bg-violet-100 rounded-xl flex items-center justify-center text-base">💬</span>

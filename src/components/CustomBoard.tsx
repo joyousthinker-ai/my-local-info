@@ -96,7 +96,7 @@ export default function CustomBoard() {
       alert('리뷰가 성공적으로 등록되었습니다! 😊');
     } catch (err) {
       console.error('글 등록 오류:', err);
-      alert('데이터베이스 테이블이 아직 개설되지 않았거나 권한이 부족할 수 있습니다. 아래 설정 안내를 확인해 주세요!');
+      alert('글 등록 중 오류가 발생했습니다. 잠시 후 다시 시도해 주세요.');
     } finally {
       setSubmitLoading(false);
     }
@@ -111,7 +111,6 @@ export default function CustomBoard() {
     }
 
     try {
-      // 1단계: 작성된 비밀번호와 데이터베이스의 비밀번호가 일치하는 행을 직접 지웁니다.
       const { error, count } = await supabase
         .from('comments')
         .delete({ count: 'exact' })
@@ -134,91 +133,11 @@ export default function CustomBoard() {
     }
   };
 
-  // 4. 수파베이스 설정이 안 된 상태일 때 렌더링할 친절한 안내 UI
+  // 4. 데이터베이스가 연결되지 않았을 때의 간단한 예외 처리
   if (!supabase) {
     return (
-      <div className="rounded-3xl border-2 border-dashed border-violet-200 bg-violet-50/50 p-8 text-center">
-        <div className="text-5xl mb-4">⚡</div>
-        <h3 className="text-xl font-bold text-violet-800 mb-2">홈페이지 게시판 데이터베이스 설정 필요</h3>
-        <p className="text-sm text-violet-600 mb-6 leading-relaxed">
-          방문자들이 가입 없이 자유롭게 글을 쓰고 삭제할 수 있도록<br />
-          아래 3분 수파베이스(Supabase) 개설 가이드를 따라 연동해 주세요!
-        </p>
-
-        <div className="text-left bg-white rounded-2xl p-6 shadow-sm text-xs text-slate-600 space-y-4 max-w-2xl mx-auto border border-slate-100">
-          <div>
-            <p className="font-bold text-slate-800 text-sm mb-1.5">🚀 1단계. 무료 데이터베이스 만들기</p>
-            <p className="leading-relaxed">
-              1. <a href="https://supabase.com" target="_blank" rel="noopener noreferrer" className="text-violet-600 underline font-bold">supabase.com</a> 접속 후 가입 (깃허브 연동 추천)<br />
-              2. 화면 우측 상단 <strong>[New Project]</strong> 클릭 → 이름과 비밀번호를 치고 생성<br />
-              3. 프로젝트 생성이 완료될 때까지 약 1~2분 기다립니다.
-            </p>
-          </div>
-
-          <hr className="border-slate-100" />
-
-          <div>
-            <p className="font-bold text-slate-800 text-sm mb-1.5">📋 2단계. 데이터 저장방(Table) 개설하기</p>
-            <p className="mb-2 leading-relaxed">
-              프로젝트 홈 화면 왼쪽 메뉴 중 번개 모양 ⚡ 바로 위에 있는 <strong>SQL Editor</strong> 탭을 클릭하고, <strong>[New Query]</strong>를 눌러 아래 명령어를 그대로 붙여넣은 뒤 우측 하단 <strong>[Run]</strong> 버튼을 누르세요.
-            </p>
-            <div className="bg-slate-800 text-slate-200 rounded-xl p-4 font-mono text-[11px] leading-relaxed relative group">
-              <button 
-                onClick={() => {
-                  navigator.clipboard.writeText(`create table comments (
-  id uuid default gen_random_uuid() primary key,
-  nickname text not null,
-  password text not null,
-  content text not null,
-  rating int2 default 5,
-  pathname text not null,
-  created_at timestamptz default now()
-);
-
-alter table comments enable row level security;
-
-create policy "Allow public read access" on comments for select using (true);
-create policy "Allow public insert access" on comments for insert with check (true);
-create policy "Allow public delete access" on comments for delete using (true);`);
-                  alert('명령어가 클립보드에 복사되었습니다! SQL Editor에 붙여넣어 실행하세요.');
-                }}
-                className="absolute top-2 right-2 bg-violet-600 hover:bg-violet-700 text-white px-2.5 py-1 rounded text-[10px] font-sans font-bold transition-all"
-              >
-                복사하기
-              </button>
-              <pre className="overflow-x-auto">
-{`create table comments (
-  id uuid default gen_random_uuid() primary key,
-  nickname text not null,
-  password text not null,
-  content text not null,
-  rating int2 default 5,
-  pathname text not null,
-  created_at timestamptz default now()
-);
-
-alter table comments enable row level security;
-
-create policy "Allow public read access" on comments for select using (true);
-create policy "Allow public insert access" on comments for insert with check (true);
-create policy "Allow public delete access" on comments for delete using (true);`}
-              </pre>
-            </div>
-          </div>
-
-          <hr className="border-slate-100" />
-
-          <div>
-            <p className="font-bold text-slate-800 text-sm mb-1.5">🔑 3단계. 연동 정보 입력하기</p>
-            <p className="mb-2 leading-relaxed">
-              프로젝트 홈 화면 왼쪽 맨 아래 톱니바퀴 ⚙️ (Project Settings) → <strong>API</strong> 탭을 클릭하여 나오는 두 주소를 복사해 <code className="bg-slate-100 px-1 py-0.5 rounded text-violet-600 font-mono font-bold">.env.local</code> 파일에 적어주세요.
-            </p>
-            <div className="bg-slate-800 text-green-400 rounded-xl p-4 font-mono text-[11px] leading-relaxed">
-              <p>NEXT_PUBLIC_SUPABASE_URL=<span className="text-yellow-300">내 Project URL 입력</span></p>
-              <p>NEXT_PUBLIC_SUPABASE_ANON_KEY=<span className="text-yellow-300">내 API Key (anon/public) 입력</span></p>
-            </div>
-          </div>
-        </div>
+      <div className="text-center py-10 text-slate-500 bg-slate-50 rounded-3xl border border-slate-100">
+        게시판 데이터베이스 연결 설정이 필요합니다. 관리자에게 문의해 주세요.
       </div>
     );
   }
