@@ -533,5 +533,17 @@
     "summary": "1993년 개발법의 목적에 따라 메트로폴리탄 애들레이드 지역의 경계를 정의하는 공공 데이터셋입니다.",
     "link": "https://www.location.sa.gov.au/viewer/? map=hybrid&x=138.61448&y=-34.96052 &z=10&uids=195&pinx= &piny=&pinTitle= &pinText=",
     "title": "metropolitan-adelaide-boundary-development-act-1993"
+  },
+  {
+    "id": 46,
+    "name": "Regional profile Adelaide Hills",
+    "category": "경제/취업",
+    "startDate": "2011-07-01",
+    "endDate": "2016-06-30",
+    "location": "Adelaide Hills, South Australia",
+    "target": "지역 경제 분석에 관심 있는 연구자 및 일반 대중",
+    "summary": "애들레이드 힐스 지역의 총 지역 생산, 고용, 가계 소득 및 지출, 무역 등을 포함한 경제 지표를 담은 지역 프로필 데이터입니다.",
+    "link": "https://data.sa.gov.au/data/dataset/regional-profile-adelaide-hills-2011-12",
+    "title": "Regional profile Adelaide Hills"
   }
 ]
