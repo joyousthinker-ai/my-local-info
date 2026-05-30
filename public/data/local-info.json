@@ -545,5 +545,17 @@
     "summary": "애들레이드 힐스 지역의 총 지역 생산, 고용, 가계 소득 및 지출, 무역 등을 포함한 경제 지표를 담은 지역 프로필 데이터입니다.",
     "link": "https://data.sa.gov.au/data/dataset/regional-profile-adelaide-hills-2011-12",
     "title": "Regional profile Adelaide Hills"
+  },
+  {
+    "id": 47,
+    "name": "Integral Energy Annual Performance Report 2002-2003",
+    "category": "생활/환경",
+    "startDate": "2002-01-01",
+    "endDate": "2003-12-31",
+    "location": "Integral Energy",
+    "target": "모든 이해관계자",
+    "summary": "Integral Energy의 2002년부터 2003년까지의 연간 실적 보고서입니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/393ebb05-5e8a-4395-8461-34f3b1872c9c/resource/edb87065-d815-47fe-a77f-c7f67a9d6c40/download/document_10772.pdf",
+    "title": "Integral Energy Annual Performance Report 2002-2003"
   }
 ]
