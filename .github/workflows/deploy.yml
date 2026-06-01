@@ -52,6 +52,9 @@ jobs:
           git diff --staged --quiet || (git commit -m "자동 업데이트: 공공데이터 수집 및 블로그 글 생성" && git pull --rebase origin main && git push origin main)
 
       - name: Build project
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: "https://nzmmvjapxvjmhfqvixrj.supabase.co"
+          NEXT_PUBLIC_SUPABASE_ANON_KEY: "sb_publishable_uuFAzUNfblRS8y72fkBzrg_rDAk_p03"
         run: npm run build
 
       - name: Deploy to Cloudflare Pages
