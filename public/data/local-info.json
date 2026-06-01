@@ -569,5 +569,17 @@
     "summary": "캠벨타운 시의회의 2006-2007 회계연도 연례 보고서입니다.",
     "link": "https://data.nsw.gov.au/data/dataset/ca59ff85-02ce-4e9a-093-f70f0096ea80/resource/d19b500c-fa69-4a67-8322-7c38f1976db8/download/annual_report_2006_2007_14978.pdf",
     "title": "Campbelltown City Council Annual Report 2006-2007"
+  },
+  {
+    "id": 49,
+    "name": "Department of Education and Training Annual Report 1998",
+    "category": "교육/도서관",
+    "startDate": "1998-01-01",
+    "endDate": "1998-12-31",
+    "location": "NSW 정부 교육훈련부",
+    "target": "일반 대중 및 이해관계자",
+    "summary": "1998년 뉴사우스웨일스 교육훈련부의 연간 활동 및 성과를 담은 보고서입니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/nsw-3-10609-department-of-education-and-training-annual-report-1998",
+    "title": "Department of Education and Training Annual Report 1998"
   }
 ]
