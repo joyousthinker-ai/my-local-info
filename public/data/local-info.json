@@ -605,5 +605,17 @@
     "summary": "NSW 정신 건강 검토 심판소의 2016-17 회계연도 연간 보고서로, 기관의 활동과 실적에 대한 정보를 담고 있습니다.",
     "link": "https://data.nsw.gov.au/data/dataset/1e8393dd-da38-4552-b1ca-f32294c83409/resource/446b7356-308c-4799-a658-b98623ab78c6/download/mhrt_annual_report_final_2016_17_16933.pdf",
     "title": "Mental Health Review Tribunal - Annual Report 2016-17"
+  },
+  {
+    "id": 52,
+    "name": "Council Managed Buildings",
+    "category": "주거/부동산",
+    "startDate": "2019-09-09",
+    "endDate": "상시",
+    "location": "Port Adelaide Enfield 시",
+    "target": "지역 주민 및 공공기관",
+    "summary": "Port Adelaide Enfield 시에서 소유 및 관리하는 건물 정보를 담은 공간 데이터셋입니다.",
+    "link": "https://gisdata-portenf.opendata.arcgis.com/datasets/council-owned-buildings",
+    "title": "Council Managed Buildings"
   }
 ]
