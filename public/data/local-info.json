@@ -617,5 +617,17 @@
     "summary": "Port Adelaide Enfield 시에서 소유 및 관리하는 건물 정보를 담은 공간 데이터셋입니다.",
     "link": "https://gisdata-portenf.opendata.arcgis.com/datasets/council-owned-buildings",
     "title": "Council Managed Buildings"
+  },
+  {
+    "id": 53,
+    "name": "Regional profile Northern Adelaide",
+    "category": "경제/취업",
+    "startDate": "2011-07-01",
+    "endDate": "2015-06-30",
+    "location": "Northern Adelaide",
+    "target": "해당 없음",
+    "summary": "북부 애들레이드 지역의 총 지역 생산 및 산출, 고용, 가계 소득 및 지출, 무역 등에 대한 추정 통계 데이터를 담고 있는 지역 프로파일입니다.",
+    "link": "https://data.sa.gov.au/data/dataset/regional-profile-northern-adelaide-2011-12",
+    "title": "Regional profile Northern Adelaide"
   }
 ]
