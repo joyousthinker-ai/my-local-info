@@ -629,5 +629,17 @@
     "summary": "북부 애들레이드 지역의 총 지역 생산 및 산출, 고용, 가계 소득 및 지출, 무역 등에 대한 추정 통계 데이터를 담고 있는 지역 프로파일입니다.",
     "link": "https://data.sa.gov.au/data/dataset/regional-profile-northern-adelaide-2011-12",
     "title": "Regional profile Northern Adelaide"
+  },
+  {
+    "id": 54,
+    "name": "Improving Efficiency of Irrigation Water Use on Farms, Department of Primary Industries",
+    "category": "경제/취업",
+    "startDate": "2021-09-08",
+    "endDate": "상시",
+    "location": "뉴사우스웨일스 주 농림수산부 (Department of Primary Industries)",
+    "target": "농장 및 관련 산업 이해관계자",
+    "summary": "뉴사우스웨일스 주 농림수산부의 농장 관개 용수 사용 효율성 개선에 관한 감사 보고서입니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/nsw-3-18072-improving-efficiency-of-irrigation-water-use-on-farms-department-of-primary-industr",
+    "title": "Improving Efficiency of Irrigation Water Use on Farms, Department of Primary Industries"
   }
 ]
