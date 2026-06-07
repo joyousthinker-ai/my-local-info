@@ -641,5 +641,17 @@
     "summary": "뉴사우스웨일스 주 농림수산부의 농장 관개 용수 사용 효율성 개선에 관한 감사 보고서입니다.",
     "link": "https://data.nsw.gov.au/data/dataset/nsw-3-18072-improving-efficiency-of-irrigation-water-use-on-farms-department-of-primary-industr",
     "title": "Improving Efficiency of Irrigation Water Use on Farms, Department of Primary Industries"
+  },
+  {
+    "id": 55,
+    "name": "Government Gazette of the State of New South Wales Week No. 12/2006",
+    "category": "경제/취업",
+    "startDate": "2023-10-27",
+    "endDate": "상시",
+    "location": "New South Wales",
+    "target": "NSW 주민 및 기업",
+    "summary": "뉴사우스웨일스 정부 관보는 뉴사우스웨일스 주 법령에 따라 공포, 규정, 정부 고지, 사설 법률 광고 및 기타 사항을 공표하는 공식 채널입니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/nsw-3-11764-government-gazette-of-the-state-of-new-south-wales-week-no-12-2006",
+    "title": "Government Gazette of the State of New South Wales Week No. 12/2006"
   }
 ]
