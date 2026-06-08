@@ -653,5 +653,17 @@
     "summary": "뉴사우스웨일스 정부 관보는 뉴사우스웨일스 주 법령에 따라 공포, 규정, 정부 고지, 사설 법률 광고 및 기타 사항을 공표하는 공식 채널입니다.",
     "link": "https://data.nsw.gov.au/data/dataset/nsw-3-11764-government-gazette-of-the-state-of-new-south-wales-week-no-12-2006",
     "title": "Government Gazette of the State of New South Wales Week No. 12/2006"
+  },
+  {
+    "id": 56,
+    "name": "UTS Annual Report 2016: review of operations",
+    "category": "교육/도서관",
+    "startDate": "2021-09-08",
+    "endDate": "상시",
+    "location": "University of Technology Sydney",
+    "target": "모든 사람",
+    "summary": "시드니 공과대학교(UTS)의 2016년 연례 보고서 중 운영 검토 내용을 담고 있습니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/42dac281-b515-4b19-9d98-df07a908ba27/resource/fa038ec2-a02f-490c-b6b6-c8739e3dbd7e/download/uts_annual_report_2016_volume_one_online_16591.pdf",
+    "title": "UTS Annual Report 2016: review of operations"
   }
 ]
