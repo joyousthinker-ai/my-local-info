@@ -665,5 +665,17 @@
     "summary": "시드니 공과대학교(UTS)의 2016년 연례 보고서 중 운영 검토 내용을 담고 있습니다.",
     "link": "https://data.nsw.gov.au/data/dataset/42dac281-b515-4b19-9d98-df07a908ba27/resource/fa038ec2-a02f-490c-b6b6-c8739e3dbd7e/download/uts_annual_report_2016_volume_one_online_16591.pdf",
     "title": "UTS Annual Report 2016: review of operations"
+  },
+  {
+    "id": 57,
+    "name": "Great Western Highway upgrade : Medlow Bath : review of environmental factors : executive summary",
+    "category": "교통",
+    "startDate": "2026-06-09",
+    "endDate": "상시",
+    "location": "NSW Government",
+    "target": "전체 시민",
+    "summary": "이 데이터는 실제 내용 대신 테스트용으로 요약되었습니다. 원본: No notes provided\n\n<strong>Not...",
+    "link": "https://data.sa.gov.au/",
+    "title": "Great Western Highway upgrade : Medlow Bath : review of environmental factors : executive summary"
   }
 ]
