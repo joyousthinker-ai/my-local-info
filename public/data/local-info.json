@@ -677,5 +677,17 @@
     "summary": "이 데이터는 실제 내용 대신 테스트용으로 요약되었습니다. 원본: No notes provided\n\n<strong>Not...",
     "link": "https://data.sa.gov.au/",
     "title": "Great Western Highway upgrade : Medlow Bath : review of environmental factors : executive summary"
+  },
+  {
+    "id": 58,
+    "name": "Justice Health Annual Report 2004-2005",
+    "category": "건강/의료",
+    "startDate": "2021-09-08",
+    "endDate": "상시",
+    "location": "Justice Health",
+    "target": "",
+    "summary": "법무부 보건 2004-2005 연례 보고서",
+    "link": "https://data.nsw.gov.au/data/dataset/962e54b9-9650-4cb1-b59c-e84de78d206f/resource/d605d91e-7867-4317-9478-561fe9cb73d5/download/document_10639.pdf",
+    "title": "Justice Health Annual Report 2004-2005"
   }
 ]
