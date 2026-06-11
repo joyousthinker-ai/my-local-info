@@ -689,5 +689,17 @@
     "summary": "법무부 보건 2004-2005 연례 보고서",
     "link": "https://data.nsw.gov.au/data/dataset/962e54b9-9650-4cb1-b59c-e84de78d206f/resource/d605d91e-7867-4317-9478-561fe9cb73d5/download/document_10639.pdf",
     "title": "Justice Health Annual Report 2004-2005"
+  },
+  {
+    "id": 59,
+    "name": "Metro median house sales",
+    "category": "주거/부동산",
+    "startDate": "2015-01-01",
+    "endDate": "상시",
+    "location": "애들레이드 광역권",
+    "target": "부동산 시장 분석에 관심 있는 누구나",
+    "summary": "애들레이드 광역권 교외 지역의 분기별 주택 중간 가격을 제공하는 데이터셋입니다.",
+    "link": "https://data.sa.gov.au/data/dataset/0d447195-1158-4a3c-8cc7-0e333b87eb72",
+    "title": "Metro median house sales"
   }
 ]
