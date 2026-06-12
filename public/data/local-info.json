@@ -701,5 +701,17 @@
     "summary": "애들레이드 광역권 교외 지역의 분기별 주택 중간 가격을 제공하는 데이터셋입니다.",
     "link": "https://data.sa.gov.au/data/dataset/0d447195-1158-4a3c-8cc7-0e333b87eb72",
     "title": "Metro median house sales"
+  },
+  {
+    "id": 60,
+    "name": "Regional profile Eastern Adelaide",
+    "category": "경제/취업",
+    "startDate": "2011-07-01",
+    "endDate": "2016-06-30",
+    "location": "Eastern Adelaide, South Australia",
+    "target": "데이터 사용자",
+    "summary": "사우스 오스트레일리아 동부 애들레이드 지역의 총 지역 생산, 고용, 가계 소득 및 지출, 무역 등에 대한 추정치를 담은 지역 프로필 데이터입니다.",
+    "link": "https://data.sa.gov.au/data/dataset/regional-profile-eastern-adelaide-2011-12",
+    "title": "Regional profile Eastern Adelaide"
   }
 ]
