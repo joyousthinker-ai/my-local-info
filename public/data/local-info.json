@@ -713,5 +713,17 @@
     "summary": "사우스 오스트레일리아 동부 애들레이드 지역의 총 지역 생산, 고용, 가계 소득 및 지출, 무역 등에 대한 추정치를 담은 지역 프로필 데이터입니다.",
     "link": "https://data.sa.gov.au/data/dataset/regional-profile-eastern-adelaide-2011-12",
     "title": "Regional profile Eastern Adelaide"
+  },
+  {
+    "id": 61,
+    "name": "Country Energy Annual Report 2002-2003",
+    "category": "경제/취업",
+    "startDate": "2002-07-01",
+    "endDate": "2003-06-30",
+    "location": "Essential Energy",
+    "target": "모든 시민",
+    "summary": "Country Energy의 2002-2003년 회계연도 연간 보고서입니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/3a9e88c6-98f6-4c49-bec1-e3603980393a/resource/5a6fb7c5-9cb0-4cbf-87b0-9d7b96146f88/download/document_11960.pdf",
+    "title": "Country Energy Annual Report 2002-2003"
   }
 ]
