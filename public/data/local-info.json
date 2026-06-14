@@ -725,5 +725,17 @@
     "summary": "Country Energy의 2002-2003년 회계연도 연간 보고서입니다.",
     "link": "https://data.nsw.gov.au/data/dataset/3a9e88c6-98f6-4c49-bec1-e3603980393a/resource/5a6fb7c5-9cb0-4cbf-87b0-9d7b96146f88/download/document_11960.pdf",
     "title": "Country Energy Annual Report 2002-2003"
+  },
+  {
+    "id": 62,
+    "name": "Government Gazette of the State of New South Wales Week No. 31/2006",
+    "category": "경제/취업",
+    "startDate": "2006-07-31",
+    "endDate": "상시",
+    "location": "New South Wales Government",
+    "target": "일반 대중 및 법률/규제 관련 관계자",
+    "summary": "뉴사우스웨일스 정부의 공식 공고, 규정, 법률 관련 사항 등을 게시하는 공보 자료입니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/nsw-3-11745-government-gazette-of-the-state-of-new-south-wales-week-no-31-2006",
+    "title": "Government Gazette of the State of New South Wales Week No. 31/2006"
   }
 ]
