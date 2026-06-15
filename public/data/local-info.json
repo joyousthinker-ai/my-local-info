@@ -737,5 +737,17 @@
     "summary": "뉴사우스웨일스 정부의 공식 공고, 규정, 법률 관련 사항 등을 게시하는 공보 자료입니다.",
     "link": "https://data.nsw.gov.au/data/dataset/nsw-3-11745-government-gazette-of-the-state-of-new-south-wales-week-no-31-2006",
     "title": "Government Gazette of the State of New South Wales Week No. 31/2006"
+  },
+  {
+    "id": 63,
+    "name": "Improving Literacy and Numeracy in NSW Public Schools, Department of Education and Training",
+    "category": "교육/도서관",
+    "startDate": "2021-09-08",
+    "endDate": "상시",
+    "location": "NSW Public Schools",
+    "target": "NSW 공립학교 학생",
+    "summary": "NSW 공립학교의 문해력 및 수리력 향상 성과 감사 보고서",
+    "link": "https://data.nsw.gov.au/data/dataset/nsw-3-18084-improving-literacy-and-numeracy-in-nsw-public-schools-department-of-education-and-t",
+    "title": "Improving Literacy and Numeracy in NSW Public Schools, Department of Education and Training"
   }
 ]
