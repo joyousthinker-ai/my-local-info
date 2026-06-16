@@ -749,5 +749,17 @@
     "summary": "NSW 공립학교의 문해력 및 수리력 향상 성과 감사 보고서",
     "link": "https://data.nsw.gov.au/data/dataset/nsw-3-18084-improving-literacy-and-numeracy-in-nsw-public-schools-department-of-education-and-t",
     "title": "Improving Literacy and Numeracy in NSW Public Schools, Department of Education and Training"
+  },
+  {
+    "id": 64,
+    "name": "NSW road safety progress report 2017",
+    "category": "교통/인프라",
+    "startDate": "2021-09-08",
+    "endDate": "상시",
+    "location": "NSW 주",
+    "target": "NSW 도로 사용자",
+    "summary": "NSW 주 정부의 2017년 도로 안전 진척 보고서로, 2012-2021년 도로 안전 전략의 이행 사항 및 2021년까지 사망 및 중상해 30% 감소 목표 달성을 위한 조치들을 요약합니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/d4c8bb87-4847-4fd6-89b4-64ac220ed345/resource/284f6633-9bd6-4042-b66b-ffaa0e47e56f/download/166917_19265.pdf",
+    "title": "NSW road safety progress report 2017"
   }
 ]
