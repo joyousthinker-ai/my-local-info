@@ -773,5 +773,17 @@
     "summary": "뉴사우스웨일스 정신 건강 위원회의 2012-2013년도 연례 보고서",
     "link": "https://data.nsw.gov.au/data/dataset/nsw-3-12972-nsw-mental-health-commission-annual-report-2012-2013",
     "title": "NSW Mental Health Commission Annual Report 2012-2013"
+  },
+  {
+    "id": 66,
+    "name": "Greater Adelaide Planning Region",
+    "category": "주거/부동산",
+    "startDate": "2015-12-01",
+    "endDate": "2017-04-21",
+    "location": "Greater Adelaide",
+    "target": "도시 계획 및 개발 관련 기관, 지역 주민",
+    "summary": "2016년 계획, 개발 및 인프라 법에 따라 지정된 그레이터 애들레이드 계획 지역에 대한 정보입니다.",
+    "link": "https://location.sa.gov.au/viewer/?map=hybrid&x=138.76549&y=-34.99454&z=9&uids=224&pinx=&piny=&pinTitle=&pinText=",
+    "title": "Greater Adelaide Planning Region"
   }
 ]
