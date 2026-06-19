@@ -785,5 +785,17 @@
     "summary": "2016년 계획, 개발 및 인프라 법에 따라 지정된 그레이터 애들레이드 계획 지역에 대한 정보입니다.",
     "link": "https://location.sa.gov.au/viewer/?map=hybrid&x=138.76549&y=-34.99454&z=9&uids=224&pinx=&piny=&pinTitle=&pinText=",
     "title": "Greater Adelaide Planning Region"
+  },
+  {
+    "id": 67,
+    "name": "Regional profile Western Adelaide",
+    "category": "경제/취업",
+    "startDate": "2011-07-01",
+    "endDate": "2016-06-30",
+    "location": "Western Adelaide",
+    "target": "사우스 오스트레일리아 서부 애들레이드 지역 경제에 관심 있는 모든 사람",
+    "summary": "사우스 오스트레일리아 서부 애들레이드 지역의 총 지역 생산, 고용, 가계 소득 및 지출, 무역 등에 대한 추정치를 담은 지역 프로필 테이블입니다.",
+    "link": "https://data.sa.gov.au/data/dataset/regional-profile-western-adelaide-2011-12",
+    "title": "Regional profile Western Adelaide"
   }
 ]
