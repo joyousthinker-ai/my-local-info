@@ -797,5 +797,17 @@
     "summary": "사우스 오스트레일리아 서부 애들레이드 지역의 총 지역 생산, 고용, 가계 소득 및 지출, 무역 등에 대한 추정치를 담은 지역 프로필 테이블입니다.",
     "link": "https://data.sa.gov.au/data/dataset/regional-profile-western-adelaide-2011-12",
     "title": "Regional profile Western Adelaide"
+  },
+  {
+    "id": 68,
+    "name": "Department of Water and Energy Annual Report 2006-2007",
+    "category": "생활/환경",
+    "startDate": "2006-07-01",
+    "endDate": "2007-06-30",
+    "location": "Department of Water and Energy",
+    "target": "모든 시민",
+    "summary": "물에너지부의 2006-2007 회계연도 연간 보고서입니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/1ae74bba-5cdb-4d0e-a620-84739fe55ebb/resource/d442980a-bf46-4cdb-a119-7fa17647be67/download/document_11093.pdf",
+    "title": "Department of Water and Energy Annual Report 2006-2007"
   }
 ]
