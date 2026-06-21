@@ -809,5 +809,17 @@
     "summary": "물에너지부의 2006-2007 회계연도 연간 보고서입니다.",
     "link": "https://data.nsw.gov.au/data/dataset/1ae74bba-5cdb-4d0e-a620-84739fe55ebb/resource/d442980a-bf46-4cdb-a119-7fa17647be67/download/document_11093.pdf",
     "title": "Department of Water and Energy Annual Report 2006-2007"
+  },
+  {
+    "id": 69,
+    "name": "Department of Lands Annual Report 2003",
+    "category": "주거/부동산",
+    "startDate": "2021-09-08",
+    "endDate": "상시",
+    "location": "Department of Lands",
+    "target": "일반 대중 및 이해 관계자",
+    "summary": "2002/03 회계연도 동안 국토부의 모든 행정 기능을 다루는 연례 보고서입니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/002bb76c-6702-4a38-adce-c6474efcd31f/resource/093f649d-b2b7-4171-953a-3414c1af3d09/download/2002_03_annual_report_15432.pdf",
+    "title": "Department of Lands Annual Report 2003"
   }
 ]
