@@ -821,5 +821,17 @@
     "summary": "2002/03 회계연도 동안 국토부의 모든 행정 기능을 다루는 연례 보고서입니다.",
     "link": "https://data.nsw.gov.au/data/dataset/002bb76c-6702-4a38-adce-c6474efcd31f/resource/093f649d-b2b7-4171-953a-3414c1af3d09/download/2002_03_annual_report_15432.pdf",
     "title": "Department of Lands Annual Report 2003"
+  },
+  {
+    "id": 70,
+    "name": "Campbelltown City Council Annual Report 2011-2012",
+    "category": "교육",
+    "startDate": "2026-06-22",
+    "endDate": "상시",
+    "location": "NSW Government",
+    "target": "전체 시민",
+    "summary": "이 데이터는 실제 내용 대신 테스트용으로 요약되었습니다. 원본: Annual Report Campbelltown Cit...",
+    "link": "https://data.sa.gov.au/",
+    "title": "Campbelltown City Council Annual Report 2011-2012"
   }
 ]
