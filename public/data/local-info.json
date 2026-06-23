@@ -833,5 +833,17 @@
     "summary": "이 데이터는 실제 내용 대신 테스트용으로 요약되었습니다. 원본: Annual Report Campbelltown Cit...",
     "link": "https://data.sa.gov.au/",
     "title": "Campbelltown City Council Annual Report 2011-2012"
+  },
+  {
+    "id": 71,
+    "name": "Independent Transport Safety and Reliability Regulator Annual Report 08-09",
+    "category": "교통/인프라",
+    "startDate": "2021-09-08",
+    "endDate": "상시",
+    "location": "NSW Government (Independent Transport Safety and Reliability Regulator)",
+    "target": "일반 대중, 연구자, 정책 입안자",
+    "summary": "NSW 독립 운송 안전 및 신뢰성 규제 기관의 2008-2009년 연례 보고서. 과거 OpenGov NSW 웹사이트에 게시되었던 자료로 현재는 DataNSW에서 제공됩니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/f91d04e7-ef3e-4c5a-c8c90-3a22dabfe961/resource/58b3b4af-07f8-4527-bc7c-ea3ce8b0bcc5/download/document_11926.pdf",
+    "title": "Independent Transport Safety and Reliability Regulator Annual Report 08-09"
   }
 ]
