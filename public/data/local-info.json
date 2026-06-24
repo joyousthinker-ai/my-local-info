@@ -845,5 +845,17 @@
     "summary": "NSW 독립 운송 안전 및 신뢰성 규제 기관의 2008-2009년 연례 보고서. 과거 OpenGov NSW 웹사이트에 게시되었던 자료로 현재는 DataNSW에서 제공됩니다.",
     "link": "https://data.nsw.gov.au/data/dataset/f91d04e7-ef3e-4c5a-c8c90-3a22dabfe961/resource/58b3b4af-07f8-4527-bc7c-ea3ce8b0bcc5/download/document_11926.pdf",
     "title": "Independent Transport Safety and Reliability Regulator Annual Report 08-09"
+  },
+  {
+    "id": 72,
+    "name": "GWAHS Health Councils Activity Report 2004/05",
+    "category": "건강/의료",
+    "startDate": "2004-07-01",
+    "endDate": "2005-06-30",
+    "location": "Greater Western Area Health Service",
+    "target": "해당 기관 및 관계자",
+    "summary": "Greater Western Area Health Service의 2004-05년 보건 협의회 활동 보고서입니다. 이 보고서는 원래 opengov.nsw.gov.au에 게시되었으나 현재 해당 웹사이트는 폐쇄되었습니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/df64a7b4-b5fa-4f77-a98e-b92e38e43ffe/resource/aa7a836d-746e-4e05-9d5f-9e206fd5e321/download/document_12206.pdf",
+    "title": "GWAHS Health Councils Activity Report 2004/05"
   }
 ]
