@@ -857,5 +857,17 @@
     "summary": "Greater Western Area Health Service의 2004-05년 보건 협의회 활동 보고서입니다. 이 보고서는 원래 opengov.nsw.gov.au에 게시되었으나 현재 해당 웹사이트는 폐쇄되었습니다.",
     "link": "https://data.nsw.gov.au/data/dataset/df64a7b4-b5fa-4f77-a98e-b92e38e43ffe/resource/aa7a836d-746e-4e05-9d5f-9e206fd5e321/download/document_12206.pdf",
     "title": "GWAHS Health Councils Activity Report 2004/05"
+  },
+  {
+    "id": 73,
+    "name": "Planning Regions 2020",
+    "category": "주거/부동산",
+    "startDate": "2020-03-19",
+    "endDate": "상시",
+    "location": "South Australia",
+    "target": "South Australia 주민 및 관련 기관",
+    "summary": "2016년 계획, 개발 및 인프라 법에 따라 2020년 3월 19일 선포된 사우스오스트레일리아의 7개 계획 지역에 대한 정보를 제공합니다.",
+    "link": "https://locsa-viewer.dit.sa.gov.au/Viewer/?map=hybrid&x=137.21766&y=-32.650462&z=6&uids=338&pinx=&piny=&pinTitle=&pinText=",
+    "title": "Planning Regions 2020"
   }
 ]
