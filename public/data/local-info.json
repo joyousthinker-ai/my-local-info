@@ -869,5 +869,17 @@
     "summary": "2016년 계획, 개발 및 인프라 법에 따라 2020년 3월 19일 선포된 사우스오스트레일리아의 7개 계획 지역에 대한 정보를 제공합니다.",
     "link": "https://locsa-viewer.dit.sa.gov.au/Viewer/?map=hybrid&x=137.21766&y=-32.650462&z=6&uids=338&pinx=&piny=&pinTitle=&pinText=",
     "title": "Planning Regions 2020"
+  },
+  {
+    "id": 74,
+    "name": "Regional profile Barossa",
+    "category": "경제/취업",
+    "startDate": "2011-07-01",
+    "endDate": "2016-06-30",
+    "location": "Barossa 지역",
+    "target": "연구자, 정책 입안자, 지역 경제에 관심 있는 일반인",
+    "summary": "남호주 바로사 지역의 지역 총생산, 고용, 가구 소득 및 지출, 무역 등에 대한 경제 프로필 테이블 데이터입니다.",
+    "link": "https://data.sa.gov.au/data/dataset/regional-profile-barossa-2011-12",
+    "title": "Regional profile Barossa"
   }
 ]
