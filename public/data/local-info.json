@@ -881,5 +881,17 @@
     "summary": "남호주 바로사 지역의 지역 총생산, 고용, 가구 소득 및 지출, 무역 등에 대한 경제 프로필 테이블 데이터입니다.",
     "link": "https://data.sa.gov.au/data/dataset/regional-profile-barossa-2011-12",
     "title": "Regional profile Barossa"
+  },
+  {
+    "id": 75,
+    "name": "Auditor-General's Report to Parliament 2014 FAB Volume Five 2014 focusing on Electricity and Water",
+    "category": "생활/환경",
+    "startDate": "2021-09-08",
+    "endDate": "상시",
+    "location": "Audit Office of New South Wales",
+    "target": "일반 대중",
+    "summary": "2014년 의회 감사원 보고서 5권으로, 전기 및 수도 분야에 중점을 둔 내용입니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/nsw-3-14528-auditor-general-s-report-to-parliament-2014-fab-volume-five-2014-focusing-on-electr",
+    "title": "Auditor-General's Report to Parliament 2014 FAB Volume Five 2014 focusing on Electricity and Water"
   }
 ]
