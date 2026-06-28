@@ -893,5 +893,17 @@
     "summary": "2014년 의회 감사원 보고서 5권으로, 전기 및 수도 분야에 중점을 둔 내용입니다.",
     "link": "https://data.nsw.gov.au/data/dataset/nsw-3-14528-auditor-general-s-report-to-parliament-2014-fab-volume-five-2014-focusing-on-electr",
     "title": "Auditor-General's Report to Parliament 2014 FAB Volume Five 2014 focusing on Electricity and Water"
+  },
+  {
+    "id": 76,
+    "name": "Government Gazette of the State of New South Wales Week No. 06/2010",
+    "category": "경제/취업",
+    "startDate": "2023-10-27",
+    "endDate": "상시",
+    "location": "New South Wales Government",
+    "target": "일반 시민 및 기업",
+    "summary": "뉴사우스웨일스 주 정부의 공식 발표, 법령, 규정, 정부 고시 및 사설 법적 광고를 담은 2010년 제6주차 공보입니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/nsw-3-11561-government-gazette-of-the-state-of-new-south-wales-week-no-06-2010",
+    "title": "Government Gazette of the State of New South Wales Week No. 06/2010"
   }
 ]
