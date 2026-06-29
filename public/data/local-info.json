@@ -905,5 +905,17 @@
     "summary": "뉴사우스웨일스 주 정부의 공식 발표, 법령, 규정, 정부 고시 및 사설 법적 광고를 담은 2010년 제6주차 공보입니다.",
     "link": "https://data.nsw.gov.au/data/dataset/nsw-3-11561-government-gazette-of-the-state-of-new-south-wales-week-no-06-2010",
     "title": "Government Gazette of the State of New South Wales Week No. 06/2010"
+  },
+  {
+    "id": 77,
+    "name": "NSW Department of Community Services Annual Report 2003 / 04",
+    "category": "교육",
+    "startDate": "2026-06-29",
+    "endDate": "상시",
+    "location": "NSW Government",
+    "target": "전체 시민",
+    "summary": "이 데이터는 실제 내용 대신 테스트용으로 요약되었습니다. 원본: No notes provided\n\n<strong>Not...",
+    "link": "https://data.sa.gov.au/",
+    "title": "NSW Department of Community Services Annual Report 2003 / 04"
   }
 ]
