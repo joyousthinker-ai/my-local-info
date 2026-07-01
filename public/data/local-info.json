@@ -929,5 +929,17 @@
     "summary": "NSW 교통청의 2014-15 회계연도 연간 보고서 제1권",
     "link": "https://data.nsw.gov.au/data/dataset/aa1a77ff-e3d8-4100-a03d-5c842de86bea/resource/c181343f-7f30-4431-b972-7b6ee656d8c8/download/tfnsw_2014_15_annual_report_volume_1_15250.pdf",
     "title": "Transport for NSW 2014-15 Annual Report Volume 1"
+  },
+  {
+    "id": 79,
+    "name": "Health Justice Partnerships in NSW: Position paper",
+    "category": "건강/의료",
+    "startDate": "2021-09-08",
+    "endDate": "상시",
+    "location": "New South Wales",
+    "target": "건강 및 법적 문제로 어려움을 겪는 개인",
+    "summary": "건강 및 법률 서비스를 통합하여 개인의 삶의 질에 부정적인 영향을 미치는 구조적 장벽을 극복하고 시스템적 변화를 옹호하는 보건 사법 파트너십(HJP)에 대한 정책 보고서입니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/nsw-3-15956-health-justice-partnerships-in-nsw-position-paper",
+    "title": "Health Justice Partnerships in NSW: Position paper"
   }
 ]
