@@ -965,5 +965,17 @@
     "summary": "사우스 오스트레일리아 극북 지역의 총생산 및 산출, 고용, 가구 소득 및 지출, 무역에 대한 추정치를 담은 지역 경제 프로필 데이터입니다. 이 데이터는 사우스 오스트레일리아 및 그 지역의 투입-산출표 구축 과정에서 파생된 추정치이며, 수집된 데이터, 주정부 지분, '상위' 표 값을 기반으로 합니다.",
     "link": "https://data.sa.gov.au/data/dataset/regional-profile-far-north-2011-12",
     "title": "Regional profile Far North"
+  },
+  {
+    "id": 82,
+    "name": "Strathfield Council Annual Report 2013-2014",
+    "category": "생활/환경",
+    "startDate": "2013-07-01",
+    "endDate": "2014-06-30",
+    "location": "Strathfield Council",
+    "target": "모든 시민",
+    "summary": "Strathfield Council의 2013-2014 회계연도 연례 보고서입니다. 이 보고서는 Council의 운영, 재정 및 성과에 대한 포괄적인 개요를 제공합니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/7d06617f-315e-4b77-bc7c-9bdeb6bb29e7/resource/61633bed-76d1-477a-9e28-d88e2f35b7a4/download/strathfield_council_annual_report_2013_2014_15397.pdf",
+    "title": "Strathfield Council Annual Report 2013-2014"
   }
 ]
