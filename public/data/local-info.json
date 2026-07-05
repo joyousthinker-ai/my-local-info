@@ -977,5 +977,17 @@
     "summary": "Strathfield Council의 2013-2014 회계연도 연례 보고서입니다. 이 보고서는 Council의 운영, 재정 및 성과에 대한 포괄적인 개요를 제공합니다.",
     "link": "https://data.nsw.gov.au/data/dataset/7d06617f-315e-4b77-bc7c-9bdeb6bb29e7/resource/61633bed-76d1-477a-9e28-d88e2f35b7a4/download/strathfield_council_annual_report_2013_2014_15397.pdf",
     "title": "Strathfield Council Annual Report 2013-2014"
+  },
+  {
+    "id": 83,
+    "name": "Department of Lands Annual Report 2002/2003",
+    "category": "주거/부동산",
+    "startDate": "2024-05-15",
+    "endDate": "상시",
+    "location": "NSW 토지부",
+    "target": "일반 대중",
+    "summary": "2002-2003 회계연도 NSW 토지부(Department of Lands)의 연간 보고서로, 측량 및 공간정보 위원회의 내용이 포함되어 있습니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/nsw-3-10119-department-of-lands-annual-report-2002-2003",
+    "title": "Department of Lands Annual Report 2002/2003"
   }
 ]
