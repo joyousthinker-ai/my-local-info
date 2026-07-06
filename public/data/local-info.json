@@ -989,5 +989,17 @@
     "summary": "2002-2003 회계연도 NSW 토지부(Department of Lands)의 연간 보고서로, 측량 및 공간정보 위원회의 내용이 포함되어 있습니다.",
     "link": "https://data.nsw.gov.au/data/dataset/nsw-3-10119-department-of-lands-annual-report-2002-2003",
     "title": "Department of Lands Annual Report 2002/2003"
+  },
+  {
+    "id": 84,
+    "name": "Environmental Trust Annual Report 2002-03",
+    "category": "생활/환경",
+    "startDate": "2002-07-01",
+    "endDate": "2003-06-30",
+    "location": "NSW Environmental Trust",
+    "target": "해당 보고서에 관심 있는 일반인, 이해관계자, 정책 입안자",
+    "summary": "NSW 환경 신탁의 2002-03 회계연도 연례 보고서입니다. 이 보고서는 NSW 정부의 환경 신탁 활동에 대한 정보를 제공하며, 원래 DataNSW에 게시되었습니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/9f5128cf-e45f-4765-8f70-b6d39f9ba3db/resource/ee2d8174-9f29-4ea9-87b5-e4dc432d4057/download/document_11422.pdf",
+    "title": "Environmental Trust Annual Report 2002-03"
   }
 ]
