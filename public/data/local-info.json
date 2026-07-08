@@ -1013,5 +1013,17 @@
     "summary": "뉴사우스웨일스 주 정부의 법령, 규정, 공공 고지 및 기타 공식 사항을 담아 공개되는 관보입니다.",
     "link": "https://data.nsw.gov.au/data/dataset/c2ae6673-0f8e-431a-b44c-fa253c31c020/resource/18f9de09-917b-4af4-83a3-eec2909425ae/download/document_13033.pdf",
     "title": "Government Gazette of the State of New South Wales Week No. 49/2003"
+  },
+  {
+    "id": 86,
+    "name": "New South Wales Auditor-General’s Report - Performance Audit, Effectiveness of the new Death and Disability Scheme",
+    "category": "지원금/혜택",
+    "startDate": "2021-09-08",
+    "endDate": "상시",
+    "location": "뉴사우스웨일스(NSW) 감사원 및 경찰청",
+    "target": "뉴사우스웨일스(NSW) 경찰청 직원",
+    "summary": "뉴사우스웨일스 감사원 보고서: NSW 경찰청의 새로운 사망 및 장애 계획 효과성 성과 감사",
+    "link": "https://data.nsw.gov.au/data/dataset/fa5cc0f5-314d-4619-b0eb-e3b0d3d64779/resource/0125c40c-826d-4a96-8f93-19a7133451e7/download/01_effectiveness_new_death_disability_scheme_full_report2.pdf_14255.pdf",
+    "title": "New South Wales Auditor-General’s Report - Performance Audit, Effectiveness of the new Death and Disability Scheme"
   }
 ]
