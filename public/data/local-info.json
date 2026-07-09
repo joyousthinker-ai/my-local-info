@@ -1025,5 +1025,17 @@
     "summary": "뉴사우스웨일스 감사원 보고서: NSW 경찰청의 새로운 사망 및 장애 계획 효과성 성과 감사",
     "link": "https://data.nsw.gov.au/data/dataset/fa5cc0f5-314d-4619-b0eb-e3b0d3d64779/resource/0125c40c-826d-4a96-8f93-19a7133451e7/download/01_effectiveness_new_death_disability_scheme_full_report2.pdf_14255.pdf",
     "title": "New South Wales Auditor-General’s Report - Performance Audit, Effectiveness of the new Death and Disability Scheme"
+  },
+  {
+    "id": 87,
+    "name": "SASP Target 68 - Urban development",
+    "category": "주거/부동산",
+    "startDate": "2010-01-01",
+    "endDate": "2036-12-31",
+    "location": "South Australia",
+    "target": "South Australia 주민 및 주택 개발 관련 정책 관계자",
+    "summary": "2036년까지 애들레이드 광역권의 모든 신규 주택의 70%를 기존 개발 지역에 건설하는 것을 목표로 하는 정책 관련 데이터셋.",
+    "link": "https://data.sa.gov.au/data/dataset/cb5a1d9d-70a5-4089-a0d0-2583525f4146",
+    "title": "SASP Target 68 - Urban development"
   }
 ]
