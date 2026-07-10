@@ -1037,5 +1037,17 @@
     "summary": "2036년까지 애들레이드 광역권의 모든 신규 주택의 70%를 기존 개발 지역에 건설하는 것을 목표로 하는 정책 관련 데이터셋.",
     "link": "https://data.sa.gov.au/data/dataset/cb5a1d9d-70a5-4089-a0d0-2583525f4146",
     "title": "SASP Target 68 - Urban development"
+  },
+  {
+    "id": 88,
+    "name": "regional-profile-limestone-coast-2011-12",
+    "category": "경제/취업",
+    "startDate": "2011-07-01",
+    "endDate": "2016-06-30",
+    "location": "Limestone Coast, South Australia",
+    "target": "지역 경제에 관심 있는 연구자, 정책 입안자, 기업 및 일반 대중",
+    "summary": "지역 총생산, 산출, 고용, 가구 소득 및 지출, 무역에 대한 지역 프로필 추정치를 담은 표입니다.",
+    "link": "https://data.sa.gov.au/data/dataset/regional-profile-limestone-coast-2011-12",
+    "title": "regional-profile-limestone-coast-2011-12"
   }
 ]
