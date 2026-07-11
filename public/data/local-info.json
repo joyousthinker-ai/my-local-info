@@ -1049,5 +1049,17 @@
     "summary": "지역 총생산, 산출, 고용, 가구 소득 및 지출, 무역에 대한 지역 프로필 추정치를 담은 표입니다.",
     "link": "https://data.sa.gov.au/data/dataset/regional-profile-limestone-coast-2011-12",
     "title": "regional-profile-limestone-coast-2011-12"
+  },
+  {
+    "id": 89,
+    "name": "EnergyAustralia Annual Report 2003/2004",
+    "category": "경제/취업",
+    "startDate": "2003-07-01",
+    "endDate": "2004-06-30",
+    "location": "Ausgrid",
+    "target": "일반 대중 및 관련 이해관계자",
+    "summary": "에너지 공급업체 EnergyAustralia의 2003-2004 회계연도 연간 경영 보고서.",
+    "link": "https://data.nsw.gov.au/data/dataset/c55db674-d33b-496b-a07a-9c3111917d20/resource/5feb8427-b0df-4161-80ce-6fb4e14fa214/download/document_11787.pdf",
+    "title": "EnergyAustralia Annual Report 2003/2004"
   }
 ]
