@@ -1061,5 +1061,17 @@
     "summary": "에너지 공급업체 EnergyAustralia의 2003-2004 회계연도 연간 경영 보고서.",
     "link": "https://data.nsw.gov.au/data/dataset/c55db674-d33b-496b-a07a-9c3111917d20/resource/5feb8427-b0df-4161-80ce-6fb4e14fa214/download/document_11787.pdf",
     "title": "EnergyAustralia Annual Report 2003/2004"
+  },
+  {
+    "id": 90,
+    "name": "Government Gazette of the State of New South Wales Week No. 06/2001",
+    "category": "경제/취업",
+    "startDate": "2001-02-05",
+    "endDate": "2001-02-11",
+    "location": "NSW Government",
+    "target": "뉴사우스웨일스 주 거주자 및 기업, 법률 전문가",
+    "summary": "뉴사우스웨일스 주 법령에 따라 공포, 규정, 정부 고시 및 법률 광고 등을 게재하는 공식 정부 공보 (2001년 제6호).",
+    "link": "https://data.nsw.gov.au/data/dataset/3-12031-government-gazette-of-the-state-of-new-south-wales-week-no-06-2001",
+    "title": "Government Gazette of the State of New South Wales Week No. 06/2001"
   }
 ]
