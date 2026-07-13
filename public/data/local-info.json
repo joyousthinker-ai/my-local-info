@@ -1073,5 +1073,17 @@
     "summary": "뉴사우스웨일스 주 법령에 따라 공포, 규정, 정부 고시 및 법률 광고 등을 게재하는 공식 정부 공보 (2001년 제6호).",
     "link": "https://data.nsw.gov.au/data/dataset/3-12031-government-gazette-of-the-state-of-new-south-wales-week-no-06-2001",
     "title": "Government Gazette of the State of New South Wales Week No. 06/2001"
+  },
+  {
+    "id": 91,
+    "name": "Mason Park Plan of Management",
+    "category": "생활/환경",
+    "startDate": "2008-06-01",
+    "endDate": "상시",
+    "location": "Mason Park 및 Mason Park Wetlands, Homebush (Strathfield Council)",
+    "target": "모든 시민",
+    "summary": "Mason Park과 Mason Park 습지의 관리 및 이용에 관한 2008년 채택된 계획 문서",
+    "link": "https://data.nsw.gov.au/data/dataset/nsw-3-14837-mason-park-plan-of-management",
+    "title": "Mason Park Plan of Management"
   }
 ]
