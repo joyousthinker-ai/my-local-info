@@ -1085,5 +1085,17 @@
     "summary": "Mason Park과 Mason Park 습지의 관리 및 이용에 관한 2008년 채택된 계획 문서",
     "link": "https://data.nsw.gov.au/data/dataset/nsw-3-14837-mason-park-plan-of-management",
     "title": "Mason Park Plan of Management"
+  },
+  {
+    "id": 92,
+    "name": "Strathfield Council Annual Report 2012-2013",
+    "category": "생활/환경",
+    "startDate": "2021-09-08",
+    "endDate": "상시",
+    "location": "Strathfield Council",
+    "target": "일반 대중 및 이해관계자",
+    "summary": "Strathfield Council의 2012-2013년 연간 보고서입니다. 이 보고서는 의회의 활동과 재정 성과를 요약하며, 이전에 opengov.nsw.gov.au에 게시되었습니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/c30c527c-853d-44ee-a8b6-1dab317d6c6f/resource/6a469955-0ad6-4fed-8e08-85d0042b35cf/download/strathfield_council_annual_report_2012_2013_15396.pdf",
+    "title": "Strathfield Council Annual Report 2012-2013"
   }
 ]
