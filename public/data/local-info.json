@@ -1109,5 +1109,17 @@
     "summary": "이 데이터는 실제 내용 대신 테스트용으로 요약되었습니다. 원본:  The Department of Social Serv...",
     "link": "https://data.sa.gov.au/",
     "title": "Income Support Customers a Statistical Overview Report - Financial Year Reports"
+  },
+  {
+    "id": 94,
+    "name": "Leasing Facts",
+    "category": "주거/부동산",
+    "startDate": "2016-06-30",
+    "endDate": "2018-06-30",
+    "location": "South Australia (Adelaide CBD, 광역/지역 포함)",
+    "target": "정부 기관 및 일반 대중",
+    "summary": "남호주 인적서비스부(DCSI)가 남호주 전역에서 임차하고 관리하는 부동산(애들레이드 CBD, 지역의 NGO 임차물 포함) 및 총 임차 비용에 대한 정보입니다.",
+    "link": "https://data.sa.gov.au/data/dataset/9a88a1ff-186c-4a8c-a73d-bf1092e5577c1d4f6dde",
+    "title": "Leasing Facts"
   }
 ]
