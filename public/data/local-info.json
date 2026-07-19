@@ -1145,5 +1145,17 @@
     "summary": "Waste Service NSW의 2003-2004 회계연도 연례 보고서로, Waste Recycling and Processing Corporation에서 발간했습니다.",
     "link": "https://data.nsw.gov.au/data/dataset/1d705b88-3d36-4601-80ce-e6de98ebf487/resource/50e5bd3c-1f35-4c41-a909-db71a99d2935/download/document_11561.pdf",
     "title": "Waste Service NSW Annual Report 2003-2004"
+  },
+  {
+    "id": 97,
+    "name": "Department of Lands Annual Report 2005",
+    "category": "주거/부동산",
+    "startDate": "2021-09-08",
+    "endDate": "상시",
+    "location": "Department of Lands",
+    "target": "모든 시민",
+    "summary": "2004/05 회계연도 동안 해당 부서의 역할과 활동에 대한 보고서입니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/nsw-3-15211-department-of-lands-annual-report-2005",
+    "title": "Department of Lands Annual Report 2005"
   }
 ]
