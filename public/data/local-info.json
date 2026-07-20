@@ -1157,5 +1157,17 @@
     "summary": "2004/05 회계연도 동안 해당 부서의 역할과 활동에 대한 보고서입니다.",
     "link": "https://data.nsw.gov.au/data/dataset/nsw-3-15211-department-of-lands-annual-report-2005",
     "title": "Department of Lands Annual Report 2005"
+  },
+  {
+    "id": 98,
+    "name": "Auditor-General's Report to Parliament Volume Nine 2012 - focusing on Education and Communities",
+    "category": "교육/도서관",
+    "startDate": "2021-09-08",
+    "endDate": "상시",
+    "location": "Audit Office of New South Wales",
+    "target": "의회 및 관련 기관, 일반 대중",
+    "summary": "2012년 감사원 제9권 의회 보고서로, 교육 및 지역사회 분야에 중점을 둔 재무 감사 보고서입니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/8f2aa8b0-e77f-4f27-89ce-4d6f80acd1a6/resource/16a9eb05-e717-46ba-9b0f-27452fcc2e1b/download/document_13422.pdf",
+    "title": "Auditor-General's Report to Parliament Volume Nine 2012 - focusing on Education and Communities"
   }
 ]
