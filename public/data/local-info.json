@@ -1193,5 +1193,17 @@
     "summary": "North Coast 지역 보건 서비스의 2006년 7월부터 2007년 6월까지의 연간 활동 및 성과를 담은 보고서입니다.",
     "link": "https://data.nsw.gov.au/data/dataset/ca9f3fb9-288e-40a2-933a-7b5a7b67626d/resource/0b19859f-65c1-4d4f-a9f8-f46479a2bf41/download/document_11972.pdf",
     "title": "North Coast Area Health Service Annual Report 2006/2007"
+  },
+  {
+    "id": 101,
+    "name": "planned-urban-lands-to-2045",
+    "category": "주거/부동산",
+    "startDate": "2017-03-01",
+    "endDate": "상시",
+    "location": "Greater Adelaide Planning Region",
+    "target": "해당 지역 주민 및 개발 관계자",
+    "summary": "그레이터 애들레이드의 2045년까지 계획된 도시 개발 구역의 경계선을 나타내는 데이터입니다. 2017년 그레이터 애들레이드 30년 계획 업데이트에 명시된 도시 개발 예정 지역의 외곽 한계를 보여줍니다.",
+    "link": "http://livingadelaide.sa.gov.au/",
+    "title": "planned-urban-lands-to-2045"
   }
 ]
