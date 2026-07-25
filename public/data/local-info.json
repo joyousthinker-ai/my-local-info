@@ -1217,5 +1217,17 @@
     "summary": "플루리우 및 KI 지역의 총 지역 생산, 고용, 가계 소득 및 지출, 무역에 대한 추정치를 담은 지역 프로필 데이터입니다. 남호주 및 해당 지역의 투입-산출표 작성 과정에서 파생된 추정치입니다.",
     "link": "https://data.sa.gov.au/data/dataset/regional-profile-fleurieu-ki-2011-12",
     "title": "Regional profile Fleurieu & KI"
+  },
+  {
+    "id": 103,
+    "name": "Government Gazette of the State of New South Wales Week No. 25/2010",
+    "category": "경제/취업",
+    "startDate": "2021-09-08",
+    "endDate": "상시",
+    "location": "New South Wales",
+    "target": "뉴사우스웨일스 주민, 기업 및 정부기관",
+    "summary": "뉴사우스웨일스 정부 관보는 뉴사우스웨일스 정부 법률에 따라 공고, 규제, 정부 고지, 개인 법률 광고 및 기타 사항을 공표하는 공식 채널입니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/147862c7-256f-4178-9f0d-8d69868a3617/resource/d45c754f-7f9c-434d-88b1-4fc127a83e71/download/document_12592.pdf",
+    "title": "Government Gazette of the State of New South Wales Week No. 25/2010"
   }
 ]
