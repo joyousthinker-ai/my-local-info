@@ -1229,5 +1229,17 @@
     "summary": "뉴사우스웨일스 정부 관보는 뉴사우스웨일스 정부 법률에 따라 공고, 규제, 정부 고지, 개인 법률 광고 및 기타 사항을 공표하는 공식 채널입니다.",
     "link": "https://data.nsw.gov.au/data/dataset/147862c7-256f-4178-9f0d-8d69868a3617/resource/d45c754f-7f9c-434d-88b1-4fc127a83e71/download/document_12592.pdf",
     "title": "Government Gazette of the State of New South Wales Week No. 25/2010"
+  },
+  {
+    "id": 104,
+    "name": "Department of Environment and Conservation (NSW) Annual Report 2004-05",
+    "category": "생활/환경",
+    "startDate": "2004-07-01",
+    "endDate": "2005-06-30",
+    "location": "Department of Environment, Climate Change and Water (NSW)",
+    "target": "공공",
+    "summary": "뉴사우스웨일스 환경보전부의 2004-05년 연례 보고서로, 환경, 기후 변화, 수자원 관련 활동을 요약합니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/nsw-3-11197-department-of-environment-and-conservation-nsw-annual-report-2004-05",
+    "title": "Department of Environment and Conservation (NSW) Annual Report 2004-05"
   }
 ]
