@@ -1241,5 +1241,17 @@
     "summary": "뉴사우스웨일스 환경보전부의 2004-05년 연례 보고서로, 환경, 기후 변화, 수자원 관련 활동을 요약합니다.",
     "link": "https://data.nsw.gov.au/data/dataset/nsw-3-11197-department-of-environment-and-conservation-nsw-annual-report-2004-05",
     "title": "Department of Environment and Conservation (NSW) Annual Report 2004-05"
+  },
+  {
+    "id": 105,
+    "name": "NSW Department of Sport & Recreation Annual Report 1999-2000",
+    "category": "관광/여가",
+    "startDate": "2021-09-08",
+    "endDate": "상시",
+    "location": "Department of Sport and Recreation, NSW Government",
+    "target": "일반 대중 및 관계자",
+    "summary": "NSW 스포츠 및 레크리에이션 부처의 1999-2000 회계연도 연간 보고서",
+    "link": "https://data.nsw.gov.au/data/dataset/b49d16ff-d372-470a-bfe0-7fc6654d5d9e/resource/16826f8a-025f-4c95-8120-8ed38aecf17f/download/document_10817.pdf",
+    "title": "NSW Department of Sport & Recreation Annual Report 1999-2000"
   }
 ]
