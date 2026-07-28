@@ -1253,5 +1253,17 @@
     "summary": "NSW 스포츠 및 레크리에이션 부처의 1999-2000 회계연도 연간 보고서",
     "link": "https://data.nsw.gov.au/data/dataset/b49d16ff-d372-470a-bfe0-7fc6654d5d9e/resource/16826f8a-025f-4c95-8120-8ed38aecf17f/download/document_10817.pdf",
     "title": "NSW Department of Sport & Recreation Annual Report 1999-2000"
+  },
+  {
+    "id": 106,
+    "name": "Government Gazette of the State of New South Wales Week No. 26/2001",
+    "category": "생활/환경",
+    "startDate": "2001-06-25",
+    "endDate": "2001-07-01",
+    "location": "New South Wales Government",
+    "target": "뉴사우스웨일스 주민 및 관련 기관",
+    "summary": "뉴사우스웨일스 정부의 공식 관보로, 포고령, 규정, 정부 고지, 사법 광고 등 법규에 따라 발행되는 공식 문서들을 포함합니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/nsw-3-12011-government-gazette-of-the-state-of-new-south-wales-week-no-26-2001",
+    "title": "Government Gazette of the State of New South Wales Week No. 26/2001"
   }
 ]
