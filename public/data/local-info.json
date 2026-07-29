@@ -1265,5 +1265,17 @@
     "summary": "뉴사우스웨일스 정부의 공식 관보로, 포고령, 규정, 정부 고지, 사법 광고 등 법규에 따라 발행되는 공식 문서들을 포함합니다.",
     "link": "https://data.nsw.gov.au/data/dataset/nsw-3-12011-government-gazette-of-the-state-of-new-south-wales-week-no-26-2001",
     "title": "Government Gazette of the State of New South Wales Week No. 26/2001"
+  },
+  {
+    "id": 107,
+    "name": "North Coast Area Health Service Annual Report 2007-2008",
+    "category": "건강/의료",
+    "startDate": "2007-07-01",
+    "endDate": "2008-06-30",
+    "location": "North Coast Area Health Service",
+    "target": "해당 기관 및 일반 대중",
+    "summary": "노스 코스트 지역 보건 서비스의 2007년부터 2008년까지의 연례 보고서입니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/29f50b20-5a3f-49fe-ab88-68982319595a/resource/1d520efc-55a4-4cf8-89c4-39100bcdc989/download/document_12087.pdf",
+    "title": "North Coast Area Health Service Annual Report 2007-2008"
   }
 ]
