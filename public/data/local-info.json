@@ -1289,5 +1289,17 @@
     "summary": "환경 및 식량 생산 지역(EFPAs)은 애들레이드 광역권 주변의 중요한 농경지를 도시 침범으로부터 보호하기 위해 도입되었습니다.",
     "link": "https://plan.sa.gov.au/our_planning_system/instruments/planning_instruments/environment_and_food_production_areas",
     "title": "Environment and Food Production Areas"
+  },
+  {
+    "id": 109,
+    "name": "Regional profile South Australia",
+    "category": "경제/취업",
+    "startDate": "2011-07-01",
+    "endDate": "2016-06-30",
+    "location": "South Australia",
+    "target": "정부, 기업, 연구기관 및 일반 대중",
+    "summary": "남호주의 지역별 총생산, 고용, 가계 소득 및 지출, 무역 등을 포함하는 통계 자료입니다. 이 자료는 설문조사나 인구 조사에서 직접 가져온 것이 아니라, 수집된 데이터와 추정치를 기반으로 남호주 및 그 지역의 산업 연관표 구축 과정에서 파생된 추정치입니다.",
+    "link": "https://data.sa.gov.au/data/dataset/regional-profile-south-australia-2011-12",
+    "title": "Regional profile South Australia"
   }
 ]
