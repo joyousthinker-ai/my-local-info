@@ -1301,5 +1301,17 @@
     "summary": "남호주의 지역별 총생산, 고용, 가계 소득 및 지출, 무역 등을 포함하는 통계 자료입니다. 이 자료는 설문조사나 인구 조사에서 직접 가져온 것이 아니라, 수집된 데이터와 추정치를 기반으로 남호주 및 그 지역의 산업 연관표 구축 과정에서 파생된 추정치입니다.",
     "link": "https://data.sa.gov.au/data/dataset/regional-profile-south-australia-2011-12",
     "title": "Regional profile South Australia"
+  },
+  {
+    "id": 110,
+    "name": "INTEGRAL ENERGY ANNUAL PERFORMANCE REPORT ENVIRONMENTAL PERFORMANCE 2002-03",
+    "category": "생활/환경",
+    "startDate": "2002-07-01",
+    "endDate": "2003-06-30",
+    "location": "Endeavour Energy (NSW)",
+    "target": "공공 및 관계 기관, 일반 대중",
+    "summary": "Integral Energy의 2002-03년 연간 환경 성과 보고서.",
+    "link": "https://data.nsw.gov.au/data/dataset/b08a12ca-d3dd-4f65-9228-37534994e79f/resource/1cc874d0-fdcb-4a3b-ae5e-cb321c9f840f/download/integral_environmental_1__14676.pdf",
+    "title": "INTEGRAL ENERGY ANNUAL PERFORMANCE REPORT ENVIRONMENTAL PERFORMANCE 2002-03"
   }
 ]
