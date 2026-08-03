@@ -1325,5 +1325,17 @@
     "summary": "뉴사우스웨일스 정부 공보는 뉴사우스웨일스 주 법령에 따라 공고, 규정, 정부 고시 및 기타 법적 광고를 게시하는 공식 채널입니다.",
     "link": "https://data.nsw.gov.au/data/dataset/cb6e8753-ab3a-4e9b-88cc-5cf000e75524/resource/78fe03fe-cb7e-423d-863d-33e2eb50a88b/download/document_12691.pdf",
     "title": "Government Gazette of the State of New South Wales Week No. 36/2008"
+  },
+  {
+    "id": 112,
+    "name": "NSW Commission for Children and Young People Annual Report 2009-2010",
+    "category": "건강/의료",
+    "startDate": "2009-07-01",
+    "endDate": "2010-06-30",
+    "location": "NSW Commission for Children and Young People",
+    "target": "아동 및 청소년",
+    "summary": "NSW 아동 및 청소년 위원회의 2009-2010 회계연도 연례 보고서",
+    "link": "https://data.nsw.gov.au/data/dataset/f2efc150-18b4-4e6a-9ea4-ac95c16a4936/resource/8580d3b0-de0d-41ac-a881-9f660b9e2d46/download/document_12235.pdf",
+    "title": "NSW Commission for Children and Young People Annual Report 2009-2010"
   }
 ]
