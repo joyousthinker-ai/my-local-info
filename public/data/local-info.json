@@ -1337,5 +1337,17 @@
     "summary": "NSW 아동 및 청소년 위원회의 2009-2010 회계연도 연례 보고서",
     "link": "https://data.nsw.gov.au/data/dataset/f2efc150-18b4-4e6a-9ea4-ac95c16a4936/resource/8580d3b0-de0d-41ac-a881-9f660b9e2d46/download/document_12235.pdf",
     "title": "NSW Commission for Children and Young People Annual Report 2009-2010"
+  },
+  {
+    "id": 113,
+    "name": "Road Transport and Tramway Annual Report 1947-48",
+    "category": "교통/인프라",
+    "startDate": "1947-07-01",
+    "endDate": "1948-06-30",
+    "location": "뉴사우스웨일스 주 교통 및 트램웨이 부",
+    "target": "일반 대중 (공공 정보)",
+    "summary": "뉴사우스웨일스 주 교통 및 트램웨이 부의 1947-48 회계연도 연간 보고서입니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/9196a4f9-727a-493d-bee5-24fb19748541/resource/51086228-c17f-4776-87fd-55a4d4c5354c/download/rtt_1947_48_16045.pdf",
+    "title": "Road Transport and Tramway Annual Report 1947-48"
   }
 ]
