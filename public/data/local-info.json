@@ -1349,5 +1349,17 @@
     "summary": "뉴사우스웨일스 주 교통 및 트램웨이 부의 1947-48 회계연도 연간 보고서입니다.",
     "link": "https://data.nsw.gov.au/data/dataset/9196a4f9-727a-493d-bee5-24fb19748541/resource/51086228-c17f-4776-87fd-55a4d4c5354c/download/rtt_1947_48_16045.pdf",
     "title": "Road Transport and Tramway Annual Report 1947-48"
+  },
+  {
+    "id": 114,
+    "name": "Northern Sydney Central Coast Health Annual Report 2005-2006",
+    "category": "건강/의료",
+    "startDate": "2021-09-08",
+    "endDate": "상시",
+    "location": "Northern Sydney-Central Coast Area Health Service",
+    "target": "일반 대중 및 관계 기관",
+    "summary": "뉴사우스웨일스주 북부 시드니-센트럴 코스트 보건 지역 서비스의 2005-2006년 연간 보고서입니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/dd8c1944-c17a-43d7-8fbc-ff09f8bb28b8/resource/9576936f-6a84-407d-95b3-f472f95f698b/download/document_11312.pdf",
+    "title": "Northern Sydney Central Coast Health Annual Report 2005-2006"
   }
 ]
