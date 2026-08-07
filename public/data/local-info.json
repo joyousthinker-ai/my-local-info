@@ -1361,5 +1361,17 @@
     "summary": "뉴사우스웨일스주 북부 시드니-센트럴 코스트 보건 지역 서비스의 2005-2006년 연간 보고서입니다.",
     "link": "https://data.nsw.gov.au/data/dataset/dd8c1944-c17a-43d7-8fbc-ff09f8bb28b8/resource/9576936f-6a84-407d-95b3-f472f95f698b/download/document_11312.pdf",
     "title": "Northern Sydney Central Coast Health Annual Report 2005-2006"
+  },
+  {
+    "id": 115,
+    "name": "Regional profile Murray & Mallee",
+    "category": "경제/취업",
+    "startDate": "2011-07-01",
+    "endDate": "2016-06-30",
+    "location": "Murray & Mallee, South Australia",
+    "target": "연구자 및 정책 입안자",
+    "summary": "남호주 및 해당 지역의 총 지역 생산, 생산량, 고용, 가구 소득 및 지출, 무역 등을 포함하는 지역 프로필 데이터 테이블입니다.",
+    "link": "https://data.sa.gov.au/data/dataset/regional-profile-murray-mallee-2011-12",
+    "title": "Regional profile Murray & Mallee"
   }
 ]
