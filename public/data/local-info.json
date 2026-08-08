@@ -1385,5 +1385,17 @@
     "summary": "남호주 에어 & 웨스턴 지역의 총 지역 생산, 고용, 가구 소득 및 지출, 무역 등을 포함하는 지역 프로필 데이터로, 지역별 입출력표 작성 과정에서 도출된 추정치입니다.",
     "link": "https://data.sa.gov.au/data/dataset/regional-profile-eyre-western-2011-12",
     "title": "Regional profile Eyre & Western"
+  },
+  {
+    "id": 117,
+    "name": "Endeavour Energy 2014-15 Annual Report - Our Challenges, Our Future",
+    "category": "경제/취업",
+    "startDate": "2014-07-01",
+    "endDate": "2015-06-30",
+    "location": "Endeavour Energy",
+    "target": "일반 대중 및 이해관계자",
+    "summary": "이 보고서는 Endeavour Energy의 2014-15 회계연도 실적을 설명하며, 성공 사례, 개선점, 미래 방향 및 과제를 다룹니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/nsw-3-15507-endeavour-energy-2014-15-annual-report-our-challenges-our-future",
+    "title": "Endeavour Energy 2014-15 Annual Report - Our Challenges, Our Future"
   }
 ]
