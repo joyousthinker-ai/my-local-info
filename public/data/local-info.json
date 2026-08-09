@@ -1397,5 +1397,17 @@
     "summary": "이 보고서는 Endeavour Energy의 2014-15 회계연도 실적을 설명하며, 성공 사례, 개선점, 미래 방향 및 과제를 다룹니다.",
     "link": "https://data.nsw.gov.au/data/dataset/nsw-3-15507-endeavour-energy-2014-15-annual-report-our-challenges-our-future",
     "title": "Endeavour Energy 2014-15 Annual Report - Our Challenges, Our Future"
+  },
+  {
+    "id": 118,
+    "name": "Department of Planning Annual Report 2006-2007",
+    "category": "생활/환경",
+    "startDate": "2021-09-08",
+    "endDate": "상시",
+    "location": "Department of Planning and Environment",
+    "target": "",
+    "summary": "NSW 계획 및 환경부의 2006-2007년 연간 보고서. 재정 보고서 및 부록을 포함한다.",
+    "link": "https://data.nsw.gov.au/data/dataset/c03a1d3a-18e7-441d-9276-9f974c6231d5/resource/6e78c76e-5d14-4eca-81a7-1d88ba9f389d/download/document_10723.pdf",
+    "title": "Department of Planning Annual Report 2006-2007"
   }
 ]
