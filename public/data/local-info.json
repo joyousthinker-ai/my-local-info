@@ -1409,5 +1409,17 @@
     "summary": "NSW 계획 및 환경부의 2006-2007년 연간 보고서. 재정 보고서 및 부록을 포함한다.",
     "link": "https://data.nsw.gov.au/data/dataset/c03a1d3a-18e7-441d-9276-9f974c6231d5/resource/6e78c76e-5d14-4eca-81a7-1d88ba9f389d/download/document_10723.pdf",
     "title": "Department of Planning Annual Report 2006-2007"
+  },
+  {
+    "id": 119,
+    "name": "NSW Department of Education and Training Annual Report 2006",
+    "category": "교육/도서관",
+    "startDate": "2021-09-08",
+    "endDate": "상시",
+    "location": "NSW Department of Education and Training",
+    "target": "일반 시민",
+    "summary": "뉴 사우스 웨일즈 교육훈련부의 2006년 연례 보고서로, 교육 및 지역사회 관련 정보를 제공합니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/6543e8fd-be8d-4a95-b37d-a4b77a71dedd/resource/eece7fc1-5041-4d23-97af-2a02d59baad5/download/document_10960.pdf",
+    "title": "NSW Department of Education and Training Annual Report 2006"
   }
 ]
