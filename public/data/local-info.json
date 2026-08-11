@@ -1421,5 +1421,17 @@
     "summary": "뉴 사우스 웨일즈 교육훈련부의 2006년 연례 보고서로, 교육 및 지역사회 관련 정보를 제공합니다.",
     "link": "https://data.nsw.gov.au/data/dataset/6543e8fd-be8d-4a95-b37d-a4b77a71dedd/resource/eece7fc1-5041-4d23-97af-2a02d59baad5/download/document_10960.pdf",
     "title": "NSW Department of Education and Training Annual Report 2006"
+  },
+  {
+    "id": 120,
+    "name": "Rail Corporation NSW Annual Report 2009-2010",
+    "category": "교통/인프라",
+    "startDate": "2009-07-01",
+    "endDate": "2010-06-30",
+    "location": "New South Wales Rail Corporation",
+    "target": "일반 시민 및 관계 기관",
+    "summary": "뉴사우스웨일스 철도 공사의 2009-2010년 연간 보고서로, 해당 기간 동안의 재정 및 운영 성과를 담고 있습니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/nsw-3-10538-rail-corporation-nsw-annual-report-2009-2010",
+    "title": "Rail Corporation NSW Annual Report 2009-2010"
   }
 ]
