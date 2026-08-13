@@ -1445,5 +1445,17 @@
     "summary": "뉴사우스웨일스 사법 보건 2005-2006 연간 보고서",
     "link": "https://data.nsw.gov.au/data/dataset/a505ae74-3722-4fcb-bfdd-675c59625256/resource/c8b9ad49-cc10-4f44-89a5-71622ea7a645/download/document_11614.pdf",
     "title": "Justice Health Annual Report 2005-2006"
+  },
+  {
+    "id": 122,
+    "name": "Planned urban lands to 2045 (Urban Boundary)",
+    "category": "주거/부동산",
+    "startDate": "2017-03-01",
+    "endDate": "상시",
+    "location": "Greater Adelaide Planning Region",
+    "target": "",
+    "summary": "2045년까지 계획된 도시 토지는 2017년 그레이터 애들레이드 30년 계획 업데이트에 명시된 도시 개발 고려 대상 지역의 외곽 한계를 나타냅니다.",
+    "link": "https://www.location.sa.gov.au/viewer/? map=hybrid&x=138.90693&y=-35.0184 &z=10&uids=227&pinx= &piny=&pinTitle= &pinText=",
+    "title": "Planned urban lands to 2045 (Urban Boundary)"
   }
 ]
