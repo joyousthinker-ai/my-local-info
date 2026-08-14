@@ -1457,5 +1457,17 @@
     "summary": "2045년까지 계획된 도시 토지는 2017년 그레이터 애들레이드 30년 계획 업데이트에 명시된 도시 개발 고려 대상 지역의 외곽 한계를 나타냅니다.",
     "link": "https://www.location.sa.gov.au/viewer/? map=hybrid&x=138.90693&y=-35.0184 &z=10&uids=227&pinx= &piny=&pinTitle= &pinText=",
     "title": "Planned urban lands to 2045 (Urban Boundary)"
+  },
+  {
+    "id": 123,
+    "name": "regional-profile-limestone-coast-2011-12",
+    "category": "경제/취업",
+    "startDate": "2011-07-01",
+    "endDate": "2016-06-30",
+    "location": "Limestone Coast, South Australia",
+    "target": "해당 지역의 경제 데이터에 관심 있는 개인 및 기관",
+    "summary": "라임스톤 코스트 지역의 총생산 및 산출, 고용, 가계 소득 및 지출, 무역 등을 포함하는 지역 프로필 데이터입니다. 이 데이터는 사우스 오스트레일리아의 투입-산출표 구축 과정에서 파생된 추정치로, 수집된 데이터와 주 정부의 추정치를 기반으로 합니다.",
+    "link": "https://data.sa.gov.au/data/dataset/regional-profile-limestone-coast-2011-12",
+    "title": "regional-profile-limestone-coast-2011-12"
   }
 ]
