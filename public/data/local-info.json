@@ -1469,5 +1469,17 @@
     "summary": "라임스톤 코스트 지역의 총생산 및 산출, 고용, 가계 소득 및 지출, 무역 등을 포함하는 지역 프로필 데이터입니다. 이 데이터는 사우스 오스트레일리아의 투입-산출표 구축 과정에서 파생된 추정치로, 수집된 데이터와 주 정부의 추정치를 기반으로 합니다.",
     "link": "https://data.sa.gov.au/data/dataset/regional-profile-limestone-coast-2011-12",
     "title": "regional-profile-limestone-coast-2011-12"
+  },
+  {
+    "id": 124,
+    "name": "Eraring Energy Annual Report 2008",
+    "category": "경제/취업",
+    "startDate": "2008-01-01",
+    "endDate": "2008-12-31",
+    "location": "Eraring Energy, New South Wales",
+    "target": "일반 대중 및 이해관계자",
+    "summary": "Eraring Energy의 2008년 연례 보고서입니다. 이 자료는 이전에 opengov.nsw.gov.au에서 발행되었으며, Eraring Energy는 본 보고서를 발행한 기관입니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/19da7926-e0cc-4c30-aec8-12f441ee42ea/resource/12290742-562c-4707-a842-fd37e3094009/download/document_10624.pdf",
+    "title": "Eraring Energy Annual Report 2008"
   }
 ]
