@@ -1481,5 +1481,17 @@
     "summary": "Eraring Energy의 2008년 연례 보고서입니다. 이 자료는 이전에 opengov.nsw.gov.au에서 발행되었으며, Eraring Energy는 본 보고서를 발행한 기관입니다.",
     "link": "https://data.nsw.gov.au/data/dataset/19da7926-e0cc-4c30-aec8-12f441ee42ea/resource/12290742-562c-4707-a842-fd37e3094009/download/document_10624.pdf",
     "title": "Eraring Energy Annual Report 2008"
+  },
+  {
+    "id": 125,
+    "name": "Government Gazette of the State of New South Wales Week No. 49/2001",
+    "category": "생활/환경",
+    "startDate": "2021-09-08",
+    "endDate": "상시",
+    "location": "New South Wales Government",
+    "target": "일반 대중, 기업, 정부 기관",
+    "summary": "뉴사우스웨일스 정부 관보는 뉴사우스웨일스 정부 법령에 따라 공포, 규정, 정부 고지 및 개인 법적 광고 등 다양한 공식 사항을 공표하는 공식 채널입니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/07d3ae35-39a5-4d33-ae99-7815c8e137b0/resource/f1ee4a13-4017-4e8b-9e53-c6c182c879ac/download/document_13159.pdf",
+    "title": "Government Gazette of the State of New South Wales Week No. 49/2001"
   }
 ]
