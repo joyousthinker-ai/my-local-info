@@ -1493,5 +1493,17 @@
     "summary": "뉴사우스웨일스 정부 관보는 뉴사우스웨일스 정부 법령에 따라 공포, 규정, 정부 고지 및 개인 법적 광고 등 다양한 공식 사항을 공표하는 공식 채널입니다.",
     "link": "https://data.nsw.gov.au/data/dataset/07d3ae35-39a5-4d33-ae99-7815c8e137b0/resource/f1ee4a13-4017-4e8b-9e53-c6c182c879ac/download/document_13159.pdf",
     "title": "Government Gazette of the State of New South Wales Week No. 49/2001"
+  },
+  {
+    "id": 126,
+    "name": "Strathfield Council Annual Report 2008-2009",
+    "category": "생활/환경",
+    "startDate": "2023-10-27",
+    "endDate": "상시",
+    "location": "Strathfield Council",
+    "target": "일반 시민",
+    "summary": "Strathfield Council의 2008-2009년 연례 보고서입니다. 이 보고서는 의회의 운영 활동, 재정 성과 및 주요 성과에 대한 상세 정보를 제공합니다. 이 자료는 이전에 OpenGov 웹사이트에 게시되었으나, 현재는 PDF 형식으로 이용 가능합니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/89e4d734-39d1-4706-947e-3ecc36c95f2a/resource/f53bbf33-0144-4547-9aa2-fa843deca2f1/download/strathfield_council_annual_report_2008_2009_15021.pdf",
+    "title": "Strathfield Council Annual Report 2008-2009"
   }
 ]
