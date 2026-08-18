@@ -1505,5 +1505,17 @@
     "summary": "Strathfield Council의 2008-2009년 연례 보고서입니다. 이 보고서는 의회의 운영 활동, 재정 성과 및 주요 성과에 대한 상세 정보를 제공합니다. 이 자료는 이전에 OpenGov 웹사이트에 게시되었으나, 현재는 PDF 형식으로 이용 가능합니다.",
     "link": "https://data.nsw.gov.au/data/dataset/89e4d734-39d1-4706-947e-3ecc36c95f2a/resource/f53bbf33-0144-4547-9aa2-fa843deca2f1/download/strathfield_council_annual_report_2008_2009_15021.pdf",
     "title": "Strathfield Council Annual Report 2008-2009"
+  },
+  {
+    "id": 127,
+    "name": "Government Gazette of the State of New South Wales Week No. 13/2008",
+    "category": "교육/도서관",
+    "startDate": "2021-09-08",
+    "endDate": "상시",
+    "location": "New South Wales Government",
+    "target": "모든 사람",
+    "summary": "뉴사우스웨일스 주 정부 공보는 뉴사우스웨일스 주 정부 법령에 따라 공보에 게재되어야 하는 선언, 규정, 정부 고시, 사설 법적 광고 및 기타 사항을 유포하는 공식 채널입니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/nsw-3-11659-government-gazette-of-the-state-of-new-south-wales-week-no-13-2008",
+    "title": "Government Gazette of the State of New South Wales Week No. 13/2008"
   }
 ]
