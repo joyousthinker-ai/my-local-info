@@ -1517,5 +1517,17 @@
     "summary": "뉴사우스웨일스 주 정부 공보는 뉴사우스웨일스 주 정부 법령에 따라 공보에 게재되어야 하는 선언, 규정, 정부 고시, 사설 법적 광고 및 기타 사항을 유포하는 공식 채널입니다.",
     "link": "https://data.nsw.gov.au/data/dataset/nsw-3-11659-government-gazette-of-the-state-of-new-south-wales-week-no-13-2008",
     "title": "Government Gazette of the State of New South Wales Week No. 13/2008"
+  },
+  {
+    "id": 128,
+    "name": "Greater Southern Area Health Service Annual Report 2004 | 05",
+    "category": "건강/의료",
+    "startDate": "2004-07-01",
+    "endDate": "2005-06-30",
+    "location": "Greater Southern Area Health Service",
+    "target": "일반 대중 및 관계자",
+    "summary": "Greater Southern Area Health Service의 2004-05 회계연도 연례 보고서",
+    "link": "https://data.nsw.gov.au/data/dataset/7b1828f9-2628-429c-a906-dfc4d10b2d66/resource/f4e7236d-f048-4f10-8eb1-3a39999f4ee8/download/document_10688.pdf",
+    "title": "Greater Southern Area Health Service Annual Report 2004 | 05"
   }
 ]
