@@ -1529,5 +1529,17 @@
     "summary": "Greater Southern Area Health Service의 2004-05 회계연도 연례 보고서",
     "link": "https://data.nsw.gov.au/data/dataset/7b1828f9-2628-429c-a906-dfc4d10b2d66/resource/f4e7236d-f048-4f10-8eb1-3a39999f4ee8/download/document_10688.pdf",
     "title": "Greater Southern Area Health Service Annual Report 2004 | 05"
+  },
+  {
+    "id": 129,
+    "name": "Properties Land Use",
+    "category": "주거/부동산",
+    "startDate": "2016-01-01",
+    "endDate": "상시",
+    "location": "Adelaide & North Adelaide",
+    "target": "해당 지역 부동산 정보에 관심 있는 사람",
+    "summary": "애들레이드 및 노스 애들레이드 내 모든 부동산의 토지 이용 코드를 담은 보고서입니다.",
+    "link": "https://s3.ap-southeast-2.amazonaws.com/dmzweb.adelaidecitycouncil.com/OpenData/Properties_LandUse/Properties_LandUse.csv",
+    "title": "Properties Land Use"
   }
 ]
