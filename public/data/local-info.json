@@ -1541,5 +1541,17 @@
     "summary": "애들레이드 및 노스 애들레이드 내 모든 부동산의 토지 이용 코드를 담은 보고서입니다.",
     "link": "https://s3.ap-southeast-2.amazonaws.com/dmzweb.adelaidecitycouncil.com/OpenData/Properties_LandUse/Properties_LandUse.csv",
     "title": "Properties Land Use"
+  },
+  {
+    "id": 130,
+    "name": "Potential displacement of commercial fisheries by a Commonwealth marine reserve zoning scheme",
+    "category": "경제/취업",
+    "startDate": "2018-06-18",
+    "endDate": "상시",
+    "location": "Australia",
+    "target": "상업 어업 종사자 및 관련 지역사회",
+    "summary": "연방 정부의 해양 보호 구역 지정 및 권고안이 상업 어업에 미치는 경제적 영향을 분석한 보고서. 이 보고서는 2012년 선포된 해양 보호 구역과 2015년 권고된 구역 설정안에 따른 상업 어업의 잠재적 조업지 이동, 어획량 감소, 총 생산액(GVP) 손실 및 단기 고용 영향을 평가하며, 특히 서호주와 퀸즐랜드의 특정 어업 및 지역에서 영향이 집중될 수 있음을 제시한다.",
+    "link": "https://www.environment.gov.au/system/files/pages/23061bf8-df19-4b74-b867-5a57ccbc5c8b/files/commercial-fishing-displacement-panel-recommended-zoning-scheme-abares.pdf",
+    "title": "Potential displacement of commercial fisheries by a Commonwealth marine reserve zoning scheme"
   }
 ]
