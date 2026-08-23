@@ -1565,5 +1565,17 @@
     "summary": "2015-2016년 기간 동안 NSW 주의 기후 변화 적응을 위한 에너지 효율 및 온실가스 감축 프로그램 및 프로젝트를 지원한 기후 변화 기금 보고서.",
     "link": "https://data.nsw.gov.au/data/dataset/nsw-3-15579-nsw-climate-change-fund-2015-2016",
     "title": "NSW Climate Change Fund 2015-2016"
+  },
+  {
+    "id": 132,
+    "name": "Government Gazette of the State of New South Wales Week No. 32/2004",
+    "category": "경제/취업",
+    "startDate": "2004-08-02",
+    "endDate": "2004-08-08",
+    "location": "New South Wales Government",
+    "target": "뉴사우스웨일스주 주민, 기업 및 정부 기관",
+    "summary": "뉴사우스웨일스주 정부의 공식 간행물로, 2004년 32주차에 발행된 포고령, 규정, 정부 고지 및 기타 법률 관련 공고를 담고 있습니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/nsw-3-11849-government-gazette-of-the-state-of-new-south-wales-week-no-32-2004",
+    "title": "Government Gazette of the State of New South Wales Week No. 32/2004"
   }
 ]
