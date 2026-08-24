@@ -1577,5 +1577,17 @@
     "summary": "뉴사우스웨일스주 정부의 공식 간행물로, 2004년 32주차에 발행된 포고령, 규정, 정부 고지 및 기타 법률 관련 공고를 담고 있습니다.",
     "link": "https://data.nsw.gov.au/data/dataset/nsw-3-11849-government-gazette-of-the-state-of-new-south-wales-week-no-32-2004",
     "title": "Government Gazette of the State of New South Wales Week No. 32/2004"
+  },
+  {
+    "id": 133,
+    "name": "Attorney General's Department of NSW Annual Report 2003-2004",
+    "category": "교육",
+    "startDate": "2026-08-24",
+    "endDate": "상시",
+    "location": "NSW Government",
+    "target": "전체 시민",
+    "summary": "이 데이터는 실제 내용 대신 테스트용으로 요약되었습니다. 원본: No notes provided\n\n<strong>Not...",
+    "link": "https://data.sa.gov.au/",
+    "title": "Attorney General's Department of NSW Annual Report 2003-2004"
   }
 ]
