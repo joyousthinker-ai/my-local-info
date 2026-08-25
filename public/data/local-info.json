@@ -1589,5 +1589,17 @@
     "summary": "이 데이터는 실제 내용 대신 테스트용으로 요약되었습니다. 원본: No notes provided\n\n<strong>Not...",
     "link": "https://data.sa.gov.au/",
     "title": "Attorney General's Department of NSW Annual Report 2003-2004"
+  },
+  {
+    "id": 134,
+    "name": "Ministry of Transport Annual Report 2006",
+    "category": "교통/인프라",
+    "startDate": "2021-09-08",
+    "endDate": "상시",
+    "location": "Transport Co-ordination Authority Ministry of Transport",
+    "target": "모든 시민",
+    "summary": "NSW 정부 교통부의 2006년 연례 보고서이며, 교통 관련 활동 및 통계 정보를 포함합니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/00f3fec4-addb-4ed4-ba21-345eb5cc5064/resource/2d593e94-843a-423e-9ea7-85b3661a7eba/download/document_10626.pdf",
+    "title": "Ministry of Transport Annual Report 2006"
   }
 ]
