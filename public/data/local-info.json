@@ -1601,5 +1601,17 @@
     "summary": "NSW 정부 교통부의 2006년 연례 보고서이며, 교통 관련 활동 및 통계 정보를 포함합니다.",
     "link": "https://data.nsw.gov.au/data/dataset/00f3fec4-addb-4ed4-ba21-345eb5cc5064/resource/2d593e94-843a-423e-9ea7-85b3661a7eba/download/document_10626.pdf",
     "title": "Ministry of Transport Annual Report 2006"
+  },
+  {
+    "id": 135,
+    "name": "Medication and Mental Illness: Perspectives",
+    "category": "건강/의료",
+    "startDate": "2021-09-08",
+    "endDate": "상시",
+    "location": "NSW 정신건강위원회",
+    "target": "정신 질환 환자 및 보호자",
+    "summary": "NSW 정신건강위원회가 정신 질환 약물 치료의 도전과 기회를 탐색하고, 환자와 보호자의 목소리를 전달하기 위해 발행한 보고서입니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/38765d3b-787c-470b-b087-1bb1dd95867f/resource/4ca7f392-725a-40d0-b133-e3a78fffe1c0/download/medication_and_mental_illness_perspectives___12_feb_2016__1__16077.pdf",
+    "title": "Medication and Mental Illness: Perspectives"
   }
 ]
