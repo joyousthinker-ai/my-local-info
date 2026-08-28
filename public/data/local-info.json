@@ -1613,5 +1613,17 @@
     "summary": "NSW 정신건강위원회가 정신 질환 약물 치료의 도전과 기회를 탐색하고, 환자와 보호자의 목소리를 전달하기 위해 발행한 보고서입니다.",
     "link": "https://data.nsw.gov.au/data/dataset/38765d3b-787c-470b-b087-1bb1dd95867f/resource/4ca7f392-725a-40d0-b133-e3a78fffe1c0/download/medication_and_mental_illness_perspectives___12_feb_2016__1__16077.pdf",
     "title": "Medication and Mental Illness: Perspectives"
+  },
+  {
+    "id": 136,
+    "name": "Regional profile Limestone Coast",
+    "category": "경제/취업",
+    "startDate": "2011-07-01",
+    "endDate": "2016-06-30",
+    "location": "Limestone Coast, South Australia",
+    "target": "경제 데이터에 관심 있는 일반인, 연구자, 정책 입안자",
+    "summary": "사우스 오스트레일리아의 림스톤 코스트 지역의 총 지역 생산, 고용, 가구 소득 및 지출, 무역 등에 대한 추정 데이터를 담고 있는 지역 프로필입니다. 이 데이터는 수집된 정보와 주별 비중, 상위 테이블 값을 기반으로 추정하여 작성되었습니다.",
+    "link": "https://data.sa.gov.au/data/dataset/regional-profile-limestone-coast-2011-12",
+    "title": "Regional profile Limestone Coast"
   }
 ]
