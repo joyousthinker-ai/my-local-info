@@ -1637,5 +1637,17 @@
     "summary": "Country Energy의 2006-2007년 연간 보고서로, Essential Energy 관련 정보를 포함합니다.",
     "link": "https://data.nsw.gov.au/data/dataset/7687db37-e6b4-4eb1-a16d-3ad2eb3a1940/resource/71f4575f-f407-46fd-8c6b-4e5383f6b3e5/download/document_11371.pdf",
     "title": "Country Energy Annual Report 2006-2007"
+  },
+  {
+    "id": 138,
+    "name": "Sydney Water Annual Report 2003",
+    "category": "생활/환경",
+    "startDate": "2021-09-08",
+    "endDate": "상시",
+    "location": "Sydney Water Corporation Limited",
+    "target": "일반 대중",
+    "summary": "시드니 수도 공사의 2003년 연례 보고서입니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/27c29b9d-f0f3-4f33-90de-57124ffd79d5/resource/797c7d77-d9b6-4c54-8106-cb426ee4910e/download/document_10910.pdf",
+    "title": "Sydney Water Annual Report 2003"
   }
 ]
