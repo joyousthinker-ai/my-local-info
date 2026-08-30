@@ -1649,5 +1649,17 @@
     "summary": "시드니 수도 공사의 2003년 연례 보고서입니다.",
     "link": "https://data.nsw.gov.au/data/dataset/27c29b9d-f0f3-4f33-90de-57124ffd79d5/resource/797c7d77-d9b6-4c54-8106-cb426ee4910e/download/document_10910.pdf",
     "title": "Sydney Water Annual Report 2003"
+  },
+  {
+    "id": 139,
+    "name": "Campbelltown City Council Annual Report 2004-2005",
+    "category": "생활/환경",
+    "startDate": "2004-07-01",
+    "endDate": "2005-06-30",
+    "location": "Campbelltown City Council",
+    "target": "일반 시민 및 관계자",
+    "summary": "캠벨타운 시의회 2004-2005년 연례 보고서",
+    "link": "https://data.nsw.gov.au/data/dataset/3-14756-campbelltown-city-council-annual-report-2004-2005",
+    "title": "Campbelltown City Council Annual Report 2004-2005"
   }
 ]
