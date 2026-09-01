@@ -1661,5 +1661,17 @@
     "summary": "캠벨타운 시의회 2004-2005년 연례 보고서",
     "link": "https://data.nsw.gov.au/data/dataset/3-14756-campbelltown-city-council-annual-report-2004-2005",
     "title": "Campbelltown City Council Annual Report 2004-2005"
+  },
+  {
+    "id": 140,
+    "name": "NSW Department of Premier and Cabinet Annual Report 2009-10",
+    "category": "경제/취업",
+    "startDate": "2009-07-01",
+    "endDate": "2010-06-30",
+    "location": "Department of Premier and Cabinet",
+    "target": "일반 대중",
+    "summary": "NSW 총리 내각부의 2009-10 회계연도 연례 보고서",
+    "link": "https://data.nsw.gov.au/data/dataset/532c2472-4f38-4069-9ca2-d293600e3e1a/resource/d17e8adf-46f1-4677-a142-2e1bfc6d3e8d/download/document_13531.pdf",
+    "title": "NSW Department of Premier and Cabinet Annual Report 2009-10"
   }
 ]
