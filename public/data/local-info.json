@@ -1685,5 +1685,17 @@
     "summary": "교정 시설 보건 서비스의 2003-2004년 연간 보고서입니다.",
     "link": "https://data.nsw.gov.au/data/dataset/6b082614-4c7b-4308-b0c4-cc52fb4bd618/resource/cc4dd29f-d8a1-4ce2-89b0-c81623cfd6cd/download/document_11084.pdf",
     "title": "Corrections Health Service Annual Report 2003-2004"
+  },
+  {
+    "id": 142,
+    "name": "SA Government Regions",
+    "category": "주거/부동산",
+    "startDate": "2007-01-17",
+    "endDate": "2014-02-13",
+    "location": "South Australia",
+    "target": "남호주 정부 기관 및 일반 대중",
+    "summary": "남호주 정부 지역은 정부 기능의 계획, 모니터링 및 서비스 제공을 용이하게 합니다. 이 지역들은 전체 지방 정부 경계에 맞춰져 있으며, 68개 의회 중 포트 아델레이드 엔필드 의회에서 엔필드가 분리된 한 가지 예외만 있습니다.",
+    "link": "https://location.sa.gov.au/viewer/?map=roads&x=139.93004&y=-34.87437&z=7&uids=20",
+    "title": "SA Government Regions"
   }
 ]
