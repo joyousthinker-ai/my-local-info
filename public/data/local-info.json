@@ -1697,5 +1697,17 @@
     "summary": "남호주 정부 지역은 정부 기능의 계획, 모니터링 및 서비스 제공을 용이하게 합니다. 이 지역들은 전체 지방 정부 경계에 맞춰져 있으며, 68개 의회 중 포트 아델레이드 엔필드 의회에서 엔필드가 분리된 한 가지 예외만 있습니다.",
     "link": "https://location.sa.gov.au/viewer/?map=roads&x=139.93004&y=-34.87437&z=7&uids=20",
     "title": "SA Government Regions"
+  },
+  {
+    "id": 143,
+    "name": "Premier Announces Export Award Winners",
+    "category": "경제/취업",
+    "startDate": "2021-09-08",
+    "endDate": "상시",
+    "location": "NSW Government, Department of Premier and Cabinet",
+    "target": "수출 기업",
+    "summary": "주 총리가 수출상 수상 기업을 발표했습니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/0e40ec2a-8156-4b01-ade4-c17f35669f3/resource/a1eccf38-3340-4021-a12e-5b5b03f4353c/download/111020_exportawards_14482.pdf",
+    "title": "Premier Announces Export Award Winners"
   }
 ]
