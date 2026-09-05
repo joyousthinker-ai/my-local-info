@@ -1709,5 +1709,17 @@
     "summary": "주 총리가 수출상 수상 기업을 발표했습니다.",
     "link": "https://data.nsw.gov.au/data/dataset/0e40ec2a-8156-4b01-ade4-c17f35669f3/resource/a1eccf38-3340-4021-a12e-5b5b03f4353c/download/111020_exportawards_14482.pdf",
     "title": "Premier Announces Export Award Winners"
+  },
+  {
+    "id": 144,
+    "name": "WSN Environmental Solutions Annual Report 2005-2006",
+    "category": "생활/환경",
+    "startDate": "2023-10-27",
+    "endDate": "상시",
+    "location": "NSW Government (Waste Service NSW)",
+    "target": "관계자 및 일반 대중",
+    "summary": "NSW 정부의 WSN 환경 솔루션에 대한 2005-2006년 연례 보고서입니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/30b709f7-3bca-49c6-bddd-09f56658fe73/resource/a601a7ca-3653-408d-a3fc-19991606631d/download/document_12047.pdf",
+    "title": "WSN Environmental Solutions Annual Report 2005-2006"
   }
 ]
