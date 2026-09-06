@@ -1721,5 +1721,17 @@
     "summary": "NSW 정부의 WSN 환경 솔루션에 대한 2005-2006년 연례 보고서입니다.",
     "link": "https://data.nsw.gov.au/data/dataset/30b709f7-3bca-49c6-bddd-09f56658fe73/resource/a601a7ca-3653-408d-a3fc-19991606631d/download/document_12047.pdf",
     "title": "WSN Environmental Solutions Annual Report 2005-2006"
+  },
+  {
+    "id": 145,
+    "name": "Government Gazette of the State of New South Wales Week No. 50/2007",
+    "category": "생활/환경",
+    "startDate": "2025-06-24",
+    "endDate": "상시",
+    "location": "NSW Government",
+    "target": "일반 대중 및 기업",
+    "summary": "뉴사우스웨일스 정부 관보는 법령에 따라 공고, 규정, 정부 통지, 사법 광고 및 기타 사항을 공표하는 공식 채널입니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/a32d9679-32c3-462d-8ff0-9a197322db20/resource/85af3f00-2447-4922-a25d-bafb7be42f15/download/document_12760.pdf",
+    "title": "Government Gazette of the State of New South Wales Week No. 50/2007"
   }
 ]
