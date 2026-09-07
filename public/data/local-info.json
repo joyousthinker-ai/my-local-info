@@ -1733,5 +1733,17 @@
     "summary": "뉴사우스웨일스 정부 관보는 법령에 따라 공고, 규정, 정부 통지, 사법 광고 및 기타 사항을 공표하는 공식 채널입니다.",
     "link": "https://data.nsw.gov.au/data/dataset/a32d9679-32c3-462d-8ff0-9a197322db20/resource/85af3f00-2447-4922-a25d-bafb7be42f15/download/document_12760.pdf",
     "title": "Government Gazette of the State of New South Wales Week No. 50/2007"
+  },
+  {
+    "id": 146,
+    "name": "Northern Sydney Central Coast Health Annual Report 2007-2008",
+    "category": "건강/의료",
+    "startDate": "2007-01-01",
+    "endDate": "2008-12-31",
+    "location": "Northern Sydney-Central Coast Area Health Service",
+    "target": "해당 지역 관계자 및 일반 시민",
+    "summary": "노던 시드니-센트럴 코스트 지역 보건 서비스의 2007-2008년도 연간 보고서입니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/nsw-3-9894-northern-sydney-central-coast-health-annual-report-2007-2008",
+    "title": "Northern Sydney Central Coast Health Annual Report 2007-2008"
   }
 ]
