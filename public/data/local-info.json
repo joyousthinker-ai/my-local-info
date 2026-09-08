@@ -1745,5 +1745,17 @@
     "summary": "노던 시드니-센트럴 코스트 지역 보건 서비스의 2007-2008년도 연간 보고서입니다.",
     "link": "https://data.nsw.gov.au/data/dataset/nsw-3-9894-northern-sydney-central-coast-health-annual-report-2007-2008",
     "title": "Northern Sydney Central Coast Health Annual Report 2007-2008"
+  },
+  {
+    "id": 147,
+    "name": "Government Gazette of the State of New South Wales Week No. 25/2001",
+    "category": "생활/환경",
+    "startDate": "2021-09-08",
+    "endDate": "상시",
+    "location": "NSW Government",
+    "target": "일반 대중, 기업, 법인",
+    "summary": "뉴사우스웨일스 주 정부 공보는 뉴사우스웨일스 주 법률에 의거하여 포고문, 규정, 정부 고지, 사법 광고 및 기타 공표가 필요한 사항을 유통하는 공식 채널입니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/6fcc48d6-2cf2-46f4-833c-b6605eb7bb51/resource/d9d9a28a-3b4b-4e48-a759-f78069e5e6f6/download/document_13185.pdf",
+    "title": "Government Gazette of the State of New South Wales Week No. 25/2001"
   }
 ]
