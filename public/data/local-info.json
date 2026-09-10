@@ -1769,5 +1769,17 @@
     "summary": "2003-04 회계연도 센트럴 코스트 보건 서비스의 연례 보고서.",
     "link": "https://data.nsw.gov.au/data/dataset/2806861a-3e43-4d80-98e7-45f02fdaf136/resource/e9ad8f81-8c8e-47da-8943-396cd39aaaef/download/document_11476.pdf",
     "title": "Central Coast Health Annual Report 2003-04"
+  },
+  {
+    "id": 149,
+    "name": "future-urban-growth-areas",
+    "category": "주거/부동산",
+    "startDate": "2017-03-01",
+    "endDate": "상시",
+    "location": "남호주 애들레이드 광역권",
+    "target": "도시 계획 관계자, 개발자, 남호주 주민",
+    "summary": "애들레이드 광역권 30개년 계획 2017년 업데이트에서 도시 확장을 위해 식별된 미래 도시 성장 지역에 대한 공공 데이터.",
+    "link": "https://www.location.sa.gov.au/viewer/? map=hybrid&x=138.90693&y=-35.0184 &z=10&uids=226&pinx= &piny=&pinTitle= &pinText=",
+    "title": "future-urban-growth-areas"
   }
 ]
