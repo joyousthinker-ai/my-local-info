@@ -1781,5 +1781,17 @@
     "summary": "애들레이드 광역권 30개년 계획 2017년 업데이트에서 도시 확장을 위해 식별된 미래 도시 성장 지역에 대한 공공 데이터.",
     "link": "https://www.location.sa.gov.au/viewer/? map=hybrid&x=138.90693&y=-35.0184 &z=10&uids=226&pinx= &piny=&pinTitle= &pinText=",
     "title": "future-urban-growth-areas"
+  },
+  {
+    "id": 150,
+    "name": "Our Economy",
+    "category": "경제/취업",
+    "startDate": "2016-06-28",
+    "endDate": "상시",
+    "location": "City of Onkaparinga",
+    "target": "온카파링가 지역 기업",
+    "summary": "온카파링가 지역의 주요 산업군별 기업 수, 고용 규모 및 매출액 범위에 대한 통계 정보",
+    "link": "https://archive.onkaparingacity.com/onka/living_here/business.jsp",
+    "title": "Our Economy"
   }
 ]
