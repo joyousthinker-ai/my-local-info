@@ -1793,5 +1793,17 @@
     "summary": "온카파링가 지역의 주요 산업군별 기업 수, 고용 규모 및 매출액 범위에 대한 통계 정보",
     "link": "https://archive.onkaparingacity.com/onka/living_here/business.jsp",
     "title": "Our Economy"
+  },
+  {
+    "id": 151,
+    "name": "Government Gazette of the State of New South Wales Week No. 36/2004",
+    "category": "경제/취업",
+    "startDate": "2021-09-08",
+    "endDate": "상시",
+    "location": "New South Wales Government",
+    "target": "일반 대중, 기업, 법률 전문가",
+    "summary": "뉴사우스웨일스 주 정부 공보는 뉴사우스웨일스 주 정부 법령에 따라 공고, 규정, 정부 고시, 개인 법률 광고 및 기타 사항을 게재하는 공식 채널입니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/969ae0c1-b98c-4030-ae0d-ca8d2465dd8c/resource/ec189913-bbc6-44df-9aeb-846f8fbf58e5/download/document_12985.pdf",
+    "title": "Government Gazette of the State of New South Wales Week No. 36/2004"
   }
 ]
