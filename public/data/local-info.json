@@ -1805,5 +1805,17 @@
     "summary": "뉴사우스웨일스 주 정부 공보는 뉴사우스웨일스 주 정부 법령에 따라 공고, 규정, 정부 고시, 개인 법률 광고 및 기타 사항을 게재하는 공식 채널입니다.",
     "link": "https://data.nsw.gov.au/data/dataset/969ae0c1-b98c-4030-ae0d-ca8d2465dd8c/resource/ec189913-bbc6-44df-9aeb-846f8fbf58e5/download/document_12985.pdf",
     "title": "Government Gazette of the State of New South Wales Week No. 36/2004"
+  },
+  {
+    "id": 152,
+    "name": "Government Gazette of the State of New South Wales Week No. 46/2007",
+    "category": "경제/취업",
+    "startDate": "2021-09-08",
+    "endDate": "상시",
+    "location": "New South Wales",
+    "target": "일반 대중 및 기업",
+    "summary": "뉴사우스웨일스 주 정부 공보로, 법령, 규정, 정부 고시 및 사적 법률 광고 등 공식 발표 내용을 담고 있습니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/3-11678-government-gazette-of-the-state-of-new-south-wales-week-no-46-2007",
+    "title": "Government Gazette of the State of New South Wales Week No. 46/2007"
   }
 ]
