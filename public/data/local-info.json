@@ -1817,5 +1817,17 @@
     "summary": "뉴사우스웨일스 주 정부 공보로, 법령, 규정, 정부 고시 및 사적 법률 광고 등 공식 발표 내용을 담고 있습니다.",
     "link": "https://data.nsw.gov.au/data/dataset/3-11678-government-gazette-of-the-state-of-new-south-wales-week-no-46-2007",
     "title": "Government Gazette of the State of New South Wales Week No. 46/2007"
+  },
+  {
+    "id": 153,
+    "name": "Government Gazette of the State of New South Wales Week No. 44/2013",
+    "category": "경제/취업",
+    "startDate": "2021-09-08",
+    "endDate": "상시",
+    "location": "New South Wales Government",
+    "target": "모든 시민 및 기관",
+    "summary": "뉴사우스웨일스 주 정부의 2013년 제44호 관보로, 공식 공고 및 법적 고지사항을 담고 있습니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/nsw-3-12894-government-gazette-of-the-state-of-new-south-wales-week-no-44-2013",
+    "title": "Government Gazette of the State of New South Wales Week No. 44/2013"
   }
 ]
