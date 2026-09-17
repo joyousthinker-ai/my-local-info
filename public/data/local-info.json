@@ -1829,5 +1829,17 @@
     "summary": "뉴사우스웨일스 주 정부의 2013년 제44호 관보로, 공식 공고 및 법적 고지사항을 담고 있습니다.",
     "link": "https://data.nsw.gov.au/data/dataset/nsw-3-12894-government-gazette-of-the-state-of-new-south-wales-week-no-44-2013",
     "title": "Government Gazette of the State of New South Wales Week No. 44/2013"
+  },
+  {
+    "id": 154,
+    "name": "Metropolitan Adelaide Boundary (Development Act 1993)",
+    "category": "주거/부동산",
+    "startDate": "1994-01-15",
+    "endDate": "상시",
+    "location": "Metropolitan Adelaide, South Australia",
+    "target": "도시 개발 관련 기관 및 이해관계자",
+    "summary": "1993년 개발법에 따라 애들레이드 광역권의 경계를 정의하는 공공 데이터.",
+    "link": "http://publicsector.sa.gov.au/wp-content/uploads/Metropolitan-Adelaide-Boundary-Govt-Gazette-1993.pdf",
+    "title": "Metropolitan Adelaide Boundary (Development Act 1993)"
   }
 ]
