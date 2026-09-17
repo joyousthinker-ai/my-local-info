@@ -1,0 +1,21 @@
+{
+  "name": "AI 영어 렌즈 & 코치",
+  "short_name": "영어 렌즈",
+  "description": "구글 렌즈처럼 캡처/촬영 한 번으로 영어 문법 검사 및 원어민 피드백",
+  "start_url": "/english-coach/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#f97316",
+  "icons": [
+    {
+      "src": "/globe.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/globe.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}

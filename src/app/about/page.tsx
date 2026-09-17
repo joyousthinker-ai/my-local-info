@@ -6,10 +6,12 @@ export default function AboutPage() {
       <main className="max-w-3xl mx-auto space-y-8">
         <header className="flex items-center justify-between mb-10">
           <h1 className="text-4xl font-extrabold text-orange-950">📖 사이트 소개</h1>
-          <div className="flex bg-orange-200/50 rounded-lg p-1 font-bold shadow-sm">
-            <Link href="/" className="px-5 py-2 rounded-md text-orange-800 hover:text-orange-950 transition-colors">홈</Link>
-            <Link href="/blog" className="px-5 py-2 rounded-md text-orange-800 hover:text-orange-950 transition-colors">블로그</Link>
-            <Link href="/about" className="px-5 py-2 rounded-md text-white bg-orange-500 shadow-sm transition-colors">소개</Link>
+          <div className="flex bg-orange-200/50 rounded-lg p-1 font-bold shadow-sm text-sm">
+            <Link href="/" className="px-3.5 py-1.5 rounded-md text-orange-800 hover:text-orange-950 transition-colors">홈</Link>
+            <Link href="/english-coach" className="px-3.5 py-1.5 rounded-md text-orange-800 hover:text-orange-950 transition-colors flex items-center gap-1"><span>🔍</span><span>AI 영어 코치</span></Link>
+            <Link href="/blog" className="px-3.5 py-1.5 rounded-md text-orange-800 hover:text-orange-950 transition-colors">블로그</Link>
+            <Link href="/board" className="px-3.5 py-1.5 rounded-md text-orange-800 hover:text-orange-950 transition-colors">게시판</Link>
+            <Link href="/about" className="px-3.5 py-1.5 rounded-md text-white bg-orange-500 shadow-sm transition-colors">소개</Link>
           </div>
         </header>
 

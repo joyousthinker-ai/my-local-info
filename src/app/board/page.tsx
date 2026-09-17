@@ -28,11 +28,12 @@ export default function BoardPage() {
             <span className="text-2xl transform group-hover:scale-110 transition-transform">🏘️</span>
             <span className="text-xl font-black bg-clip-text text-transparent bg-gradient-to-r from-orange-600 to-orange-400 tracking-tight">ADELAIDE LIFE</span>
           </Link>
-          <nav className="flex space-x-1 sm:space-x-4 bg-slate-100 p-1 rounded-xl">
-            <Link href="/" className="px-5 py-2 rounded-lg text-sm font-bold text-slate-600 hover:text-orange-500 transition-all">홈</Link>
-            <Link href="/blog" className="px-5 py-2 rounded-lg text-sm font-bold text-slate-600 hover:text-orange-500 transition-all">블로그</Link>
-            <Link href="/board" className="px-5 py-2 rounded-lg text-sm font-bold bg-white text-orange-600 shadow-sm transition-all">게시판</Link>
-            <Link href="/about" className="px-5 py-2 rounded-lg text-sm font-bold text-slate-600 hover:text-orange-500 transition-all">소개</Link>
+          <nav className="flex space-x-1 sm:space-x-3 bg-slate-100 p-1 rounded-xl overflow-x-auto">
+            <Link href="/" className="px-3.5 py-2 rounded-lg text-sm font-bold text-slate-600 hover:text-orange-500 transition-all whitespace-nowrap">홈</Link>
+            <Link href="/english-coach" className="px-3.5 py-2 rounded-lg text-sm font-bold text-slate-600 hover:text-orange-500 transition-all flex items-center gap-1 whitespace-nowrap"><span>🔍</span><span>AI 영어 코치</span></Link>
+            <Link href="/blog" className="px-3.5 py-2 rounded-lg text-sm font-bold text-slate-600 hover:text-orange-500 transition-all whitespace-nowrap">블로그</Link>
+            <Link href="/board" className="px-3.5 py-2 rounded-lg text-sm font-bold bg-white text-orange-600 shadow-sm transition-all whitespace-nowrap">게시판</Link>
+            <Link href="/about" className="px-3.5 py-2 rounded-lg text-sm font-bold text-slate-600 hover:text-orange-500 transition-all whitespace-nowrap">소개</Link>
           </nav>
         </div>
       </header>
