@@ -1853,5 +1853,17 @@
     "summary": "NSW 재무부에서 모니터링 및 분석을 위해 사용하는 주요 경제 데이터 및 발행물에 대한 주간 요약 보고서 (2016년 8월 5일 마감 주).",
     "link": "https://data.nsw.gov.au/data/dataset/nsw-3-15337-weekly-market-and-economics-roundup-for-the-week-ended-5-august-2016",
     "title": "Weekly Market and Economics Roundup for the week ended 5 August 2016"
+  },
+  {
+    "id": 156,
+    "name": "NSW Environmental Trust Annual Report 2008-09",
+    "category": "생활/환경",
+    "startDate": "2026-09-19",
+    "endDate": "상시",
+    "location": "NSW Government",
+    "target": "전체 시민",
+    "summary": "이 데이터는 실제 내용 대신 테스트용으로 요약되었습니다. 원본: No notes provided\n\n<strong>Not...",
+    "link": "https://data.sa.gov.au/",
+    "title": "NSW Environmental Trust Annual Report 2008-09"
   }
 ]
