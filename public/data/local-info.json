@@ -1865,5 +1865,17 @@
     "summary": "이 데이터는 실제 내용 대신 테스트용으로 요약되었습니다. 원본: No notes provided\n\n<strong>Not...",
     "link": "https://data.sa.gov.au/",
     "title": "NSW Environmental Trust Annual Report 2008-09"
+  },
+  {
+    "id": 157,
+    "name": "Government Gazette of the State of New South Wales Week No. 19/2001",
+    "category": "생활/환경",
+    "startDate": "2021-09-08",
+    "endDate": "상시",
+    "location": "NSW Government",
+    "target": "뉴사우스웨일스 주민 및 관련 기관",
+    "summary": "뉴사우스웨일스 정부 관보는 뉴사우스웨일스 정부의 법규, 공고, 사법 광고 등 공식적인 사항을 발행하는 채널입니다. 뉴사우스웨일스 정부의 공식 법규 및 공고를 확인할 수 있습니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/nsw-3-12018-government-gazette-of-the-state-of-new-south-wales-week-no-19-2001",
+    "title": "Government Gazette of the State of New South Wales Week No. 19/2001"
   }
 ]
