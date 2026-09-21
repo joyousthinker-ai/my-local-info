@@ -1877,5 +1877,17 @@
     "summary": "뉴사우스웨일스 정부 관보는 뉴사우스웨일스 정부의 법규, 공고, 사법 광고 등 공식적인 사항을 발행하는 채널입니다. 뉴사우스웨일스 정부의 공식 법규 및 공고를 확인할 수 있습니다.",
     "link": "https://data.nsw.gov.au/data/dataset/nsw-3-12018-government-gazette-of-the-state-of-new-south-wales-week-no-19-2001",
     "title": "Government Gazette of the State of New South Wales Week No. 19/2001"
+  },
+  {
+    "id": 158,
+    "name": "Strathfield Council Annual Report 2014-2015",
+    "category": "경제/취업",
+    "startDate": "2014-07-01",
+    "endDate": "2015-06-30",
+    "location": "Strathfield Council",
+    "target": "모든 사람",
+    "summary": "2014-2015년 스트라스필드 시의회 연례 보고서입니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/953ba4ed-eb97-4374-a091-c6ee2836a5a7/resource/5a282284-c2e1-459a-9cb3-b5040aef217e/download/strathfield_council_annual_report_2014_2015_15398.pdf",
+    "title": "Strathfield Council Annual Report 2014-2015"
   }
 ]
