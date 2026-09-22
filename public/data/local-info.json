@@ -1889,5 +1889,17 @@
     "summary": "2014-2015년 스트라스필드 시의회 연례 보고서입니다.",
     "link": "https://data.nsw.gov.au/data/dataset/953ba4ed-eb97-4374-a091-c6ee2836a5a7/resource/5a282284-c2e1-459a-9cb3-b5040aef217e/download/strathfield_council_annual_report_2014_2015_15398.pdf",
     "title": "Strathfield Council Annual Report 2014-2015"
+  },
+  {
+    "id": 159,
+    "name": "Road Transport and Tramway Annual Report 1940-41",
+    "category": "교통",
+    "startDate": "2026-09-22",
+    "endDate": "상시",
+    "location": "NSW Government",
+    "target": "전체 시민",
+    "summary": "이 데이터는 실제 내용 대신 테스트용으로 요약되었습니다. 원본: Road Transport and Tramway\n\n<s...",
+    "link": "https://data.sa.gov.au/",
+    "title": "Road Transport and Tramway Annual Report 1940-41"
   }
 ]
