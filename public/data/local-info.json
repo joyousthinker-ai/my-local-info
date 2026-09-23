@@ -1901,5 +1901,17 @@
     "summary": "이 데이터는 실제 내용 대신 테스트용으로 요약되었습니다. 원본: Road Transport and Tramway\n\n<s...",
     "link": "https://data.sa.gov.au/",
     "title": "Road Transport and Tramway Annual Report 1940-41"
+  },
+  {
+    "id": 160,
+    "name": "The Children's Hospital at Westmead Annual Report 2005",
+    "category": "건강/의료",
+    "startDate": "2021-09-08",
+    "endDate": "상시",
+    "location": "The Children's Hospital at Westmead",
+    "target": "병원 관계자 및 일반 대중",
+    "summary": "웨스트미드 아동병원(The Children's Hospital at Westmead)의 2005년 연간 보고서.",
+    "link": "https://data.nsw.gov.au/data/dataset/nsw-3-11236-the-children-s-hospital-at-westmead-annual-report-2005",
+    "title": "The Children's Hospital at Westmead Annual Report 2005"
   }
 ]
