@@ -1913,5 +1913,17 @@
     "summary": "웨스트미드 아동병원(The Children's Hospital at Westmead)의 2005년 연간 보고서.",
     "link": "https://data.nsw.gov.au/data/dataset/nsw-3-11236-the-children-s-hospital-at-westmead-annual-report-2005",
     "title": "The Children's Hospital at Westmead Annual Report 2005"
+  },
+  {
+    "id": 161,
+    "name": "future-urban-growth-areas",
+    "category": "주거/부동산",
+    "startDate": "2017-03-01",
+    "endDate": "상시",
+    "location": "South Australia",
+    "target": "도시 계획 관련자 및 일반 대중",
+    "summary": "애들레이드 광역권 30년 계획 2017년 업데이트에 따라 도시 확장을 위해 지정된 미래 도시 성장 지역에 대한 정보를 제공합니다.",
+    "link": "http://livingadelaide.sa.gov.au/",
+    "title": "future-urban-growth-areas"
   }
 ]
