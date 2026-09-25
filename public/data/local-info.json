@@ -1925,5 +1925,17 @@
     "summary": "애들레이드 광역권 30년 계획 2017년 업데이트에 따라 도시 확장을 위해 지정된 미래 도시 성장 지역에 대한 정보를 제공합니다.",
     "link": "http://livingadelaide.sa.gov.au/",
     "title": "future-urban-growth-areas"
+  },
+  {
+    "id": 162,
+    "name": "New South Wales Department of State and Regional Development Annual Report 2003-2004",
+    "category": "경제/취업",
+    "startDate": "2003-07-01",
+    "endDate": "2004-06-30",
+    "location": "New South Wales Department of State and Regional Development",
+    "target": "일반 대중 및 이해관계자",
+    "summary": "뉴사우스웨일스 주 및 지역 개발부의 2003-2004년 연간 보고서.",
+    "link": "https://data.nsw.gov.au/data/dataset/21be0953-36e2-4037-8b58-26e0b82862a1/resource/9ba8d561-12c5-49c3-b682-09243613c4c6/download/document_11660.pdf",
+    "title": "New South Wales Department of State and Regional Development Annual Report 2003-2004"
   }
 ]
