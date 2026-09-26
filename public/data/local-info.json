@@ -1937,5 +1937,17 @@
     "summary": "뉴사우스웨일스 주 및 지역 개발부의 2003-2004년 연간 보고서.",
     "link": "https://data.nsw.gov.au/data/dataset/21be0953-36e2-4037-8b58-26e0b82862a1/resource/9ba8d561-12c5-49c3-b682-09243613c4c6/download/document_11660.pdf",
     "title": "New South Wales Department of State and Regional Development Annual Report 2003-2004"
+  },
+  {
+    "id": 163,
+    "name": "Sydney Water Annual Report 2004",
+    "category": "생활/환경",
+    "startDate": "2021-09-08",
+    "endDate": "상시",
+    "location": "Sydney Water Corporation Limited",
+    "target": "일반 시민 및 이해관계자",
+    "summary": "Sydney Water Corporation Limited의 2004년도 연간 보고서. 시드니 워터의 운영 현황 및 재정 정보를 담고 있습니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/87aa805f-ea75-4b75-ad99-2c9c8a18fb40/resource/4e06cc5b-726d-4680-8011-fc71d211eb20/download/document_11582.pdf",
+    "title": "Sydney Water Annual Report 2004"
   }
 ]
