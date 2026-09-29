@@ -1973,5 +1973,17 @@
     "summary": "뉴사우스웨일스 주 정부 공보는 뉴사우스웨일스 주 정부 법률에 따라 공보에 게재되어야 하는 포고문, 규정, 정부 고시, 사설 법률 광고 및 기타 사항을 유포하는 공식 채널입니다.",
     "link": "https://data.nsw.gov.au/data/dataset/nsw-3-11816-government-gazette-of-the-state-of-new-south-wales-week-no-12-2005",
     "title": "Government Gazette of the State of New South Wales Week No. 12/2005"
+  },
+  {
+    "id": 166,
+    "name": "Roads and Maritime Services 2014-15 Annual Report Volume 1",
+    "category": "교통/인프라",
+    "startDate": "2021-09-08",
+    "endDate": "상시",
+    "location": "Roads and Maritime Services",
+    "target": "일반 대중",
+    "summary": "도로 및 해양 서비스(Roads and Maritime Services) 기관의 2014-15년도 활동 및 성과를 담은 연간 보고서 1권입니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/4f8a1ffd-b242-4b58-9dda-38e78f76244c/resource/3dc9eeaa-0d98-432b-954c-89ab673acb0a/download/rms_2014_15_annual_report___volume_1_15256.pdf",
+    "title": "Roads and Maritime Services 2014-15 Annual Report Volume 1"
   }
 ]
