@@ -1961,5 +1961,17 @@
     "summary": "웨스턴 시드니 파크랜드 트러스트의 2014-15년도 연간 보고서입니다.",
     "link": "https://data.nsw.gov.au/data/dataset/f3d6afbe-9ea7-49d4-adc2-a7c611f83031/resource/795555f2-9bc8-462d-b534-56ed900dd520/download/wspt_final_annual_report_2015_15260.pdf",
     "title": "Western Sydney Parklands Trust Annual Report 2014-15"
+  },
+  {
+    "id": 165,
+    "name": "Government Gazette of the State of New South Wales Week No. 12/2005",
+    "category": "경제/취업",
+    "startDate": "2021-09-08",
+    "endDate": "상시",
+    "location": "NSW Government",
+    "target": "뉴사우스웨일스주 주민, 기업 및 법률 전문가",
+    "summary": "뉴사우스웨일스 주 정부 공보는 뉴사우스웨일스 주 정부 법률에 따라 공보에 게재되어야 하는 포고문, 규정, 정부 고시, 사설 법률 광고 및 기타 사항을 유포하는 공식 채널입니다.",
+    "link": "https://data.nsw.gov.au/data/dataset/nsw-3-11816-government-gazette-of-the-state-of-new-south-wales-week-no-12-2005",
+    "title": "Government Gazette of the State of New South Wales Week No. 12/2005"
   }
 ]
