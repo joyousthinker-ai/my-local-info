@@ -605,5 +605,17 @@
     "target": "남호주 거주민 및 방문자",
     "summary": "A look at South Australia and South Australians during a year that was to change Australia forever. ",
     "link": "https://data.sa.gov.au/"
+  },
+  {
+    "id": 52,
+    "name": "Students with a disability by primary verified disability",
+    "title": "Students with a disability by primary verified disability",
+    "category": "건강/의료",
+    "startDate": "2026-09-30",
+    "endDate": "상시",
+    "location": "Department for Education",
+    "target": "남호주 거주민 및 방문자",
+    "summary": "Full-time equivalent enrolments of students by their primary verified disability, collected from 201",
+    "link": "https://data.sa.gov.au/"
   }
 ]

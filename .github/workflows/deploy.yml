@@ -55,7 +55,6 @@ jobs:
         env:
           NEXT_PUBLIC_SUPABASE_URL: "https://nzmmvjapxvjmhfqvixrj.supabase.co"
           NEXT_PUBLIC_SUPABASE_ANON_KEY: "sb_publishable_uuFAzUNfblRS8y72fkBzrg_rDAk_p03"
-          NEXT_PUBLIC_GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: npm run build
 
       - name: Deploy to Cloudflare Pages

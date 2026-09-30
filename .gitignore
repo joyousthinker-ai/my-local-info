@@ -47,3 +47,8 @@ android/.gradle/
 android/build/
 android/captures/
 
+# binaries and local tools
+cloudflared
+grammarcam/
+
+
