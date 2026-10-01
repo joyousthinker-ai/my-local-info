@@ -1985,5 +1985,17 @@
     "summary": "도로 및 해양 서비스(Roads and Maritime Services) 기관의 2014-15년도 활동 및 성과를 담은 연간 보고서 1권입니다.",
     "link": "https://data.nsw.gov.au/data/dataset/4f8a1ffd-b242-4b58-9dda-38e78f76244c/resource/3dc9eeaa-0d98-432b-954c-89ab673acb0a/download/rms_2014_15_annual_report___volume_1_15256.pdf",
     "title": "Roads and Maritime Services 2014-15 Annual Report Volume 1"
+  },
+  {
+    "id": 167,
+    "name": "Building Height Restrictions",
+    "category": "주거/부동산",
+    "startDate": "2026-10-01",
+    "endDate": "상시",
+    "location": "City of Adelaide",
+    "target": "전체 시민",
+    "summary": "이 데이터는 실제 내용 대신 테스트용으로 요약되었습니다. 원본: Provides maximum allowable bui...",
+    "link": "https://data.sa.gov.au/",
+    "title": "Building Height Restrictions"
   }
 ]
