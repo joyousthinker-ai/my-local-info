@@ -1997,5 +1997,17 @@
     "summary": "이 데이터는 실제 내용 대신 테스트용으로 요약되었습니다. 원본: Provides maximum allowable bui...",
     "link": "https://data.sa.gov.au/",
     "title": "Building Height Restrictions"
+  },
+  {
+    "id": 168,
+    "name": "Our Environment",
+    "category": "생활/환경",
+    "startDate": "2016-06-28",
+    "endDate": "상시",
+    "location": "City of Onkaparinga",
+    "target": "일반 대중",
+    "summary": "온카파링가 지역의 폐기물 및 재활용, 물 소비량, 태양광 설치에 대한 통계 정보입니다.",
+    "link": "https://archive.onkaparingacity.com/onka/discover/research_statistics/community_wellbeing_monitor/community_wellbeing_monitor_environmental/waste.jsp",
+    "title": "Our Environment"
   }
 ]
