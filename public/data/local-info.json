@@ -617,5 +617,17 @@
     "target": "남호주 거주민 및 방문자",
     "summary": "Full-time equivalent enrolments of students by their primary verified disability, collected from 201",
     "link": "https://data.sa.gov.au/"
+  },
+  {
+    "id": 53,
+    "name": "City of Prospect Parks and Reserves",
+    "category": "관광/여가",
+    "startDate": "2015-06-30",
+    "endDate": "상시",
+    "location": "City of Prospect",
+    "target": "시민 및 방문객",
+    "summary": "프로스펙트 시 내 공원과 자연보호구역의 위치 및 편의시설 정보를 제공합니다.",
+    "link": "https://data.sa.gov.au/data/dataset/1d8abf57-35f2-4918-92d7-f726fcd6ee32/resource/f9df6396-2f25-426a-8fbd-83f62360f375/download/city-of-prospect-park-and-reserves-2016.csv",
+    "title": "City of Prospect Parks and Reserves"
   }
 ]
