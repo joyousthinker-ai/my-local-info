@@ -274,7 +274,17 @@ FILENAME: ${todayString}-adelaide-${catSlug}-${itemId}`;
       }
     }
 
-    const postContent = contentLines.join('\n').trim();
+    let postContent = contentLines.join('\n').trim();
+
+    // 프론트매터 summary 및 title에 따옴표가 없으면 안전하게 감싸기
+    const fmMatch = postContent.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n([\s\S]*)$/);
+    if (fmMatch) {
+      let fm = fmMatch[1];
+      const body = fmMatch[2];
+      fm = fm.replace(/^summary:\s*(?![\"\'])(.+)$/m, (m, val) => 'summary: "' + val.replace(/"/g, '\\"').trim() + '"');
+      fm = fm.replace(/^title:\s*(?![\"\'])(.+)$/m, (m, val) => 'title: "' + val.replace(/"/g, '\\"').trim() + '"');
+      postContent = '---\n' + fm + '\n---\n' + body;
+    }
 
     if (!filename) {
       filename = `${todayString}-adelaide-${catSlug}-${itemId}`;

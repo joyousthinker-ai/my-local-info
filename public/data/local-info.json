@@ -629,5 +629,17 @@
     "summary": "프로스펙트 시 내 공원과 자연보호구역의 위치 및 편의시설 정보를 제공합니다.",
     "link": "https://data.sa.gov.au/data/dataset/1d8abf57-35f2-4918-92d7-f726fcd6ee32/resource/f9df6396-2f25-426a-8fbd-83f62360f375/download/city-of-prospect-park-and-reserves-2016.csv",
     "title": "City of Prospect Parks and Reserves"
+  },
+  {
+    "id": 54,
+    "name": "Adelaide Metro Bus, Train and Tram Complaints per 100k boardings",
+    "title": "Adelaide Metro Bus, Train and Tram Complaints per 100k boardings",
+    "category": "교통",
+    "startDate": "2026-10-05",
+    "endDate": "상시",
+    "location": "Department for Infrastructure and Transport",
+    "target": "남호주 거주민 및 방문자",
+    "summary": "The number of bus, train and tram specific complaints received each quarter per 100,000 boardings.",
+    "link": "https://data.sa.gov.au/"
   }
 ]
