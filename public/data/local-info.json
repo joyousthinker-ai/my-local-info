@@ -641,5 +641,17 @@
     "target": "남호주 거주민 및 방문자",
     "summary": "The number of bus, train and tram specific complaints received each quarter per 100,000 boardings.",
     "link": "https://data.sa.gov.au/"
+  },
+  {
+    "id": 55,
+    "name": "Adelaide Public Transport Stop Data",
+    "category": "교통",
+    "startDate": "2014-01-01",
+    "endDate": "상시",
+    "location": "Department for Infrastructure and Transport",
+    "target": "일반 대중 및 개발자",
+    "summary": "애들레이드 지역의 버스, 기차, 트램 정류장 위치 및 공간 정보를 제공하는 데이터셋",
+    "link": "https://data.sa.gov.au/data/dataset/adelaide-public-transport-stop-data",
+    "title": "Adelaide Public Transport Stop Data"
   }
 ]
