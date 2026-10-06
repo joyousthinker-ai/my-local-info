@@ -653,5 +653,17 @@
     "summary": "애들레이드 지역의 버스, 기차, 트램 정류장 위치 및 공간 정보를 제공하는 데이터셋",
     "link": "https://data.sa.gov.au/data/dataset/adelaide-public-transport-stop-data",
     "title": "Adelaide Public Transport Stop Data"
+  },
+  {
+    "id": 56,
+    "name": "Bluetooth Detection Sites",
+    "title": "Bluetooth Detection Sites",
+    "category": "교통",
+    "startDate": "2026-10-06",
+    "endDate": "상시",
+    "location": "Department for Infrastructure and Transport",
+    "target": "남호주 거주민 및 방문자",
+    "summary": "This dataset defines the location of all Bluetooth traffic detection sites.",
+    "link": "https://data.sa.gov.au/"
   }
 ]
