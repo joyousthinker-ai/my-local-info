@@ -665,5 +665,17 @@
     "target": "남호주 거주민 및 방문자",
     "summary": "This dataset defines the location of all Bluetooth traffic detection sites.",
     "link": "https://data.sa.gov.au/"
+  },
+  {
+    "id": 57,
+    "name": "City of Salisbury Easements",
+    "title": "City of Salisbury Easements",
+    "category": "주거/부동산",
+    "startDate": "2026-10-08",
+    "endDate": "상시",
+    "location": "City of Salisbury Council",
+    "target": "남호주 거주민 및 방문자",
+    "summary": "Shapefile for the City of Salisbury Easements.",
+    "link": "https://data.sa.gov.au/"
   }
 ]
