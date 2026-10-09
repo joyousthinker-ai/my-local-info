@@ -677,5 +677,17 @@
     "target": "남호주 거주민 및 방문자",
     "summary": "Shapefile for the City of Salisbury Easements.",
     "link": "https://data.sa.gov.au/"
+  },
+  {
+    "id": 58,
+    "name": "2022-23 Number of Food Business Audits by SA Health",
+    "category": "보건/위생",
+    "startDate": "2022-07-01",
+    "endDate": "2023-06-30",
+    "location": "SA Health",
+    "target": "남호주 식품 사업자 및 일반 대중",
+    "summary": "2022-23년 SA Health가 실시한 식품 관련 사업장 위생 감사 건수 통계 데이터",
+    "link": "https://data.sa.gov.au/data/dataset/f3d25423-9d56-45ae-8245-d34c36292106",
+    "title": "2022-23 Number of Food Business Audits by SA Health"
   }
 ]
