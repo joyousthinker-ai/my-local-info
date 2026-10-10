@@ -701,5 +701,17 @@
     "summary": "남호주 알리닛자라 윌루라라 경관 관리 위원회의 연간 활동 및 운영 성과 보고서 데이터",
     "link": "https://data.sa.gov.au/data/dataset/alinytjara-wilurara-nrm-board-annual-report-data",
     "title": "Alinytjara Wilurara Landscape Board Annual Report Data"
+  },
+  {
+    "id": 60,
+    "name": "Household Hazardous Waste",
+    "category": "생활/환경",
+    "startDate": "2008-07-01",
+    "endDate": "2013-01-31",
+    "location": "Dry Creek Depot (Zero Waste SA)",
+    "target": "일반 개인 및 가정(상업용 배출자 제외)",
+    "summary": "2008년 7월부터 2013년 1월까지 남호주 일반 가정에서 드라이 크릭 보관소로 반입된 유해 폐기물 수거량 현황",
+    "link": "https://data.sa.gov.au/data/dataset/household-hazardous-waste",
+    "title": "Household Hazardous Waste"
   }
 ]
