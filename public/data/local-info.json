@@ -713,5 +713,17 @@
     "summary": "2008년 7월부터 2013년 1월까지 남호주 일반 가정에서 드라이 크릭 보관소로 반입된 유해 폐기물 수거량 현황",
     "link": "https://data.sa.gov.au/data/dataset/household-hazardous-waste",
     "title": "Household Hazardous Waste"
+  },
+  {
+    "id": 61,
+    "name": "Consultants Reporting South Australian Tourism Commission",
+    "category": "관광/여가",
+    "startDate": "2013-06-30",
+    "endDate": "2025-06-30",
+    "location": "SA Tourism Commission",
+    "target": "일반 대중 및 관련 연구자",
+    "summary": "남호주 관광청(SATC)의 연례 보고를 위한 컨설팅 계약 및 지출 내역 공개 데이터",
+    "link": "https://data.sa.gov.au/data/dataset/consultants-reporting-south-australian-tourism-commission",
+    "title": "Consultants Reporting South Australian Tourism Commission"
   }
 ]
