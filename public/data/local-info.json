@@ -737,5 +737,17 @@
     "summary": "애들레이드 메트로에 접수된 고객 피드백(불만, 제안, 칭찬) 현황 및 10영업일 이내 처리 실적 정보",
     "link": "https://data.sa.gov.au/data/dataset/0b9f8253-9eda-474f-b4c1-b4ae7456f599/resource/12bbb02e-e79e-4649-987c-ab2fd2bcbe98/download/adelaide-metro-complaints-answered.csv",
     "title": "Adelaide Metro Feedback Response Performance"
+  },
+  {
+    "id": 63,
+    "name": "Equal Opportunity Commission Annual Report Data - Training and Community Education",
+    "category": "행정/교육",
+    "startDate": "2016-07-01",
+    "endDate": "2020-06-30",
+    "location": "Attorney-General's Department",
+    "target": "남호주 주민 및 공공·민간 기관",
+    "summary": "남호주 평등기회위원회의 훈련 및 지역사회 교육 실적을 시계열로 정리한 연례 보고서 데이터",
+    "link": "https://data.sa.gov.au/data/dataset/cf2a60a3-2768-4876-ad78-fa4a1a4aeef3",
+    "title": "Equal Opportunity Commission Annual Report Data - Training and Community Education"
   }
 ]
