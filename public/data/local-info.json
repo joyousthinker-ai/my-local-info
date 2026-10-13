@@ -725,5 +725,17 @@
     "summary": "남호주 관광청(SATC)의 연례 보고를 위한 컨설팅 계약 및 지출 내역 공개 데이터",
     "link": "https://data.sa.gov.au/data/dataset/consultants-reporting-south-australian-tourism-commission",
     "title": "Consultants Reporting South Australian Tourism Commission"
+  },
+  {
+    "id": 62,
+    "name": "Adelaide Metro Feedback Response Performance",
+    "category": "교통",
+    "startDate": "2016-01-01",
+    "endDate": "2020-12-31",
+    "location": "Department for Infrastructure and Transport",
+    "target": "Adelaide Metro 대중교통 이용자 및 일반 시민",
+    "summary": "애들레이드 메트로에 접수된 고객 피드백(불만, 제안, 칭찬) 현황 및 10영업일 이내 처리 실적 정보",
+    "link": "https://data.sa.gov.au/data/dataset/0b9f8253-9eda-474f-b4c1-b4ae7456f599/resource/12bbb02e-e79e-4649-987c-ab2fd2bcbe98/download/adelaide-metro-complaints-answered.csv",
+    "title": "Adelaide Metro Feedback Response Performance"
   }
 ]
