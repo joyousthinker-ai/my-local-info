@@ -749,5 +749,17 @@
     "summary": "남호주 평등기회위원회의 훈련 및 지역사회 교육 실적을 시계열로 정리한 연례 보고서 데이터",
     "link": "https://data.sa.gov.au/data/dataset/cf2a60a3-2768-4876-ad78-fa4a1a4aeef3",
     "title": "Equal Opportunity Commission Annual Report Data - Training and Community Education"
+  },
+  {
+    "id": 64,
+    "name": "Social Health Atlas of Australia: Local Government Area",
+    "category": "건강/의료",
+    "startDate": "2013-08-01",
+    "endDate": "상시",
+    "location": "Public Health Information Development Unit (PHIDU)",
+    "target": "남호주 주민 및 보건 연구자",
+    "summary": "호주 지방자치단체(LGA) 지역별 정신건강 진단에 따른 병원 입원 및 지역사회 정신건강 서비스 이용 통계 데이터",
+    "link": "https://phidu.torrens.edu.au/social-health-atlases/data#social-health-atlases-of-australia-local-government-areas",
+    "title": "Social Health Atlas of Australia: Local Government Area"
   }
 ]
