@@ -761,5 +761,17 @@
     "summary": "호주 지방자치단체(LGA) 지역별 정신건강 진단에 따른 병원 입원 및 지역사회 정신건강 서비스 이용 통계 데이터",
     "link": "https://phidu.torrens.edu.au/social-health-atlases/data#social-health-atlases-of-australia-local-government-areas",
     "title": "Social Health Atlas of Australia: Local Government Area"
+  },
+  {
+    "id": 65,
+    "name": "Land Development Zones",
+    "category": "주거/부동산",
+    "startDate": "2021-05-05",
+    "endDate": "상시",
+    "location": "Department for Housing and Urban Development",
+    "target": "토지 개발자, 도시 계획자 및 일반 시민",
+    "summary": "남호주 1993년 개발법에 기반한 토지 개발 구역, 정책 영역 및 계획 경계 공간 정보를 제공하는 데이터셋",
+    "link": "https://data.sa.gov.au/data/dataset/land-development-zones",
+    "title": "Land Development Zones"
   }
 ]
