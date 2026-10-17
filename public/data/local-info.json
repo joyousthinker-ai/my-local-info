@@ -785,5 +785,17 @@
     "summary": "온카파링가 시의 주요 산업군, 고용 규모 및 매출액 구간별 사업체 수에 관한 경제 통계 데이터",
     "link": "https://archive.onkaparingacity.com/onka/living_here/business.jsp",
     "title": "Our Economy"
+  },
+  {
+    "id": 67,
+    "name": "Flooding Susceptibility (soils)",
+    "category": "생활/환경",
+    "startDate": "2016-06-09",
+    "endDate": "상시",
+    "location": "Department for Environment and Water",
+    "target": "남호주 주민 및 토지 개발·연구자",
+    "summary": "남호주 남부 지역의 토양 및 토지별 침수 취약성 비율과 공간 통계 정보를 제공합니다.",
+    "link": "https://data.sa.gov.au/data/dataset/flooding",
+    "title": "Flooding Susceptibility (soils)"
   }
 ]
