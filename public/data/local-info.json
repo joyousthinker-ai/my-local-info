@@ -797,5 +797,17 @@
     "summary": "남호주 남부 지역의 토양 및 토지별 침수 취약성 비율과 공간 통계 정보를 제공합니다.",
     "link": "https://data.sa.gov.au/data/dataset/flooding",
     "title": "Flooding Susceptibility (soils)"
+  },
+  {
+    "id": 68,
+    "name": "Interned: Torrens Island, 1914-1915",
+    "category": "문화/역사",
+    "startDate": "2015-05-29",
+    "endDate": "상시",
+    "location": "History Trust of South Australia",
+    "target": "역사 연구자 및 일반 시민",
+    "summary": "제1차 세계대전 기간 동안 사우스오스트레일리아 토렌스 섬 수용소 등에 억류되었던 인물들의 기록 및 관련 정보",
+    "link": "https://data.sa.gov.au/data/dataset/interned",
+    "title": "Interned: Torrens Island, 1914-1915"
   }
 ]
