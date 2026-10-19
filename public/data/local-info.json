@@ -809,5 +809,17 @@
     "summary": "제1차 세계대전 기간 동안 사우스오스트레일리아 토렌스 섬 수용소 등에 억류되었던 인물들의 기록 및 관련 정보",
     "link": "https://data.sa.gov.au/data/dataset/interned",
     "title": "Interned: Torrens Island, 1914-1915"
+  },
+  {
+    "id": 69,
+    "name": "City Library Usage for the 1st year",
+    "category": "문화/정보",
+    "startDate": "2014-01-07",
+    "endDate": "2015-02-06",
+    "location": "City of Adelaide",
+    "target": "애들레이드 시민 및 도서관 이용자",
+    "summary": "애들레이드 시립 도서관 개관 첫 해의 도서 대출 및 반납, 방문객 수, 신규 회원 등록, 컴퓨터 예약 및 교육 참여 현황 통계",
+    "link": "https://s3.ap-southeast-2.amazonaws.com/dmzweb.adelaidecitycouncil.com/OpenData/City_Library_Statistics/City_Library_1st_Year_Stats.csv",
+    "title": "City Library Usage for the 1st year"
   }
 ]
