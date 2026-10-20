@@ -821,5 +821,17 @@
     "summary": "애들레이드 시립 도서관 개관 첫 해의 도서 대출 및 반납, 방문객 수, 신규 회원 등록, 컴퓨터 예약 및 교육 참여 현황 통계",
     "link": "https://s3.ap-southeast-2.amazonaws.com/dmzweb.adelaidecitycouncil.com/OpenData/City_Library_Statistics/City_Library_1st_Year_Stats.csv",
     "title": "City Library Usage for the 1st year"
+  },
+  {
+    "id": 70,
+    "name": "SASP Target 63 - Use of Public Transport",
+    "title": "SASP Target 63 - Use of Public Transport",
+    "category": "교통",
+    "startDate": "2026-10-20",
+    "endDate": "상시",
+    "location": "Department of the Premier and Cabinet",
+    "target": "남호주 거주민 및 방문자",
+    "summary": "Increase the use of public transport to 10% of metropolitan weekday passenger vehicle kilometres tra",
+    "link": "https://data.sa.gov.au/"
   }
 ]
