@@ -833,5 +833,17 @@
     "target": "남호주 거주민 및 방문자",
     "summary": "Increase the use of public transport to 10% of metropolitan weekday passenger vehicle kilometres tra",
     "link": "https://data.sa.gov.au/"
+  },
+  {
+    "id": 71,
+    "name": "Fraud Detected in the Agency – SA Mental Health Commission",
+    "title": "Fraud Detected in the Agency – SA Mental Health Commission",
+    "category": "건강/의료",
+    "startDate": "2026-10-21",
+    "endDate": "상시",
+    "location": "South Australian Mental Health Commission",
+    "target": "남호주 거주민 및 방문자",
+    "summary": "The number of instances of fraud detected each year in the South Australian Mental Health Commission",
+    "link": "https://data.sa.gov.au/"
   }
 ]
