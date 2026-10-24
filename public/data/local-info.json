@@ -869,5 +869,17 @@
     "summary": "2010년부터 2016년까지 매년 고용률을 2%씩 증가시키기 위한 남호주 전략 계획(SASP)의 고용 관련 공공데이터",
     "link": "https://data.sa.gov.au/data/dataset/4bfe3eb4-3b6e-44eb-a70c-67c21da4940b/resource/1550182e-0c18-4f57-9a72-1644a4a43961/download/47jobs2012pr.xlsx",
     "title": "SASP Target 47 - Jobs"
+  },
+  {
+    "id": 74,
+    "name": "Green Industries SA 2023-24 Annual Report",
+    "title": "Green Industries SA 2023-24 Annual Report",
+    "category": "생활/환경",
+    "startDate": "2026-10-24",
+    "endDate": "상시",
+    "location": "Green Industries SA",
+    "target": "남호주 거주민 및 방문자",
+    "summary": "Green Industries SA (GISA) is leading South Australia’s transition to a circular economy, eliminatin",
+    "link": "https://data.sa.gov.au/"
   }
 ]
