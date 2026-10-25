@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
 
@@ -8,16 +7,6 @@ const isAdsenseEnabled = adsenseId && adsenseId !== "나중에_입력";
 
 const gaId = process.env.NEXT_PUBLIC_GA_ID;
 const isGaEnabled = gaId && gaId !== "나중에_입력";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   title: "애들레이드 생활 정보 | 호주 남호주 교민·유학생·워홀 필수 가이드",
@@ -56,7 +45,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className="h-full antialiased"
     >
       <head>
         <link rel="manifest" href="/manifest.json" />

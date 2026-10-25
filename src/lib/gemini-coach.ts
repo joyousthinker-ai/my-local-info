@@ -9,13 +9,14 @@ export interface MistakeDetail {
 export interface CoachResult {
   extractedText: string;
   correctedText: string;
-  explanation: string;
+  summaryFeedback: string;
   mistakes: MistakeDetail[];
   casualAlternative: string;
   formalAlternative: string;
   studyTips: string[];
-  score?: number;
-  summaryFeedback?: string;
+  score: number;
+  // 하위 호환성 유지
+  explanation?: string;
 }
 
 export async function analyzeEnglish({
@@ -84,7 +85,8 @@ export async function analyzeEnglish({
 
   contents.push({ parts });
 
-  const models = ['gemini-2.5-flash', 'gemini-1.5-flash', 'gemini-flash-latest'];
+  // gemini-2.0-flash가 가장 빠르고 안정적 (2.5-flash는 추론 모델이라 느림)
+  const models = ['gemini-2.0-flash', 'gemini-1.5-flash', 'gemini-2.5-flash'];
 
   let lastError: any = null;
 
@@ -122,14 +124,31 @@ export async function analyzeEnglish({
         throw new Error('Gemini로부터 응답을 받지 못했습니다.');
       }
 
-      // Clean JSON string in case of Markdown wrapping
+      // 마크다운 코드블록 제거 후 JSON 파싱
       const cleanJson = rawText
         .replace(/^```json\s*/i, '')
         .replace(/^```\s*/i, '')
         .replace(/\s*```$/i, '')
         .trim();
 
-      const parsed: CoachResult = JSON.parse(cleanJson);
+      let parsed: CoachResult;
+      try {
+        parsed = JSON.parse(cleanJson);
+      } catch {
+        console.warn(`[Gemini ${model}] JSON 파싱 실패`);
+        throw new Error('AI 응답 형식 오류입니다. 다시 시도해주세요.');
+      }
+
+      // 필수 필드 누락 시 기본값 채워줌 (앱 오류 방지)
+      parsed.extractedText = parsed.extractedText || text || '';
+      parsed.correctedText = parsed.correctedText || text || '';
+      parsed.summaryFeedback = parsed.summaryFeedback || '';
+      parsed.mistakes = Array.isArray(parsed.mistakes) ? parsed.mistakes : [];
+      parsed.studyTips = Array.isArray(parsed.studyTips) ? parsed.studyTips : [];
+      parsed.score = typeof parsed.score === 'number' ? parsed.score : 0;
+      parsed.casualAlternative = parsed.casualAlternative || parsed.correctedText;
+      parsed.formalAlternative = parsed.formalAlternative || parsed.correctedText;
+
       return parsed;
     } catch (err: any) {
       console.warn(`[Gemini ${model}] failed:`, err);

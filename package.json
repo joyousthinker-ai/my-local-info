@@ -4,11 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev --webpack",
-    "build": "next build",
+    "build": "next build --webpack",
     "start": "next start",
     "lint": "eslint",
     "cap:sync": "cap sync",
-    "cap:build": "next build && cap sync android",
+    "cap:build": "next build --webpack && cap sync android",
     "cap:open": "cap open android"
   },
   "dependencies": {
