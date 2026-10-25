@@ -881,5 +881,17 @@
     "target": "남호주 거주민 및 방문자",
     "summary": "Green Industries SA (GISA) is leading South Australia’s transition to a circular economy, eliminatin",
     "link": "https://data.sa.gov.au/"
+  },
+  {
+    "id": 75,
+    "name": "Bookable Reserves",
+    "title": "Bookable Reserves",
+    "category": "관광/여가",
+    "startDate": "2026-10-25",
+    "endDate": "상시",
+    "location": "City of Onkaparinga",
+    "target": "남호주 거주민 및 방문자",
+    "summary": "A list of properties owned by the City of Onkaparinga that are bookable by the community for events ",
+    "link": "https://data.sa.gov.au/"
   }
 ]
