@@ -893,5 +893,17 @@
     "target": "남호주 거주민 및 방문자",
     "summary": "A list of properties owned by the City of Onkaparinga that are bookable by the community for events ",
     "link": "https://data.sa.gov.au/"
+  },
+  {
+    "id": 76,
+    "name": "Social Health Atlas of Australia: Medicare Local",
+    "title": "Social Health Atlas of Australia: Medicare Local",
+    "category": "교육",
+    "startDate": "2026-10-26",
+    "endDate": "상시",
+    "location": "Unleashed 2014 Industry and Community Data",
+    "target": "남호주 거주민 및 방문자",
+    "summary": "Dataset replaced by Social Health Atlas of Australia: Compensable Injury in South Australia.\r\n\r\nVisi",
+    "link": "https://data.sa.gov.au/"
   }
 ]
