@@ -905,5 +905,17 @@
     "target": "남호주 거주민 및 방문자",
     "summary": "Dataset replaced by Social Health Atlas of Australia: Compensable Injury in South Australia.\r\n\r\nVisi",
     "link": "https://data.sa.gov.au/"
+  },
+  {
+    "id": 77,
+    "name": "Adelaide Metro General Transit Feed",
+    "title": "Adelaide Metro General Transit Feed",
+    "category": "교통",
+    "startDate": "2026-10-27",
+    "endDate": "상시",
+    "location": "Department for Infrastructure and Transport",
+    "target": "남호주 거주민 및 방문자",
+    "summary": "The General Transit Feed Specification (GTFS) defines a common format for public transportation sche",
+    "link": "https://data.sa.gov.au/"
   }
 ]
