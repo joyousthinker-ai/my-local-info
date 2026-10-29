@@ -917,5 +917,17 @@
     "target": "남호주 거주민 및 방문자",
     "summary": "The General Transit Feed Specification (GTFS) defines a common format for public transportation sche",
     "link": "https://data.sa.gov.au/"
+  },
+  {
+    "id": 78,
+    "name": "Woomera Access Zones",
+    "category": "환경/자원",
+    "startDate": "2015-05-19",
+    "endDate": "상시",
+    "location": "Department of Primary Industries and Regions",
+    "target": "우메라 지역 접근 관리 및 토지 이용 관련 기관, 광업 관계자 및 일반인",
+    "summary": "우메라(Woomera) 구역 내 내부 접근 관리 구역과 마을 상시 허가 구역 경계 정보를 제공하는 공간 데이터입니다.",
+    "link": "https://location.sa.gov.au/lms/Reports/ReportMetadata.aspx?p_no=956",
+    "title": "Woomera Access Zones"
   }
 ]
