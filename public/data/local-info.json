@@ -929,5 +929,17 @@
     "summary": "우메라(Woomera) 구역 내 내부 접근 관리 구역과 마을 상시 허가 구역 경계 정보를 제공하는 공간 데이터입니다.",
     "link": "https://location.sa.gov.au/lms/Reports/ReportMetadata.aspx?p_no=956",
     "title": "Woomera Access Zones"
+  },
+  {
+    "id": 79,
+    "name": "South Australian Housing Trust Annual Report – Consultants",
+    "category": "주거/복지",
+    "startDate": "2018-07-01",
+    "endDate": "2022-06-30",
+    "location": "SA Housing Authority",
+    "target": "남호주 시민 및 연구자",
+    "summary": "남호주 주택청(SA Housing Authority)이 위탁 계약한 컨설턴트 목록, 제공 서비스 및 계약 금액 내역을 제공하는 연례 보고 데이터입니다.",
+    "link": "https://data.sa.gov.au/data/dataset/fd8607a8-cf65-48e0-9d75-80b9a4c63767",
+    "title": "South Australian Housing Trust Annual Report – Consultants"
   }
 ]
