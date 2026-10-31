@@ -941,5 +941,17 @@
     "summary": "남호주 주택청(SA Housing Authority)이 위탁 계약한 컨설턴트 목록, 제공 서비스 및 계약 금액 내역을 제공하는 연례 보고 데이터입니다.",
     "link": "https://data.sa.gov.au/data/dataset/fd8607a8-cf65-48e0-9d75-80b9a4c63767",
     "title": "South Australian Housing Trust Annual Report – Consultants"
+  },
+  {
+    "id": 80,
+    "name": "Executive employment in the Department for Education",
+    "category": "경제/취업",
+    "startDate": "2019-03-01",
+    "endDate": "상시",
+    "location": "Department for Education",
+    "target": "일반 대중 및 연구자",
+    "summary": "남호주 교육부 내 직급별 임원급(Executive) 고용 인원 현황 통계 데이터를 제공합니다.",
+    "link": "https://data.sa.gov.au/data/dataset/executive-employment-in-the-department-for-education",
+    "title": "Executive employment in the Department for Education"
   }
 ]
