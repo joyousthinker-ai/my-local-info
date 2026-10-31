@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
-import { analyzeEnglish, CoachResult } from '@/lib/gemini-coach';
+import { analyzeEnglish, translateText, CoachResult, TranslateResult } from '@/lib/gemini-coach';
 
 interface HistoryItem {
   id: string;
@@ -13,6 +13,10 @@ interface HistoryItem {
 }
 
 export default function EnglishCoachPage() {
+  // 상단 모드: 'coach'(문법 교정) | 'translate'(번역)
+  const [mode, setMode] = useState<'coach' | 'translate'>('coach');
+
+  // 문법 교정 관련 상태
   const [activeTab, setActiveTab] = useState<'paste' | 'camera' | 'text'>('paste');
   const [inputText, setInputText] = useState('');
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
@@ -23,6 +27,13 @@ export default function EnglishCoachPage() {
   const [isPlayingAudio, setIsPlayingAudio] = useState(false);
   const [history, setHistory] = useState<HistoryItem[]>([]);
   const [showHistory, setShowHistory] = useState(false);
+
+  // 번역 관련 상태
+  const [translateInput, setTranslateInput] = useState('');
+  const [translateResult, setTranslateResult] = useState<TranslateResult | null>(null);
+  const [isTranslating, setIsTranslating] = useState(false);
+  const [translateError, setTranslateError] = useState<string | null>(null);
+  const [copiedTranslate, setCopiedTranslate] = useState<string | null>(null);
 
   const fileInputRef = useRef<HTMLInputElement>(null);
   const cameraInputRef = useRef<HTMLInputElement>(null);
@@ -109,7 +120,7 @@ export default function EnglishCoachPage() {
     }
   };
 
-  // 텍스트 제출
+  // 텍스트 제출 (문법 교정)
   const handleTextSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!inputText.trim()) {
@@ -117,6 +128,37 @@ export default function EnglishCoachPage() {
       return;
     }
     await runAnalysis({ text: inputText.trim() });
+  };
+
+  // 번역 실행
+  const handleTranslate = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!translateInput.trim()) {
+      setTranslateError('번역할 텍스트를 입력해주세요.');
+      return;
+    }
+    setIsTranslating(true);
+    setTranslateError(null);
+    setTranslateResult(null);
+    try {
+      const res = await translateText({ text: translateInput.trim() });
+      setTranslateResult(res);
+    } catch (err: any) {
+      setTranslateError(err.message || '번역 중 오류가 발생했습니다. 다시 시도해주세요.');
+    } finally {
+      setIsTranslating(false);
+    }
+  };
+
+  // 번역 클립보드 복사
+  const copyTranslate = async (text: string, key: string) => {
+    try {
+      await navigator.clipboard.writeText(text);
+      setCopiedTranslate(key);
+      setTimeout(() => setCopiedTranslate(null), 2000);
+    } catch (e) {
+      console.error('복사 실패', e);
+    }
   };
 
   // 클립보드 복사
@@ -192,6 +234,202 @@ export default function EnglishCoachPage() {
       </header>
 
       <main className="max-w-4xl mx-auto px-4 pt-6 space-y-6">
+
+        {/* ===== 모드 전환 버튼 (문법 교정 / 한↔영 번역) ===== */}
+        <div className="flex bg-slate-100 p-1.5 rounded-2xl gap-2 text-sm font-bold">
+          <button
+            onClick={() => setMode('coach')}
+            className={`flex-1 py-3 rounded-xl flex items-center justify-center gap-2 transition-all ${
+              mode === 'coach'
+                ? 'bg-gradient-to-r from-orange-500 to-amber-500 text-white shadow-md shadow-orange-500/20'
+                : 'text-slate-500 hover:text-orange-500'
+            }`}
+          >
+            <span>🔍</span>
+            <span>AI 문법 교정</span>
+          </button>
+          <button
+            onClick={() => { setMode('translate'); setTranslateResult(null); setTranslateError(null); }}
+            className={`flex-1 py-3 rounded-xl flex items-center justify-center gap-2 transition-all ${
+              mode === 'translate'
+                ? 'bg-gradient-to-r from-blue-500 to-indigo-500 text-white shadow-md shadow-blue-500/20'
+                : 'text-slate-500 hover:text-blue-500'
+            }`}
+          >
+            <span>🔄</span>
+            <span>한 ↔ 영 번역</span>
+          </button>
+        </div>
+
+        {/* ===== 번역 모드 UI ===== */}
+        {mode === 'translate' && (
+          <div className="space-y-5">
+            {/* 안내 문구 */}
+            <div className="text-center space-y-1 py-2">
+              <h2 className="text-xl sm:text-2xl font-black text-slate-800">
+                한글로 쓰면 <span className="text-blue-600">영어로</span>, 영어로 쓰면 <span className="text-blue-600">한글로!</span>
+              </h2>
+              <p className="text-slate-500 text-sm">언어를 자동으로 감지해서 원어민처럼 자연스럽게 번역해드려요.</p>
+            </div>
+
+            {/* 입력 폼 */}
+            <form onSubmit={handleTranslate} className="bg-white rounded-3xl p-4 sm:p-6 shadow-xl shadow-blue-500/5 border border-blue-100 space-y-4">
+              <div className="relative">
+                <textarea
+                  value={translateInput}
+                  onChange={(e) => setTranslateInput(e.target.value)}
+                  onKeyDown={(e) => {
+                    // Ctrl+Enter 또는 Cmd+Enter로 바로 번역
+                    if ((e.ctrlKey || e.metaKey) && e.key === 'Enter') {
+                      e.preventDefault();
+                      if (translateInput.trim() && !isTranslating) handleTranslate(e as any);
+                    }
+                  }}
+                  placeholder="여기에 한국어나 영어를 입력하면 자동으로 번역해드려요!
+
+예) 나는 어제 친구를 만났어.
+예) I am looking forward to the meeting."
+                  rows={5}
+                  className="w-full p-4 rounded-2xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm sm:text-base resize-none"
+                />
+                {translateInput && (
+                  <button
+                    type="button"
+                    onClick={() => { setTranslateInput(''); setTranslateResult(null); setTranslateError(null); }}
+                    className="absolute top-3 right-3 w-7 h-7 bg-slate-200 hover:bg-slate-300 rounded-full flex items-center justify-center text-slate-500 text-xs font-bold transition-all"
+                  >
+                    ✕
+                  </button>
+                )}
+              </div>
+              <button
+                type="submit"
+                disabled={isTranslating || !translateInput.trim()}
+                className="w-full py-3.5 bg-gradient-to-r from-blue-500 to-indigo-500 text-white font-bold rounded-xl shadow-lg shadow-blue-500/20 hover:opacity-95 disabled:opacity-50 transition-all flex items-center justify-center gap-2 text-sm sm:text-base"
+              >
+                {isTranslating ? (
+                  <><span className="animate-spin inline-block">⚡</span><span>번역 중...</span></>
+                ) : (
+                  <><span>🔄</span><span>번역하기 (Ctrl+Enter)</span></>
+                )}
+              </button>
+            </form>
+
+            {/* 번역 오류 */}
+            {translateError && (
+              <div className="p-4 bg-red-50 border border-red-200 text-red-700 rounded-2xl text-sm flex items-start gap-3">
+                <span className="text-xl">⚠️</span>
+                <div>
+                  <p className="font-bold">오류</p>
+                  <p>{translateError}</p>
+                </div>
+              </div>
+            )}
+
+            {/* 번역 결과 */}
+            {translateResult && !isTranslating && (
+              <div className="space-y-4 animate-fade-in">
+                {/* 방향 표시 배지 */}
+                <div className="flex items-center gap-2 text-sm font-bold text-slate-500">
+                  <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-xs">
+                    {translateResult.detectedLanguage === 'korean' ? '🇰🇷 한국어' : '🇺🇸 영어'} 감지됨
+                  </span>
+                  <span>→</span>
+                  <span className="px-3 py-1 bg-indigo-100 text-indigo-700 rounded-full text-xs">
+                    {translateResult.detectedLanguage === 'korean' ? '🇺🇸 영어로 번역' : '🇰🇷 한국어로 번역'}
+                  </span>
+                </div>
+
+                {/* 메인 번역 결과 */}
+                <div className="bg-gradient-to-br from-blue-500 via-blue-600 to-indigo-600 rounded-3xl p-6 text-white shadow-xl shadow-blue-500/20 space-y-4">
+                  <div className="flex items-center justify-between border-b border-white/20 pb-3">
+                    <span className="text-xs font-bold px-3 py-1 bg-white/20 rounded-full">✨ 번역 결과</span>
+                    <div className="flex gap-2">
+                      {translateResult.detectedLanguage === 'english' && (
+                        <button
+                          onClick={() => {
+                            window.speechSynthesis.cancel();
+                            const u = new SpeechSynthesisUtterance(translateInput);
+                            u.lang = 'en-US'; u.rate = 0.9;
+                            window.speechSynthesis.speak(u);
+                          }}
+                          className="px-2.5 py-1 bg-white/20 hover:bg-white/30 rounded-xl text-xs font-bold transition-all"
+                          title="원문 영어 발음 듣기"
+                        >
+                          🔊 원문 발음
+                        </button>
+                      )}
+                      {translateResult.detectedLanguage === 'korean' && (
+                        <button
+                          onClick={() => {
+                            window.speechSynthesis.cancel();
+                            const u = new SpeechSynthesisUtterance(translateResult.translatedText);
+                            u.lang = 'en-US'; u.rate = 0.9;
+                            window.speechSynthesis.speak(u);
+                          }}
+                          className="px-2.5 py-1 bg-white/20 hover:bg-white/30 rounded-xl text-xs font-bold transition-all"
+                          title="번역된 영어 발음 듣기"
+                        >
+                          🔊 발음 듣기
+                        </button>
+                      )}
+                      <button
+                        onClick={() => copyTranslate(translateResult.translatedText, 'main')}
+                        className="px-2.5 py-1 bg-white text-blue-600 hover:bg-blue-50 rounded-xl text-xs font-bold shadow transition-all"
+                      >
+                        {copiedTranslate === 'main' ? '✓ 복사됨!' : '📋 복사'}
+                      </button>
+                    </div>
+                  </div>
+                  <p className="text-xl sm:text-2xl font-black leading-relaxed">
+                    &ldquo;{translateResult.translatedText}&rdquo;
+                  </p>
+                  {translateResult.nuanceNote && (
+                    <p className="text-blue-100 text-xs sm:text-sm">
+                      💡 {translateResult.nuanceNote}
+                    </p>
+                  )}
+                </div>
+
+                {/* 다른 번역 표현들 */}
+                {translateResult.alternativeTranslations.length > 0 && (
+                  <div className="bg-white rounded-2xl p-5 shadow-sm border border-slate-200 space-y-3">
+                    <h3 className="text-sm font-black text-slate-700 flex items-center gap-2">
+                      <span>💬</span>
+                      <span>이렇게 번역할 수도 있어요!</span>
+                    </h3>
+                    <div className="space-y-2">
+                      {translateResult.alternativeTranslations.map((alt, idx) => (
+                        <div key={idx} className="flex items-center justify-between p-3 bg-slate-50 rounded-xl border border-slate-100">
+                          <p className="text-sm font-semibold text-slate-800 flex-1 pr-3">&ldquo;{alt}&rdquo;</p>
+                          <button
+                            onClick={() => copyTranslate(alt, `alt-${idx}`)}
+                            className="text-xs font-bold text-slate-400 hover:text-blue-600 whitespace-nowrap"
+                          >
+                            {copiedTranslate === `alt-${idx}` ? '✓ 복사됨' : '복사'}
+                          </button>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {/* 다시 번역 버튼 */}
+                <button
+                  onClick={() => { setTranslateInput(''); setTranslateResult(null); }}
+                  className="w-full py-3 bg-slate-100 text-slate-600 font-bold rounded-xl hover:bg-slate-200 transition-all text-sm flex items-center justify-center gap-2"
+                >
+                  <span>🔄</span>
+                  <span>새로운 번역 시작</span>
+                </button>
+              </div>
+            )}
+          </div>
+        )}
+
+        {/* ===== 문법 교정 모드 UI ===== */}
+        {mode === 'coach' && (
+          <>
         {/* 앱 소개 히어로 */}
         <div className="text-center space-y-2 py-4">
           <h1 className="text-2xl sm:text-3xl font-black text-slate-800 tracking-tight">
@@ -597,6 +835,8 @@ export default function EnglishCoachPage() {
             )}
           </div>
         )}
+        </>
+        )} {/* 문법 교정 모드 끝 */}
       </main>
     </div>
   );

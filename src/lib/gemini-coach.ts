@@ -19,6 +19,116 @@ export interface CoachResult {
   explanation?: string;
 }
 
+export interface TranslateResult {
+  detectedLanguage: 'korean' | 'english' | 'other'; // 입력된 언어
+  translatedText: string;                             // 번역 결과
+  alternativeTranslations: string[];                  // 다른 번역 표현 1~2개
+  nuanceNote: string;                                 // 미묘한 뉘앙스 차이 설명 (한국어)
+}
+
+/**
+ * 한↔영 자동 감지 번역 함수
+ * - 한글 입력 → 영어로 번역
+ * - 영어 입력 → 한글로 번역
+ */
+export async function translateText({
+  text,
+  apiKey,
+}: {
+  text: string;
+  apiKey?: string;
+}): Promise<TranslateResult> {
+  const activeKey =
+    apiKey ||
+    process.env.NEXT_PUBLIC_GEMINI_API_KEY ||
+    process.env.GEMINI_API_KEY ||
+    '';
+
+  if (!activeKey) {
+    throw new Error('Gemini API 키가 설정되지 않았습니다.');
+  }
+
+  if (!text.trim()) {
+    throw new Error('번역할 텍스트를 입력해주세요.');
+  }
+
+  const systemInstruction = `
+당신은 한국어와 영어 사이의 전문 번역가입니다.
+사용자가 입력한 텍스트의 언어를 자동으로 감지하고, 반대 언어로 자연스럽게 번역하세요.
+
+[규칙]
+- 한국어 → 영어 번역 시: 원어민이 실제로 쓰는 가장 자연스러운 영어로 번역
+- 영어 → 한국어 번역 시: 한국인이 일상에서 실제로 쓰는 자연스러운 한국어로 번역
+- 직역보다 의역을 우선: 뉘앙스와 맥락을 살려서 번역
+- 반드시 JSON으로만 응답하고, 마크다운 코드블록(\`\`\`json)은 절대 사용 금지
+
+[응답 JSON 형식]
+{
+  "detectedLanguage": "korean" 또는 "english" 또는 "other",
+  "translatedText": "번역 결과 (메인)",
+  "alternativeTranslations": ["다른 번역 표현 1", "다른 번역 표현 2"],
+  "nuanceNote": "번역 시 고려한 뉘앙스나 주의사항 한 문장 (없으면 빈 문자열)"
+}
+`;
+
+  const models = ['gemini-2.0-flash', 'gemini-1.5-flash', 'gemini-2.5-flash'];
+  let lastError: any = null;
+
+  for (const model of models) {
+    try {
+      const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${activeKey}`;
+      const response = await fetch(endpoint, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          contents: [{ parts: [{ text: `다음 텍스트를 번역해주세요:\n"""\n${text}\n"""` }] }],
+          systemInstruction: { parts: [{ text: systemInstruction }] },
+          generationConfig: {
+            responseMimeType: 'application/json',
+            temperature: 0.2, // 번역은 일관성이 중요하므로 낮게 설정
+          },
+        }),
+      });
+
+      if (!response.ok) {
+        lastError = new Error(`API 오류 (${response.status})`);
+        continue;
+      }
+
+      const data = await response.json();
+      const rawText = data.candidates?.[0]?.content?.parts?.[0]?.text;
+      if (!rawText) throw new Error('응답이 비어있습니다.');
+
+      const cleanJson = rawText
+        .replace(/^```json\s*/i, '')
+        .replace(/^```\s*/i, '')
+        .replace(/\s*```$/i, '')
+        .trim();
+
+      let parsed: TranslateResult;
+      try {
+        parsed = JSON.parse(cleanJson);
+      } catch {
+        throw new Error('번역 응답 형식 오류. 다시 시도해주세요.');
+      }
+
+      // 기본값 보완
+      parsed.translatedText = parsed.translatedText || '';
+      parsed.alternativeTranslations = Array.isArray(parsed.alternativeTranslations)
+        ? parsed.alternativeTranslations
+        : [];
+      parsed.nuanceNote = parsed.nuanceNote || '';
+
+      return parsed;
+    } catch (err: any) {
+      console.warn(`[Gemini ${model}] 번역 실패:`, err);
+      lastError = err;
+    }
+  }
+
+  throw lastError || new Error('번역 중 오류가 발생했습니다. 잠시 후 다시 시도해주세요.');
+}
+
 export async function analyzeEnglish({
   text,
   imageBase64,
