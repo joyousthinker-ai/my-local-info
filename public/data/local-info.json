@@ -965,5 +965,17 @@
     "summary": "애들레이드 대도시권의 라이다 및 고해상도 위성 영상 기반 수관 피복률, 건축물 면적, 투수면 공간 정보 데이터셋",
     "link": "https://data.sa.gov.au/data/dataset/metropolitan-adelaide-tree-canopy-and-built-environment-2018-2019",
     "title": "Metropolitan Adelaide tree canopy and built environment 2018/2019"
+  },
+  {
+    "id": 82,
+    "name": "Contractors Reporting South Australian Tourism Commission",
+    "title": "Contractors Reporting South Australian Tourism Commission",
+    "category": "관광/여가",
+    "startDate": "2026-11-01",
+    "endDate": "상시",
+    "location": "SA Tourism Commission",
+    "target": "남호주 거주민 및 방문자",
+    "summary": "Contractors reporting for the South Australian Tourism Commission for annual reporting purposes",
+    "link": "https://data.sa.gov.au/"
   }
 ]
