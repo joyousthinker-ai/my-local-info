@@ -977,5 +977,17 @@
     "target": "남호주 거주민 및 방문자",
     "summary": "Contractors reporting for the South Australian Tourism Commission for annual reporting purposes",
     "link": "https://data.sa.gov.au/"
+  },
+  {
+    "id": 83,
+    "name": "Australian Vocational Education and Training (VET) statistics",
+    "title": "Australian Vocational Education and Training (VET) statistics",
+    "category": "교통",
+    "startDate": "2026-11-03",
+    "endDate": "상시",
+    "location": "Unleashed 2014 Industry and Community Data",
+    "target": "남호주 거주민 및 방문자",
+    "summary": "Students and Courses and Apprentices and Trainees: These statistics cover administrative data sets o",
+    "link": "https://data.sa.gov.au/"
   }
 ]
