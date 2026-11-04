@@ -989,5 +989,17 @@
     "target": "남호주 거주민 및 방문자",
     "summary": "Students and Courses and Apprentices and Trainees: These statistics cover administrative data sets o",
     "link": "https://data.sa.gov.au/"
+  },
+  {
+    "id": 84,
+    "name": "Local Health Networks",
+    "title": "Local Health Networks",
+    "category": "건강/의료",
+    "startDate": "2026-11-04",
+    "endDate": "상시",
+    "location": "SA Health",
+    "target": "남호주 거주민 및 방문자",
+    "summary": "Administrative boundaries for managing the delivery of public hospital services and other community ",
+    "link": "https://data.sa.gov.au/"
   }
 ]
