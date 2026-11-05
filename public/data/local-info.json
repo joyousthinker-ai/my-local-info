@@ -1001,5 +1001,17 @@
     "target": "남호주 거주민 및 방문자",
     "summary": "Administrative boundaries for managing the delivery of public hospital services and other community ",
     "link": "https://data.sa.gov.au/"
+  },
+  {
+    "id": 85,
+    "name": "Planning and Design Code (Historical Versions)",
+    "title": "Planning and Design Code (Historical Versions)",
+    "category": "주거/부동산",
+    "startDate": "2026-11-05",
+    "endDate": "상시",
+    "location": "Department for Housing and Urban Development",
+    "target": "남호주 거주민 및 방문자",
+    "summary": "Historical versions of the South Australian Planning and Design Code datasets (i.e. Zones, Subzones,",
+    "link": "https://data.sa.gov.au/"
   }
 ]
