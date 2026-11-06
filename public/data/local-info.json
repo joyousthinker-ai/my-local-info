@@ -1013,5 +1013,17 @@
     "target": "남호주 거주민 및 방문자",
     "summary": "Historical versions of the South Australian Planning and Design Code datasets (i.e. Zones, Subzones,",
     "link": "https://data.sa.gov.au/"
+  },
+  {
+    "id": 86,
+    "name": "AFCT Executive Employment",
+    "title": "AFCT Executive Employment",
+    "category": "경제/취업",
+    "startDate": "2026-11-06",
+    "endDate": "상시",
+    "location": "Adelaide Festival Centre Trust",
+    "target": "남호주 거주민 및 방문자",
+    "summary": "Adelaide Festival Centre Trust's Executive Employment data",
+    "link": "https://data.sa.gov.au/"
   }
 ]
