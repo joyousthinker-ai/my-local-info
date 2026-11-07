@@ -1037,5 +1037,17 @@
     "target": "남호주 거주민 및 방문자",
     "summary": "List of the street tree species in City of Prospect, containing detail about location.\r\n",
     "link": "https://data.sa.gov.au/"
+  },
+  {
+    "id": 88,
+    "name": "Our Environment",
+    "title": "Our Environment",
+    "category": "생활/환경",
+    "startDate": "2026-11-07",
+    "endDate": "상시",
+    "location": "City of Onkaparinga",
+    "target": "남호주 거주민 및 방문자",
+    "summary": "Statistical information about waste and recycling, water consumption and solar installations in Onka",
+    "link": "https://data.sa.gov.au/"
   }
 ]
