@@ -1025,5 +1025,17 @@
     "target": "남호주 거주민 및 방문자",
     "summary": "Adelaide Festival Centre Trust's Executive Employment data",
     "link": "https://data.sa.gov.au/"
+  },
+  {
+    "id": 87,
+    "name": "City of Prospect Street Tree Species",
+    "title": "City of Prospect Street Tree Species",
+    "category": "생활/환경",
+    "startDate": "2026-11-07",
+    "endDate": "상시",
+    "location": "City of Prospect",
+    "target": "남호주 거주민 및 방문자",
+    "summary": "List of the street tree species in City of Prospect, containing detail about location.\r\n",
+    "link": "https://data.sa.gov.au/"
   }
 ]
