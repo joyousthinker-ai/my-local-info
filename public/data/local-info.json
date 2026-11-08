@@ -1049,5 +1049,17 @@
     "target": "남호주 거주민 및 방문자",
     "summary": "Statistical information about waste and recycling, water consumption and solar installations in Onka",
     "link": "https://data.sa.gov.au/"
+  },
+  {
+    "id": 89,
+    "name": "Annual Report 20-21",
+    "title": "Annual Report 20-21",
+    "category": "관광/여가",
+    "startDate": "2026-11-08",
+    "endDate": "상시",
+    "location": "Adelaide Festival Corporation",
+    "target": "남호주 거주민 및 방문자",
+    "summary": "The 2021 Adelaide Festival offered 70 events and 896 performances across opera, music, dance, theatr",
+    "link": "https://data.sa.gov.au/"
   }
 ]
