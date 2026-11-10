@@ -1061,5 +1061,17 @@
     "target": "남호주 거주민 및 방문자",
     "summary": "The 2021 Adelaide Festival offered 70 events and 896 performances across opera, music, dance, theatr",
     "link": "https://data.sa.gov.au/"
+  },
+  {
+    "id": 90,
+    "name": "Luminaires by Tariff",
+    "category": "교통",
+    "startDate": "2017-06-28",
+    "endDate": "상시",
+    "location": "Department for Infrastructure and Transport",
+    "target": "시민 누구나",
+    "summary": "신호등이 설치된 교차로 내 전기 요금제별 조명등 수량 현황 데이터",
+    "link": "https://data.sa.gov.au/data/dataset/524999dc-8312-403f-ab4b-452980ef080f",
+    "title": "Luminaires by Tariff"
   }
 ]
