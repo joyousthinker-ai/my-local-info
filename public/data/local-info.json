@@ -1073,5 +1073,17 @@
     "summary": "신호등이 설치된 교차로 내 전기 요금제별 조명등 수량 현황 데이터",
     "link": "https://data.sa.gov.au/data/dataset/524999dc-8312-403f-ab4b-452980ef080f",
     "title": "Luminaires by Tariff"
+  },
+  {
+    "id": 91,
+    "name": "Disability SA Region Boundaries",
+    "title": "Disability SA Region Boundaries",
+    "category": "건강/의료",
+    "startDate": "2026-11-11",
+    "endDate": "상시",
+    "location": "Department of Human Services",
+    "target": "남호주 거주민 및 방문자",
+    "summary": "This dataset contains Administrative boundaries for Disability SA.",
+    "link": "https://data.sa.gov.au/"
   }
 ]
