@@ -1085,5 +1085,17 @@
     "target": "남호주 거주민 및 방문자",
     "summary": "This dataset contains Administrative boundaries for Disability SA.",
     "link": "https://data.sa.gov.au/"
+  },
+  {
+    "id": 92,
+    "name": "Vegetation Heritage Agreements",
+    "title": "Vegetation Heritage Agreements",
+    "category": "주거/부동산",
+    "startDate": "2026-11-12",
+    "endDate": "상시",
+    "location": "Department for Environment and Water",
+    "target": "남호주 거주민 및 방문자",
+    "summary": "The boundaries of Native Vegetation Heritage Agreements areas. These Heritage Agreements are private",
+    "link": "https://data.sa.gov.au/"
   }
 ]
