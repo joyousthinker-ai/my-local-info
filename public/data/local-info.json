@@ -1097,5 +1097,17 @@
     "target": "남호주 거주민 및 방문자",
     "summary": "The boundaries of Native Vegetation Heritage Agreements areas. These Heritage Agreements are private",
     "link": "https://data.sa.gov.au/"
+  },
+  {
+    "id": 93,
+    "name": "Justice of the Peace",
+    "title": "Justice of the Peace",
+    "category": "경제/취업",
+    "startDate": "2026-11-13",
+    "endDate": "상시",
+    "location": "Attorney-General's Department",
+    "target": "남호주 거주민 및 방문자",
+    "summary": "List of Justice of the Peace in South Australia",
+    "link": "https://data.sa.gov.au/"
   }
 ]
