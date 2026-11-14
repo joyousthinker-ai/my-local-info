@@ -1109,5 +1109,17 @@
     "target": "남호주 거주민 및 방문자",
     "summary": "List of Justice of the Peace in South Australia",
     "link": "https://data.sa.gov.au/"
+  },
+  {
+    "id": 94,
+    "name": "Electricity Regulations Boundaries",
+    "title": "Electricity Regulations Boundaries",
+    "category": "생활/환경",
+    "startDate": "2026-11-14",
+    "endDate": "상시",
+    "location": "Department for Energy and Mining",
+    "target": "남호주 거주민 및 방문자",
+    "summary": "South Australia is classified into areas of bushfire risk for the purpose of supporting the Electric",
+    "link": "https://data.sa.gov.au/"
   }
 ]
