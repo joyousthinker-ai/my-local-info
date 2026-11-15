@@ -1121,5 +1121,17 @@
     "target": "남호주 거주민 및 방문자",
     "summary": "South Australia is classified into areas of bushfire risk for the purpose of supporting the Electric",
     "link": "https://data.sa.gov.au/"
+  },
+  {
+    "id": 95,
+    "name": "Adelaide Film Festival Annual Report Data",
+    "title": "Adelaide Film Festival Annual Report Data",
+    "category": "관광/여가",
+    "startDate": "2026-11-15",
+    "endDate": "상시",
+    "location": "Adelaide Film Festival",
+    "target": "남호주 거주민 및 방문자",
+    "summary": "Adelaide Film Festival Annual Report Data",
+    "link": "https://data.sa.gov.au/"
   }
 ]
