@@ -1133,5 +1133,17 @@
     "target": "남호주 거주민 및 방문자",
     "summary": "Adelaide Film Festival Annual Report Data",
     "link": "https://data.sa.gov.au/"
+  },
+  {
+    "id": 96,
+    "name": "19th Century Photographs by Captain Samuel Sweet",
+    "category": "문화/역사",
+    "startDate": "2014-06-10",
+    "endDate": "상시",
+    "location": "State Library of South Australia",
+    "target": "남호주 역사 및 사진 자료에 관심 있는 모든 연구자 및 일반인",
+    "summary": "19세기 남호주의 대표적 풍경 사진작가인 새뮤얼 스위트 선장이 촬영한 역사 사진 컬렉션 데이터",
+    "link": "https://data.sa.gov.au/data/dataset/19th-century-photographs-by-captain-samuel-sweet",
+    "title": "19th Century Photographs by Captain Samuel Sweet"
   }
 ]
