@@ -1145,5 +1145,17 @@
     "summary": "19세기 남호주의 대표적 풍경 사진작가인 새뮤얼 스위트 선장이 촬영한 역사 사진 컬렉션 데이터",
     "link": "https://data.sa.gov.au/data/dataset/19th-century-photographs-by-captain-samuel-sweet",
     "title": "19th Century Photographs by Captain Samuel Sweet"
+  },
+  {
+    "id": 97,
+    "name": "Steep Descent Warning Signs",
+    "category": "교통",
+    "startDate": "2016-07-28",
+    "endDate": "상시",
+    "location": "Department for Infrastructure and Transport",
+    "target": "남호주 도로 이용자 및 운전자",
+    "summary": "남호주 주정부가 관리하는 도로 내 급경사 내리막 경고 표지판 위치 및 현황 정보 제공",
+    "link": "https://data.sa.gov.au/data/dataset/steep-descent-warning-signs",
+    "title": "Steep Descent Warning Signs"
   }
 ]
