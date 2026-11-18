@@ -1157,5 +1157,17 @@
     "summary": "남호주 주정부가 관리하는 도로 내 급경사 내리막 경고 표지판 위치 및 현황 정보 제공",
     "link": "https://data.sa.gov.au/data/dataset/steep-descent-warning-signs",
     "title": "Steep Descent Warning Signs"
+  },
+  {
+    "id": 98,
+    "name": "DHS Annual Report Data - Equipment Services",
+    "title": "DHS Annual Report Data - Equipment Services",
+    "category": "건강/의료",
+    "startDate": "2026-11-18",
+    "endDate": "상시",
+    "location": "Department of Human Services",
+    "target": "남호주 거주민 및 방문자",
+    "summary": "DHS Annual Report data on equipment provision to people with disability\r\n\r\nDataset includes:\r\nData f",
+    "link": "https://data.sa.gov.au/"
   }
 ]
