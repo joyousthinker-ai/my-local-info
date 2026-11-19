@@ -1169,5 +1169,17 @@
     "target": "남호주 거주민 및 방문자",
     "summary": "DHS Annual Report data on equipment provision to people with disability\r\n\r\nDataset includes:\r\nData f",
     "link": "https://data.sa.gov.au/"
+  },
+  {
+    "id": 99,
+    "name": "Development Applications with Planning Zones",
+    "title": "Development Applications with Planning Zones",
+    "category": "주거/부동산",
+    "startDate": "2026-11-19",
+    "endDate": "상시",
+    "location": "City of Onkaparinga",
+    "target": "남호주 거주민 및 방문자",
+    "summary": "The Development Act requires that any construction, alteration, addition to or demolition of a build",
+    "link": "https://data.sa.gov.au/"
   }
 ]
