@@ -1181,5 +1181,17 @@
     "target": "남호주 거주민 및 방문자",
     "summary": "The Development Act requires that any construction, alteration, addition to or demolition of a build",
     "link": "https://data.sa.gov.au/"
+  },
+  {
+    "id": 100,
+    "name": "Building Approvals",
+    "category": "주거/인프라",
+    "startDate": "2013-04-15",
+    "endDate": "상시",
+    "location": "Australian Bureau of Statistics (ABS)",
+    "target": "연구자, 기업 및 일반 시민",
+    "summary": "남호주 내 주거 및 비주거용 건물의 승인 건수, 건축 유형 및 사업 규모별 통계 데이터",
+    "link": "https://www.abs.gov.au/ausstats/abs@.nsf/mf/8731.0",
+    "title": "Building Approvals"
   }
 ]
