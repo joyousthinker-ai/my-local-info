@@ -1205,5 +1205,17 @@
     "summary": "라이다(LiDAR) 데이터를 바탕으로 2018/2019년부터 2022년까지 애들레이드 대도시 지역의 수목 수관 및 건축물 면적 변화를 분석한 데이터셋입니다.",
     "link": "https://data.sa.gov.au/data/dataset/metropolitan-adelaide-tree-canopy-and-built-environment-change-detection-2018-2019-to-2022",
     "title": "Metropolitan Adelaide tree canopy and built environment change detection (2018/2019 to 2022)"
+  },
+  {
+    "id": 102,
+    "name": "Waite Arboretum: Themed Walking Trail - 'Out of Africa'",
+    "category": "관광/여가",
+    "startDate": "2014-07-07",
+    "endDate": "상시",
+    "location": "Waite Arboretum (The University of Adelaide)",
+    "target": "시민 및 방문객 누구나",
+    "summary": "애들레이드 대학교 웨이트 수목원의 'Out of Africa' 테마 산책로 및 주요 수목 정보와 이미지 제공",
+    "link": "https://data.sa.gov.au/data/dataset/waite-arboretum-themed-walking-trail-out-of-africa",
+    "title": "Waite Arboretum: Themed Walking Trail - 'Out of Africa'"
   }
 ]
