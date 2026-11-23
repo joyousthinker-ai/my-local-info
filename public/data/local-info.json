@@ -1217,5 +1217,17 @@
     "summary": "애들레이드 대학교 웨이트 수목원의 'Out of Africa' 테마 산책로 및 주요 수목 정보와 이미지 제공",
     "link": "https://data.sa.gov.au/data/dataset/waite-arboretum-themed-walking-trail-out-of-africa",
     "title": "Waite Arboretum: Themed Walking Trail - 'Out of Africa'"
+  },
+  {
+    "id": 103,
+    "name": "SASP Target 95 - Industry collaboration, research and development commercialisation",
+    "title": "SASP Target 95 - Industry collaboration, research and development commercialisation",
+    "category": "교육",
+    "startDate": "2026-11-23",
+    "endDate": "상시",
+    "location": "Department of the Premier and Cabinet",
+    "target": "남호주 거주민 및 방문자",
+    "summary": "Increase to $650m total gross cumulative value of industry and other funding for research earned by ",
+    "link": "https://data.sa.gov.au/"
   }
 ]
