@@ -1229,5 +1229,17 @@
     "target": "남호주 거주민 및 방문자",
     "summary": "Increase to $650m total gross cumulative value of industry and other funding for research earned by ",
     "link": "https://data.sa.gov.au/"
+  },
+  {
+    "id": 104,
+    "name": "Cycling",
+    "title": "Cycling",
+    "category": "교통",
+    "startDate": "2026-11-24",
+    "endDate": "상시",
+    "location": "Department of the Premier and Cabinet",
+    "target": "남호주 거주민 및 방문자",
+    "summary": "South Australian residents riding a bicycle in a typical week. ",
+    "link": "https://data.sa.gov.au/"
   }
 ]
