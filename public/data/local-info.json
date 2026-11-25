@@ -1241,5 +1241,17 @@
     "target": "남호주 거주민 및 방문자",
     "summary": "South Australian residents riding a bicycle in a typical week. ",
     "link": "https://data.sa.gov.au/"
+  },
+  {
+    "id": 105,
+    "name": "Health Performance Council - Work Health and Safety",
+    "category": "건강/의료",
+    "startDate": "2017-07-01",
+    "endDate": "2026-06-30",
+    "location": "Health Performance Council (HPC)",
+    "target": "사우스오스트레일리아 보건기관 근로자 및 대중",
+    "summary": "남호주 보건성과위원회(HPC) 직원의 직장 상해 청구 건수, 산업안전보건 관련 사고 및 직장 복귀 비용 현황 요약 데이터",
+    "link": "https://data.sa.gov.au/data/dataset/e453c225-6164-4945-9d28-a984a8a70ff2",
+    "title": "Health Performance Council - Work Health and Safety"
   }
 ]
