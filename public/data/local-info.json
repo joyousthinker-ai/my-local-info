@@ -1253,5 +1253,17 @@
     "summary": "남호주 보건성과위원회(HPC) 직원의 직장 상해 청구 건수, 산업안전보건 관련 사고 및 직장 복귀 비용 현황 요약 데이터",
     "link": "https://data.sa.gov.au/data/dataset/e453c225-6164-4945-9d28-a984a8a70ff2",
     "title": "Health Performance Council - Work Health and Safety"
+  },
+  {
+    "id": 106,
+    "name": "Social Housing – households",
+    "title": "Social Housing – households",
+    "category": "주거/부동산",
+    "startDate": "2026-11-26",
+    "endDate": "상시",
+    "location": "South Australian Housing Trust",
+    "target": "남호주 거주민 및 방문자",
+    "summary": "Datasets present number of households residing in Public Housing (PH) and State Owned and Managed In",
+    "link": "https://data.sa.gov.au/"
   }
 ]
