@@ -1277,5 +1277,17 @@
     "target": "남호주 거주민 및 방문자",
     "summary": "Summary time series data of the International Visitor Survey, the National Visitor Survey and the St",
     "link": "https://data.sa.gov.au/"
+  },
+  {
+    "id": 108,
+    "name": "Stormwater Drains",
+    "category": "생활/환경",
+    "startDate": "2013-05-20",
+    "endDate": "상시",
+    "location": "Department for Environment and Water",
+    "target": "일반 대중 및 관련 기관",
+    "summary": "남호주 지방정부 협의회 데이터를 바탕으로 구축된 우수(빗물) 배수관 네트워크 공간 정보",
+    "link": "https://data.sa.gov.au/data/dataset/stormwater-drains",
+    "title": "Stormwater Drains"
   }
 ]
